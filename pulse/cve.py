@@ -35,8 +35,8 @@ def fetch(cfg, client) -> FeedResult:
     end = dt.datetime.now(dt.timezone.utc)
     start = end - dt.timedelta(days=1)
     params = {
-        "pubStartDate": start.strftime("%Y-%m-%dT%H:%M:%S.000"),
-        "pubEndDate": end.strftime("%Y-%m-%dT%H:%M:%S.000"),
+        "pubStartDate": start.strftime("%Y-%m-%dT%H:%M:%S.000") + "Z",
+        "pubEndDate": end.strftime("%Y-%m-%dT%H:%M:%S.000") + "Z",
         "resultsPerPage": 2000,
     }
     try:
@@ -48,7 +48,7 @@ def fetch(cfg, client) -> FeedResult:
 
     items = []
     for entry in data.get("vulnerabilities", []):
-        c = entry.get("cve", {})
+        c = entry.get("cve") or {}
         sev = _severity(c)
         if sev not in cfg.SEVERITY_MIN:
             continue

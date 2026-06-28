@@ -64,3 +64,56 @@ def test_network_error_returns_not_ok():
     assert r.ok is False
     assert "timeout" in r.error
     assert r.items == []
+
+
+def test_cvss_v30_fallback():
+    payload = {"vulnerabilities": [{"cve": {
+        "id": "CVE-30",
+        "descriptions": [{"lang": "en", "value": "flaw in kubernetes api"}],
+        "metrics": {"cvssMetricV30": [{"cvssData": {"baseSeverity": "HIGH"}}]},
+    }}]}
+    r = cve.fetch(config, FakeClient(payload))
+    assert len(r.items) == 1
+    assert r.items[0].cve_id == "CVE-30"
+
+
+def test_missing_metrics_excluded():
+    payload = {"vulnerabilities": [{"cve": {
+        "id": "CVE-NM",
+        "descriptions": [{"lang": "en", "value": "flaw in kubernetes"}],
+        "metrics": {},
+    }}]}
+    r = cve.fetch(config, FakeClient(payload))
+    assert r.items == []
+
+
+def test_non_english_description_dropped():
+    payload = {"vulnerabilities": [{"cve": {
+        "id": "CVE-ES",
+        "descriptions": [{"lang": "es", "value": "kubernetes vulnerabilidad"}],
+        "metrics": {"cvssMetricV31": [{"cvssData": {"baseSeverity": "HIGH"}}]},
+    }}]}
+    r = cve.fetch(config, FakeClient(payload))
+    assert r.items == []
+
+
+def test_mixed_payload():
+    payload = {"vulnerabilities": [
+        _cve_entry("CVE-A", "CRITICAL", "flaw in kubernetes"),
+        _cve_entry("CVE-B", "MEDIUM", "flaw in kubernetes"),
+        _cve_entry("CVE-C", "HIGH", "flaw in some unrelated desktop app"),
+    ]}
+    r = cve.fetch(config, FakeClient(payload))
+    assert len(r.items) == 1
+    assert r.items[0].cve_id == "CVE-A"
+
+
+def test_truncates_long_summary():
+    desc = "kubernetes " + "x" * 300
+    payload = {"vulnerabilities": [
+        _cve_entry("CVE-LONG", "CRITICAL", desc),
+    ]}
+    r = cve.fetch(config, FakeClient(payload))
+    assert len(r.items) == 1
+    assert len(r.items[0].summary) == 200
+    assert r.items[0].summary.endswith("…")
