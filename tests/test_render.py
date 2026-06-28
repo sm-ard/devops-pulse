@@ -23,6 +23,7 @@ def test_report_has_sections_and_items():
     assert "CRITICAL" in report
     assert "v1.33.0" in report
     assert "Cool post" in report
+    assert report.index("CVE-2026-1") < report.index("v1.33.0") < report.index("Cool post")
 
 
 def test_quiet_feed_renders_honest_message():
@@ -50,3 +51,9 @@ def test_readme_inlines_latest_and_lists_archive():
     assert "reports/2026-06-27.md" in readme  # archive link, reverse-chron
     # newest archived day appears before older one
     assert readme.index("2026-06-27") < readme.index("2026-06-26")
+
+
+def test_empty_archive_has_fallback():
+    cve, releases, news = _sample()
+    _, readme = render.build("2026-06-28", cve, releases, news, [])
+    assert "_No archived reports yet._" in readme
