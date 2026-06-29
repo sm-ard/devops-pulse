@@ -40,3 +40,17 @@ def test_parse_error_returns_not_ok():
     assert r.ok is False
     assert "rss down" in r.error
     assert r.items == []
+
+
+def test_empty_feed_returns_ok_with_no_items():
+    r = news.fetch(Cfg, parse=lambda url: _feed())
+    assert r.ok is True
+    assert r.items == []
+
+
+def test_malformed_entry_returns_not_ok():
+    # entry missing .link -> attribute access fails the whole fetch in v1
+    bad = SimpleNamespace(entries=[SimpleNamespace(title="x")])
+    r = news.fetch(Cfg, parse=lambda url: bad)
+    assert r.ok is False
+    assert r.items == []
