@@ -2,6 +2,7 @@ import datetime as dt
 
 from pulse.models import ReleaseItem, FeedResult
 
+# /releases/latest returns one release per repo; multiple same-day releases are not reported.
 _API = "https://api.github.com/repos/{repo}/releases/latest"
 
 
