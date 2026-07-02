@@ -3,7 +3,6 @@ from pathlib import Path
 from types import SimpleNamespace
 
 from pulse import main
-from pulse.models import FeedResult
 
 
 class FakeResp:
@@ -57,3 +56,19 @@ def test_run_archive_index_includes_prior_reports(tmp_path):
     readme = (tmp_path / "README.md").read_text()
     assert "reports/2026-06-27.md" in readme
     assert "reports/2026-06-28.md" in readme
+
+
+class FailingClient:
+    def get(self, url, params=None, timeout=None):
+        if "nvd.nist.gov" in url:
+            raise RuntimeError("nvd down")
+        return FakeResp({"tag_name": "v0", "html_url": "u",
+                         "published_at": "2000-01-01T00:00:00Z"})
+
+
+def test_run_with_failed_feed_still_writes(tmp_path):
+    now = dt.datetime(2026, 6, 28, 6, 0, tzinfo=dt.timezone.utc)
+    main.run(tmp_path, client=FailingClient(), news_parse=_empty_rss, now=now)
+    report = tmp_path / "reports" / "2026-06-28.md"
+    assert report.exists()
+    assert "Feed unavailable" in report.read_text()
