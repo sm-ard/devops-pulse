@@ -37,7 +37,9 @@ def _empty_rss(url):
 
 def test_run_writes_report_and_readme(tmp_path):
     now = dt.datetime(2026, 6, 28, 6, 0, tzinfo=dt.timezone.utc)
-    main.run(tmp_path, client=FakeClient(), news_parse=_empty_rss, now=now)
+    fake = FakeClient()
+    main.run(tmp_path, nvd_client=fake, gh_client=fake,
+             news_parse=_empty_rss, now=now)
 
     report = tmp_path / "reports" / "2026-06-28.md"
     readme = tmp_path / "README.md"
@@ -52,7 +54,9 @@ def test_run_archive_index_includes_prior_reports(tmp_path):
     (tmp_path / "reports").mkdir()
     (tmp_path / "reports" / "2026-06-27.md").write_text("old")
     now = dt.datetime(2026, 6, 28, 6, 0, tzinfo=dt.timezone.utc)
-    main.run(tmp_path, client=FakeClient(), news_parse=_empty_rss, now=now)
+    fake = FakeClient()
+    main.run(tmp_path, nvd_client=fake, gh_client=fake,
+             news_parse=_empty_rss, now=now)
     readme = (tmp_path / "README.md").read_text()
     assert "reports/2026-06-27.md" in readme
     assert "reports/2026-06-28.md" in readme
@@ -68,7 +72,9 @@ class FailingClient:
 
 def test_run_with_failed_feed_still_writes(tmp_path):
     now = dt.datetime(2026, 6, 28, 6, 0, tzinfo=dt.timezone.utc)
-    main.run(tmp_path, client=FailingClient(), news_parse=_empty_rss, now=now)
+    failing = FailingClient()
+    main.run(tmp_path, nvd_client=failing, gh_client=failing,
+             news_parse=_empty_rss, now=now)
     report = tmp_path / "reports" / "2026-06-28.md"
     assert report.exists()
     assert "Feed unavailable" in report.read_text()

@@ -14,12 +14,12 @@ def _existing_report_dates(reports_dir: Path) -> list[str]:
     return [p.stem for p in reports_dir.glob("*.md")]
 
 
-def run(repo_root: Path, *, client, news_parse, now=None) -> None:
+def run(repo_root: Path, *, nvd_client, gh_client, news_parse, now=None) -> None:
     now = now or dt.datetime.now(dt.timezone.utc)
     date = now.strftime("%Y-%m-%d")
 
-    cve_res = cve.fetch(config, client)
-    rel_res = releases.fetch(config, client, now=now)
+    cve_res = cve.fetch(config, nvd_client)
+    rel_res = releases.fetch(config, gh_client, now=now)
     news_res = news.fetch(config, parse=news_parse)
 
     reports_dir = repo_root / "reports"
@@ -32,12 +32,18 @@ def run(repo_root: Path, *, client, news_parse, now=None) -> None:
 
 
 def main() -> None:
-    headers = {"Accept": "application/vnd.github+json"}
+    nvd_headers = {"Accept": "application/json", "User-Agent": "devops-pulse/0.1"}
+    nvd_key = os.environ.get("NVD_API_KEY")
+    if nvd_key:
+        nvd_headers["apiKey"] = nvd_key
+    gh_headers = {"Accept": "application/vnd.github+json", "User-Agent": "devops-pulse/0.1"}
     token = os.environ.get("GITHUB_TOKEN")
     if token:
-        headers["Authorization"] = f"Bearer {token}"
-    with httpx.Client(headers=headers) as client:
-        run(Path.cwd(), client=client, news_parse=feedparser.parse)
+        gh_headers["Authorization"] = f"Bearer {token}"
+    with httpx.Client(headers=nvd_headers) as nvd_client, \
+         httpx.Client(headers=gh_headers) as gh_client:
+        run(Path.cwd(), nvd_client=nvd_client, gh_client=gh_client,
+            news_parse=feedparser.parse)
 
 
 if __name__ == "__main__":

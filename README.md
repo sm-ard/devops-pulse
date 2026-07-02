@@ -10,9 +10,9 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, CNCF t
 
 ## Security (CVEs)
 
-> ⚠ Feed unavailable today: Client error '406 Not Acceptable' for url 'https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-07-01T23%3A42%3A57.000Z&pubEndDate=2026-07-02T23%3A42%3A57.000Z&resultsPerPage=2000'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406
-
+- **[CVE-2026-58455](https://nvd.nist.gov/vuln/detail/CVE-2026-58455)** `CRITICAL` — Dockwatch through 0.6.567 contains an unauthenticated OS command injection vulnerability that allows remote attackers to execute arbitrary shell commands by exploiting a missing exit() after an authe…
+- **[CVE-2026-44935](https://nvd.nist.gov/vuln/detail/CVE-2026-44935)** `CRITICAL` — Missing validation of "valuesFrom" references in Helm Deployer of SUSE Rancher Fleet 0.15 before 0.15.2, 0.14 before 0.14.6, 0.13 before 0.13.11 and 0.12 before 0.12.15 could be used by owners of one…
+- **[CVE-2026-45499](https://nvd.nist.gov/vuln/detail/CVE-2026-45499)** `CRITICAL` — Server-side request forgery (ssrf) in Azure OpenAI allows an authorized attacker to elevate privileges over a network.
 
 ## Releases
 
