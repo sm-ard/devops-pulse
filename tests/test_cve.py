@@ -117,3 +117,14 @@ def test_truncates_long_summary():
     assert len(r.items) == 1
     assert len(r.items[0].summary) == 200
     assert r.items[0].summary.endswith("…")
+
+
+def test_cvss_v40_severity():
+    payload = {"vulnerabilities": [{"cve": {
+        "id": "CVE-V4",
+        "descriptions": [{"lang": "en", "value": "critical kubernetes flaw"}],
+        "metrics": {"cvssMetricV40": [{"cvssData": {"baseSeverity": "CRITICAL"}}]},
+    }}]}
+    r = cve.fetch(config, FakeClient(payload))
+    assert len(r.items) == 1
+    assert r.items[0].severity == "CRITICAL"

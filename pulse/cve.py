@@ -15,7 +15,7 @@ def _english_desc(cve: dict) -> str:
 
 def _severity(cve: dict) -> str:
     metrics = cve.get("metrics", {})
-    for key in ("cvssMetricV31", "cvssMetricV30"):
+    for key in ("cvssMetricV40", "cvssMetricV31", "cvssMetricV30"):
         entries = metrics.get(key) or []
         if entries:
             return entries[0].get("cvssData", {}).get("baseSeverity", "").upper()
