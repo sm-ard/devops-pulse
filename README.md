@@ -6,13 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-02
+## Latest — 2026-08-03
 
 ## Security (CVEs)
 
-- **[CVE-2026-67309](https://nvd.nist.gov/vuln/detail/CVE-2026-67309)** `HIGH` — Traefik versions >= v3.7.0 and <= v3.7.7 contain a path traversal vulnerability in the Kubernetes Ingress NGINX provider's RewriteTarget middleware (generated from the nginx.ingress.kubernetes.io/rew…
-- **[CVE-2026-67322](https://nvd.nist.gov/vuln/detail/CVE-2026-67322)** `HIGH` — GitPython before 3.1.52 is vulnerable to environment-variable exfiltration in Repo.clone_from(). The caller-supplied remote URL is passed through Git.polish_url(), which on non-Cygwin platforms calls…
-- **[CVE-2026-67342](https://nvd.nist.gov/vuln/detail/CVE-2026-67342)** `CRITICAL` — ArcadeDB versions before 26.7.2 contain an authorization bypass vulnerability in HTTP handlers for time series, batch, Prometheus, and Grafana endpoints that fail to validate database access permissi…
+No notable CVEs today.
 
 ## Releases
 
@@ -26,13 +24,14 @@ No notable releases today.
 - [Amazon Aurora DSQL adds multi-Region cluster support in four more Regions](https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/) — _AWS What's New_
 - [Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances](https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/) — _AWS What's New_
 - [Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia](https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps) — _AWS What's New_
-- [What’s new in AI infrastructure and orchestration this month](https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/) — _Google Cloud Blog_
 - [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
+- [What’s new in AI infrastructure and orchestration this month](https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-08-03](reports/2026-08-03.md)
 - [2026-08-02](reports/2026-08-02.md)
 - [2026-08-01](reports/2026-08-01.md)
 - [2026-07-31](reports/2026-07-31.md)
