@@ -6,26 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-07
+## Latest — 2026-08-08
 
 ## Security (CVEs)
 
-- **[CVE-2026-12713](https://nvd.nist.gov/vuln/detail/CVE-2026-12713)** `CRITICAL` — The WPCargo Track & Trace WordPress plugin before 8.0.4 does not properly sanitise and escape a parameter before using it in a SQL statement, allowing unauthenticated users to perform SQL injection a…
-- **[CVE-2026-53975](https://nvd.nist.gov/vuln/detail/CVE-2026-53975)** `CRITICAL` — OpenChamber 1.11.7 contains an unauthenticated remote code execution vulnerability that allows remote attackers to execute arbitrary shell commands by sending crafted POST requests to the /api/fs/exe…
-- **[CVE-2026-53985](https://nvd.nist.gov/vuln/detail/CVE-2026-53985)** `HIGH` — Ground Station prior to 0.6.0 contains an unauthenticated denial-of-service vulnerability in the Socket.IO server's service_control event handler that allows any unauthenticated network peer to forci…
-- **[CVE-2026-11976](https://nvd.nist.gov/vuln/detail/CVE-2026-11976)** `CRITICAL` — The official MonsterInsights Pro update distribution bucket (`monster-insights.s3.amazonaws.com`) was compromised. Both the current release (10.2.2) and the version MonsterInsights rolled back to (10…
-- **[CVE-2026-48080](https://nvd.nist.gov/vuln/detail/CVE-2026-48080)** `HIGH` — OpenReception's appointment booking software provides an end-to-end encrypted appointment booking platform. Prior to version 1.0.2, the `GET /api/tenants/{id}` endpoint returns the full tenant record…
-- **[CVE-2026-48084](https://nvd.nist.gov/vuln/detail/CVE-2026-48084)** `HIGH` — OpenReception's appointment booking software provides an end-to-end encrypted appointment booking platform. Versions prior to 1.0.2 don't throttle failed passphrase login attempts. An attacker can su…
-- **[CVE-2026-63725](https://nvd.nist.gov/vuln/detail/CVE-2026-63725)** `HIGH` — sysPass's FileBackupService::doBackupFiles() in lib/SP/Services/Backup/FileBackupService.php around line 388 builds a tar shell command by string-concatenating the backup directory path $this->path d…
-- **[CVE-2026-70558](https://nvd.nist.gov/vuln/detail/CVE-2026-70558)** `CRITICAL` — Dinky's POST /download/uploadFromRsByLocal handler passes the caller-supplied path parameter directly to new File(path) and file.transferTo(dest) with no path validation. The route is marked @SaIgnor…
-- **[CVE-2026-71327](https://nvd.nist.gov/vuln/detail/CVE-2026-71327)** `HIGH` — Traefik is an open source HTTP reverse proxy and load balancer. From 3.0.0 until 3.6.25 and 3.7.10, Traefik's Kubernetes Gateway API provider in pkg/provider/kubernetes/gateway/httproute.go, grpcrout…
-- **[CVE-2026-50481](https://nvd.nist.gov/vuln/detail/CVE-2026-50481)** `CRITICAL` — Modification of assumed-immutable data (maid) in Azure Active Directory allows an authorized attacker to elevate privileges over a network.
-- **[CVE-2026-50515](https://nvd.nist.gov/vuln/detail/CVE-2026-50515)** `CRITICAL` — Deserialization of untrusted data in Azure Service Bus allows an authorized attacker to execute code over a network.
-- **[CVE-2026-56161](https://nvd.nist.gov/vuln/detail/CVE-2026-56161)** `CRITICAL` — Improper access control in Azure Logic Apps allows an authorized attacker to disclose information over a network.
-- **[CVE-2026-56162](https://nvd.nist.gov/vuln/detail/CVE-2026-56162)** `CRITICAL` — Improper authentication in Azure SQL Database allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-62830](https://nvd.nist.gov/vuln/detail/CVE-2026-62830)** `CRITICAL` — Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a network.
-- **[CVE-2026-62836](https://nvd.nist.gov/vuln/detail/CVE-2026-62836)** `HIGH` — Improper restriction of communication channel to intended endpoints in Azure SQL Managed Instance allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-68823](https://nvd.nist.gov/vuln/detail/CVE-2026-68823)** `CRITICAL` — Exposed dangerous method or function in Azure Confidential Ledger allows an authorized attacker to execute code over a network.
+- **[CVE-2026-52880](https://nvd.nist.gov/vuln/detail/CVE-2026-52880)** `HIGH` — Klever-Go is the Go implementation of the Klever blockchain protocol. Versions from 1.7.14 through 1.7.17 are vulnerable to a remotely triggerable denial of service. Both REST APIs are started with t…
 
 ## Releases
 
@@ -36,16 +21,17 @@ No notable releases today.
 - [Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/) — _Kubernetes Blog_
 - [Kubernetes v1.37 Sneak Peek](https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/) — _Kubernetes Blog_
 - [How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server](https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/) — _Kubernetes Blog_
-- [Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/) — _AWS What's New_
-- [AWS Lambda console extends console-to-IDE integration to Kiro and Cursor](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/) — _AWS What's New_
-- [Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain) — _AWS What's New_
-- [Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort](https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/) — _Google Cloud Blog_
-- [Advancing brain tumor research with privacy-first AI](https://cloud.google.com/blog/products/identity-security/privacy-first-medical-ai-with-medperf-and-google-cloud/) — _Google Cloud Blog_
+- [Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/) — _AWS What's New_
+- [Amazon Timestream for InfluxDB now supports backup and restore](https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/) — _AWS What's New_
+- [Amazon Cognito now available as a skill in the Agent Toolkit for AWS](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/) — _AWS What's New_
+- [Zero-code, low-cost data ingestion: New BigQuery DTS capabilities](https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/) — _Google Cloud Blog_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-08-08](reports/2026-08-08.md)
 - [2026-08-07](reports/2026-08-07.md)
 - [2026-08-06](reports/2026-08-06.md)
 - [2026-08-05](reports/2026-08-05.md)
