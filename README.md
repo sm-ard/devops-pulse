@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-08
+## Latest — 2026-08-09
 
 ## Security (CVEs)
 
-- **[CVE-2026-52880](https://nvd.nist.gov/vuln/detail/CVE-2026-52880)** `HIGH` — Klever-Go is the Go implementation of the Klever blockchain protocol. Versions from 1.7.14 through 1.7.17 are vulnerable to a remotely triggerable denial of service. Both REST APIs are started with t…
+No notable CVEs today.
 
 ## Releases
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-08-09](reports/2026-08-09.md)
 - [2026-08-08](reports/2026-08-08.md)
 - [2026-08-07](reports/2026-08-07.md)
 - [2026-08-06](reports/2026-08-06.md)
