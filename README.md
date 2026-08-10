@@ -6,7 +6,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-09
+## Latest — 2026-08-10
 
 ## Security (CVEs)
 
@@ -25,12 +25,13 @@ No notable releases today.
 - [Amazon Timestream for InfluxDB now supports backup and restore](https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/) — _AWS What's New_
 - [Amazon Cognito now available as a skill in the Agent Toolkit for AWS](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/) — _AWS What's New_
 - [Zero-code, low-cost data ingestion: New BigQuery DTS capabilities](https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/) — _Google Cloud Blog_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
+- [Unifying Structured and Unstructured Data Insights with BQ Search Innovations](https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-08-10](reports/2026-08-10.md)
 - [2026-08-09](reports/2026-08-09.md)
 - [2026-08-08](reports/2026-08-08.md)
 - [2026-08-07](reports/2026-08-07.md)
