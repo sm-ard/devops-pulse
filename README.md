@@ -6,40 +6,32 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-14
+## Latest — 2026-08-15
 
 ## Security (CVEs)
 
-- **[CVE-2026-73483](https://nvd.nist.gov/vuln/detail/CVE-2026-73483)** `CRITICAL` — Flowise (packages flowise and flowise-components) in versions <= 3.1.2 contain a sandbox escape in the vm2/@flowiseai/nodevm JavaScript sandbox. An authenticated user with access to the /api/v1/node-…
-- **[CVE-2026-49478](https://nvd.nist.gov/vuln/detail/CVE-2026-49478)** `HIGH` — Fulcio is a certificate authority for issuing code signing certificates for an OpenID Connect (OIDC) identity. Versions through 1.8.5 improperly follow cross-host redirects and attach Kubernetes Serv…
-- **[CVE-2026-73654](https://nvd.nist.gov/vuln/detail/CVE-2026-73654)** `HIGH` — Trigger.dev is a platform for building and deploying fully managed AI agents and workflows. From 3.3.8 until 4.5.6, the PUT /api/v1/runs/:runId/metadata endpoint passes attacker-controlled operation.…
-- **[CVE-2026-8715](https://nvd.nist.gov/vuln/detail/CVE-2026-8715)** `CRITICAL` — Vault Secrets Operator 1.3.0 up to 1.4.1 is vulnerable to an arbitrary file read and credential exfiltration issue in the AppRole authentication configuration that may allow a tenant with limited Kub…
-- **[CVE-2026-73658](https://nvd.nist.gov/vuln/detail/CVE-2026-73658)** `HIGH` — Trigger.dev is a platform for building and deploying fully managed AI agents and workflows. From 4.4.2 until 4.5.0-rc.5, Aws4FetchClient.buildUrl() and Aws4FetchClient.presign() in apps/webapp/app/v3…
-- **[CVE-2026-73666](https://nvd.nist.gov/vuln/detail/CVE-2026-73666)** `HIGH` — OpenChoreo is a developer platform for Kubernetes. Prior to 1.0.4, 1.1.4, and 1.2.1, the OpenChoreo Backstage backend hardcoded backend.auth.dangerouslyDisableDefaultAuthPolicy and auth.providers.gue…
-- **[CVE-2026-73667](https://nvd.nist.gov/vuln/detail/CVE-2026-73667)** `HIGH` — OpenChoreo is a complete, open-source developer platform for Kubernetes. Prior to 1.0.4, 1.1.4, and 1.2.0-rc.2, OpenChoreo Workflow Plane templates under samples/getting-started/workflow-templates/ i…
-- **[CVE-2026-73841](https://nvd.nist.gov/vuln/detail/CVE-2026-73841)** `HIGH` — OpenChoreo is a complete, open-source developer platform for Kubernetes. From 1.2.0-rc.1 until 1.2.0, internal/openchoreo-api/api/handlers/exec.go and internal/openchoreo-api/api/handlers/wirelogs.go…
-- **[CVE-2026-73842](https://nvd.nist.gov/vuln/detail/CVE-2026-73842)** `CRITICAL` — OpenChoreo is a complete, open-source developer platform for Kubernetes. Prior to 1.0.3, 1.1.3, and 1.2.0-rc.2, internal/cluster-gateway/server.go exposed /api/proxy/, /api/exec/, and /api/wirelogs/ …
-- **[CVE-2026-73843](https://nvd.nist.gov/vuln/detail/CVE-2026-73843)** `CRITICAL` — OpenChoreo is a complete, open-source developer platform for Kubernetes. Prior to 1.0.2 and 1.1.2, internal/cluster-gateway/server.go served caller-facing management APIs on the externally reachable …
+No notable CVEs today.
 
 ## Releases
 
-- **Helm** [`v4.2.4`](https://github.com/helm/helm/releases/tag/v4.2.4)
+No notable releases today.
 
 ## News
 
 - [How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To](https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/) — _Kubernetes Blog_
 - [Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/) — _Kubernetes Blog_
 - [Kubernetes v1.37 Sneak Peek](https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/) — _Kubernetes Blog_
+- [Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/) — _AWS What's New_
+- [Amazon SES click tracking now supports custom URL paths for mobile app deep linking](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking) — _AWS What's New_
 - [AWS Billing and Cost Management introduces Managed Dashboards](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/) — _AWS What's New_
-- [AWS Client VPN now supports CLI, administration controls, and faster connections](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/) — _AWS What's New_
-- [Claude Opus 5 is now available in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/) — _AWS What's New_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 - [Using BigQuery Graphs with measures for trusted agentic workloads](https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/) — _Google Cloud Blog_
-- [PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap](https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-08-15](reports/2026-08-15.md)
 - [2026-08-14](reports/2026-08-14.md)
 - [2026-08-13](reports/2026-08-13.md)
 - [2026-08-12](reports/2026-08-12.md)
