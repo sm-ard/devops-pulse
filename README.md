@@ -6,7 +6,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-15
+## Latest — 2026-08-16
 
 ## Security (CVEs)
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-08-16](reports/2026-08-16.md)
 - [2026-08-15](reports/2026-08-15.md)
 - [2026-08-14](reports/2026-08-14.md)
 - [2026-08-13](reports/2026-08-13.md)
