@@ -6,16 +6,12 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-22
+## Latest — 2026-08-23
 
 ## Security (CVEs)
 
-- **[CVE-2026-77775](https://nvd.nist.gov/vuln/detail/CVE-2026-77775)** `HIGH` — Headroom's LLM proxy lets a client choose the upstream destination with the x-headroom-base-url request header. _resolve_openai_upstream_base in headroom/proxy/handlers/openai.py accepts the header v…
-- **[CVE-2026-77776](https://nvd.nist.gov/vuln/detail/CVE-2026-77776)** `CRITICAL` — Headroom's LLM proxy derives the memory owner from the x-headroom-user-id request header. The header is read directly at several points in headroom/proxy/handlers/openai.py, including the chat comple…
-- **[CVE-2026-69502](https://nvd.nist.gov/vuln/detail/CVE-2026-69502)** `CRITICAL` — Server-side request forgery (ssrf) in Azure SQL Database allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-77810](https://nvd.nist.gov/vuln/detail/CVE-2026-77810)** `CRITICAL` — In the Neptune connector, a user with access to Neptune through Athena Federated Query could gain access to properties in the Lambda supplying the compute for the connector. To remediate this issue, …
-- **[CVE-2026-64679](https://nvd.nist.gov/vuln/detail/CVE-2026-64679)** `HIGH` — Atlantis is a self-hosted golang application that listens for Terraform pull request events via webhooks. From 0.19.8 until 0.45.0, Atlantis does not consistently validate user-controlled workspace v…
-- **[CVE-2026-53530](https://nvd.nist.gov/vuln/detail/CVE-2026-53530)** `HIGH` — RaTeX is a KaTeX-compatible math rendering engine written in Rust. Prior to version 0.1.11, the public parser entrypoint `ratex_parser::parse(&str)` panics on the 9-byte input `\verbéxé` (i.e. `\verb…
+- **[CVE-2026-58003](https://nvd.nist.gov/vuln/detail/CVE-2026-58003)** `HIGH` — WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in the releaseVideoNow.json.php endpoint that lacks authenticity checks and accepts GET requests. Attackers can…
+- **[CVE-2026-78122](https://nvd.nist.gov/vuln/detail/CVE-2026-78122)** `HIGH` — docker-socket-proxy fails to properly gate read endpoints in the /containers Docker API namespace when the CONTAINERS environment variable is set. Attackers can use GET requests to /containers/{id}/a…
 
 ## Releases
 
@@ -36,6 +32,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-08-23](reports/2026-08-23.md)
 - [2026-08-22](reports/2026-08-22.md)
 - [2026-08-21](reports/2026-08-21.md)
 - [2026-08-20](reports/2026-08-20.md)
