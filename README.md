@@ -6,12 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-23
+## Latest — 2026-08-24
 
 ## Security (CVEs)
 
-- **[CVE-2026-58003](https://nvd.nist.gov/vuln/detail/CVE-2026-58003)** `HIGH` — WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in the releaseVideoNow.json.php endpoint that lacks authenticity checks and accepts GET requests. Attackers can…
-- **[CVE-2026-78122](https://nvd.nist.gov/vuln/detail/CVE-2026-78122)** `HIGH` — docker-socket-proxy fails to properly gate read endpoints in the /containers Docker API namespace when the CONTAINERS environment variable is set. Attackers can use GET requests to /containers/{id}/a…
+No notable CVEs today.
 
 ## Releases
 
@@ -32,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-08-24](reports/2026-08-24.md)
 - [2026-08-23](reports/2026-08-23.md)
 - [2026-08-22](reports/2026-08-22.md)
 - [2026-08-21](reports/2026-08-21.md)
