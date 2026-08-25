@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-24
+## Latest — 2026-08-25
 
 ## Security (CVEs)
 
-No notable CVEs today.
+- **[CVE-2026-21752](https://nvd.nist.gov/vuln/detail/CVE-2026-21752)** `HIGH` — HCL Hive is affected by a use of vulnerable third-party components which could allow an attacker unauthorized access or compromise of the system by exploiting publicly documented security flaws.
 
 ## Releases
 
@@ -21,16 +21,17 @@ No notable releases today.
 - [How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To](https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/) — _Kubernetes Blog_
 - [Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/) — _Kubernetes Blog_
 - [Kubernetes v1.37 Sneak Peek](https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/) — _Kubernetes Blog_
-- [Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol](https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/) — _AWS What's New_
-- [Amazon Connect Customer now lets managers chat with their data](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics) — _AWS What's New_
-- [AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/) — _AWS What's New_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
-- [Cloud CISO Perspectives: Sticking to security fundamentals in the AI era](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/) — _Google Cloud Blog_
+- [Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health) — _AWS What's New_
+- [SageMaker MLflow now supports customer managed keys](https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys) — _AWS What's New_
+- [Amazon EKS now supports multiple external OIDC identity providers per cluster](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers) — _AWS What's New_
+- [New AI-powered quick assessments in Migration Center turbocharge modernization](https://cloud.google.com/blog/products/infrastructure-modernization/ai-powered-quick-assessments-in-migration-center/) — _Google Cloud Blog_
+- [Empowering autonomous agents with advanced security governance](https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-agent-governance-and-security/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-08-25](reports/2026-08-25.md)
 - [2026-08-24](reports/2026-08-24.md)
 - [2026-08-23](reports/2026-08-23.md)
 - [2026-08-22](reports/2026-08-22.md)
