@@ -6,32 +6,33 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-26
+## Latest — 2026-08-27
 
 ## Security (CVEs)
 
-- **[CVE-2026-55581](https://nvd.nist.gov/vuln/detail/CVE-2026-55581)** `HIGH` — mcp-shell is an MCP server for running shell commands securely, auditably, and on demand. Prior to 0.6.0, the default Docker security.yaml includes /bin/bash in allowed_executables, while security.go…
-- **[CVE-2026-55582](https://nvd.nist.gov/vuln/detail/CVE-2026-55582)** `HIGH` — mcp-shell is an MCP server for running shell commands securely, auditably, and on demand. Prior to 0.6.0, the default security.yaml allows /usr/bin/git, while security.go omits ! from containsShellMe…
-- **[CVE-2026-79782](https://nvd.nist.gov/vuln/detail/CVE-2026-79782)** `CRITICAL` — rclone before 1.74.4 fails to strip the X-Amz-Security-Token header when an S3 redirect changes scheme from HTTPS to HTTP on the same host. Attackers can intercept plaintext HTTP traffic to capture A…
-- **[CVE-2026-79787](https://nvd.nist.gov/vuln/detail/CVE-2026-79787)** `CRITICAL` — Alluxio's S3 REST proxy fails to verify AWS Signature Version 4 signatures in its default configuration, allowing unauthenticated attackers to spoof user identity. Attackers can extract usernames fro…
+- **[CVE-2026-65956](https://nvd.nist.gov/vuln/detail/CVE-2026-65956)** `CRITICAL` — KubePi is a Kubernetes multi-cluster management panel. In versions up to and including 1.6.15, the SSO configuration API endpoints are exposed on the same public routing boundary as the SSO login and…
 
 ## Releases
 
-No notable releases today.
+- **Argo CD** [`v3.5.2`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.2)
+- **Istio** [`1.30.4`](https://github.com/istio/istio/releases/tag/1.30.4)
 
 ## News
 
+- [Kubernetes v1.37: Garhwal](https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/) — _Kubernetes Blog_
 - [How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To](https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/) — _Kubernetes Blog_
 - [Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/) — _Kubernetes Blog_
-- [Kubernetes v1.37 Sneak Peek](https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/) — _Kubernetes Blog_
-- [Bringing gVisor sandboxes to distributed Ray clusters](https://cloud.google.com/blog/products/containers-kubernetes/gvisor-sandboxes-for-ray-clusters-on-gke/) — _Google Cloud Blog_
-- [Now introducing Gemini Enterprise for Legal](https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal/) — _Google Cloud Blog_
-- [Now introducing Gemini Enterprise for Financial Services](https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services/) — _Google Cloud Blog_
+- [Amazon Cognito adds admin API operation to reset user TOTP configurations](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/) — _AWS What's New_
+- [Amazon Connect Customer now supports unplanned shrinkage in agent schedules](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/) — _AWS What's New_
+- [Mountpoint for Amazon S3 adds memory usage controls](https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls) — _AWS What's New_
+- [Reimagining work: How Pythian’s internal AI playbook delivers customer ROI](https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/) — _Google Cloud Blog_
+- [Deploy personal AI agents with Cloud Run instances](https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-08-27](reports/2026-08-27.md)
 - [2026-08-26](reports/2026-08-26.md)
 - [2026-08-25](reports/2026-08-25.md)
 - [2026-08-24](reports/2026-08-24.md)
