@@ -6,32 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-27
+## Latest — 2026-08-28
 
 ## Security (CVEs)
 
-- **[CVE-2026-65956](https://nvd.nist.gov/vuln/detail/CVE-2026-65956)** `CRITICAL` — KubePi is a Kubernetes multi-cluster management panel. In versions up to and including 1.6.15, the SSO configuration API endpoints are exposed on the same public routing boundary as the SSO login and…
+- **[CVE-2026-75889](https://nvd.nist.gov/vuln/detail/CVE-2026-75889)** `HIGH` — Grafana Alloy’s prometheus.operator.servicemonitors component allows a user who can create or modify ServiceMonitor resources in a watched namespace to specify an arbitrary local file through bearerT…
+- **[CVE-2026-44629](https://nvd.nist.gov/vuln/detail/CVE-2026-44629)** `HIGH` — Improper access control to the Synergis Softwire installation folder. This vulnerability affects Streamvault all-in-one appliances (SV-100E and SV-300E series) and Synergis Softwire installed on Wind…
+- **[CVE-2026-54330](https://nvd.nist.gov/vuln/detail/CVE-2026-54330)** `HIGH` — Ceph is an open-source distributed storage platform providing object, block, and file storage. In versions prior to 20.2.4 and 19.2.6, the Ceph Object Gateway (RGW) SigV4 handler does not reject requ…
 
 ## Releases
 
-- **Argo CD** [`v3.5.2`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.2)
-- **Istio** [`1.30.4`](https://github.com/istio/istio/releases/tag/1.30.4)
+No notable releases today.
 
 ## News
 
+- [Kubernetes v1.37: Metrics API graduates to stable](https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Garhwal](https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/) — _Kubernetes Blog_
 - [How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To](https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/) — _Kubernetes Blog_
-- [Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/) — _Kubernetes Blog_
-- [Amazon Cognito adds admin API operation to reset user TOTP configurations](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/) — _AWS What's New_
-- [Amazon Connect Customer now supports unplanned shrinkage in agent schedules](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/) — _AWS What's New_
-- [Mountpoint for Amazon S3 adds memory usage controls](https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls) — _AWS What's New_
+- [Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/) — _AWS What's New_
+- [Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models now available on Amazon SageMaker JumpStart](https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/) — _AWS What's New_
+- [Muse-Glimmer-30B and Qwen 3.8-27B models now available on Amazon SageMaker JumpStart](https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/) — _AWS What's New_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 - [Reimagining work: How Pythian’s internal AI playbook delivers customer ROI](https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/) — _Google Cloud Blog_
-- [Deploy personal AI agents with Cloud Run instances](https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-08-28](reports/2026-08-28.md)
 - [2026-08-27](reports/2026-08-27.md)
 - [2026-08-26](reports/2026-08-26.md)
 - [2026-08-25](reports/2026-08-25.md)
