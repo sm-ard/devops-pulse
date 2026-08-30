@@ -6,15 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-29
+## Latest — 2026-08-30
 
 ## Security (CVEs)
 
-- **[CVE-2026-54745](https://nvd.nist.gov/vuln/detail/CVE-2026-54745)** `CRITICAL` — Kubeflow Pipelines enables users to build and deploy portable, scalable machine learning workflows. Prior to 2.17.0, the Kubeflow Pipelines frontend exposes an unauthenticated server-side request for…
-- **[CVE-2026-55108](https://nvd.nist.gov/vuln/detail/CVE-2026-55108)** `HIGH` — KubeVela is an open source application delivery platform. Prior to 1.9.14, from 1.10.0-alpha.1 until 1.10.9, and from 1.11.0-alpha.1 until 1.11.0-alpha.4, the Terraform remote configuration loader in…
-- **[CVE-2026-81849](https://nvd.nist.gov/vuln/detail/CVE-2026-81849)** `HIGH` — Improper limitation of a pathname to a restricted directory in the aws:downloadContent plugin in amazon-ssm-agent before 3.3.4515.0 might allow an authenticated remote user whose ssm:SendCommand perm…
-- **[CVE-2026-82277](https://nvd.nist.gov/vuln/detail/CVE-2026-82277)** `CRITICAL` — Argo Rollouts dashboard through 1.10.0 binds to all interfaces and exposes mutating Rollout operations without authentication, authorization, or CSRF protection. Attackers on the same network can inv…
-- **[CVE-2026-55848](https://nvd.nist.gov/vuln/detail/CVE-2026-55848)** `HIGH` — mapfish-print is a component of MapFish for printing templated cartographic maps. Prior to 3.28.30, 3.30.32, 3.31.24, 3.33.16, and 4.0.5, MapFish Print accepts an attacker-controlled GML layer url in…
+- **[CVE-2026-82456](https://nvd.nist.gov/vuln/detail/CVE-2026-82456)** `CRITICAL` — argocd-mcp 0.8.0 binds its HTTP transport to every network interface and accepts MCP sessions without requiring caller credentials when ARGOCD_API_TOKEN is configured. Attackers who can reach the lis…
 
 ## Releases
 
@@ -35,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-08-30](reports/2026-08-30.md)
 - [2026-08-29](reports/2026-08-29.md)
 - [2026-08-28](reports/2026-08-28.md)
 - [2026-08-27](reports/2026-08-27.md)
