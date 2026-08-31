@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-08-30
+## Latest — 2026-08-31
 
 ## Security (CVEs)
 
-- **[CVE-2026-82456](https://nvd.nist.gov/vuln/detail/CVE-2026-82456)** `CRITICAL` — argocd-mcp 0.8.0 binds its HTTP transport to every network interface and accepts MCP sessions without requiring caller credentials when ARGOCD_API_TOKEN is configured. Attackers who can reach the lis…
+- **[CVE-2026-82856](https://nvd.nist.gov/vuln/detail/CVE-2026-82856)** `CRITICAL` — @hulumi/policies versions before 1.3.2 fail to properly validate set-qualified AWS IAM condition operators in GitHub OIDC trust policies. Attackers can use ForAnyValue:StringLike operators to hide wi…
 
 ## Releases
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-08-31](reports/2026-08-31.md)
 - [2026-08-30](reports/2026-08-30.md)
 - [2026-08-29](reports/2026-08-29.md)
 - [2026-08-28](reports/2026-08-28.md)
