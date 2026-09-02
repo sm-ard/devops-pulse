@@ -6,31 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-01
+## Latest — 2026-09-02
 
 ## Security (CVEs)
 
-- **[CVE-2026-79748](https://nvd.nist.gov/vuln/detail/CVE-2026-79748)** `CRITICAL` — MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies. Prior to version 0.12.15, the POST /ap…
+- **[CVE-2026-83551](https://nvd.nist.gov/vuln/detail/CVE-2026-83551)** `HIGH` — Cleartext storage of sensitive information in the @step and @remote decorator pipeline component in Amazon SageMaker Python SDK before v3.11.0 and v2.256.0 might allow an authenticated remote user to…
+- **[CVE-2026-84366](https://nvd.nist.gov/vuln/detail/CVE-2026-84366)** `HIGH` — Scrapy is a high-level web crawling and scraping framework for Python. Prior to 2.17.0, in scrapy/core/downloader/handlers/s3.py, Scrapy's S3DownloadHandler converts an S3-scheme bucket and key reque…
+- **[CVE-2026-84694](https://nvd.nist.gov/vuln/detail/CVE-2026-84694)** `HIGH` — Coolify before 4.2.0 fails to properly escape environment variable key names in Docker commands executed over SSH on managed servers. Authenticated attackers can inject shell metacharacters into envi…
 
 ## Releases
 
-- **Istio** [`1.31.0`](https://github.com/istio/istio/releases/tag/1.31.0)
+- **Vault** [`v2.1.0`](https://github.com/hashicorp/vault/releases/tag/v2.1.0)
 
 ## News
 
+- [Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads](https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Storage Version Migration Enabled by Default](https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles](https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/) — _Kubernetes Blog_
-- [Kubernetes v1.37: Metrics API graduates to stable](https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/) — _Kubernetes Blog_
-- [Amazon DocumentDB now supports direct major version upgrades to version 8.0](https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/) — _AWS What's New_
-- [Partner Revenue Measurement expands service coverage for User Agent string capability](https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/) — _AWS What's New_
-- [AWS Agent Registry agents and MCP servers now available in Amazon Quick](https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-agents-mcp-servers-quick/) — _AWS What's New_
-- [Financially Motivated Threat Actor BREEZE COMET Targets Brazil](https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/) — _Google Cloud Blog_
-- [BigQuery Graph is now GA: the knowledge foundation for the agentic era](https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale/) — _Google Cloud Blog_
+- [Amazon Quick now lets you build custom apps with natural language  -](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/) — _AWS What's New_
+- [AWS Deadline Cloud now supports sharing job bundles](https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing) — _AWS What's New_
+- [Amazon CloudWatch Database Insights now supports self-managed PostgreSQL](https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/) — _AWS What's New_
+- [What Google Cloud announced in AI this month](https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/) — _Google Cloud Blog_
+- [How Blackline simplifies perimeter policy intelligence with VPC Service Controls](https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-09-02](reports/2026-09-02.md)
 - [2026-09-01](reports/2026-09-01.md)
 - [2026-08-31](reports/2026-08-31.md)
 - [2026-08-30](reports/2026-08-30.md)
