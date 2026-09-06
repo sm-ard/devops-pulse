@@ -6,22 +6,15 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-05
+## Latest — 2026-09-06
 
 ## Security (CVEs)
 
-- **[CVE-2026-85594](https://nvd.nist.gov/vuln/detail/CVE-2026-85594)** `HIGH` — Traefik versions from v3.7.1 fail to enforce crossProviderNamespaces restrictions on the traefik.ingress.kubernetes.io/service.middlewares Service annotation in the Kubernetes Ingress provider. A nam…
-- **[CVE-2026-85596](https://nvd.nist.gov/vuln/detail/CVE-2026-85596)** `HIGH` — Traefik versions >= v3.7.0 and <= v3.7.10 contain an authentication bypass in the Kubernetes Ingress NGINX provider. The TLS option generated for an Ingress carrying the nginx.ingress.kubernetes.io/a…
-- **[CVE-2026-19274](https://nvd.nist.gov/vuln/detail/CVE-2026-19274)** `CRITICAL` — IBM Observability with Instana (Agent) Build 1.0.303 through 1.0.323 IBM Instana Agent Operator could allow an authenticated Kubernetes tenant to hijack or permanently destroy another tenant's cluste…
-- **[CVE-2026-19283](https://nvd.nist.gov/vuln/detail/CVE-2026-19283)** `HIGH` — IBM Observability with Instana (Agent) Build 1.0.303 through 1.0.323 IBM Instana Agent Operator could allow an authenticated remote attacker to obtain sensitive information, caused by missing destina…
-- **[CVE-2026-50553](https://nvd.nist.gov/vuln/detail/CVE-2026-50553)** `HIGH` — Note Mark is an open-source note-taking application. Prior to version 0.19.5, Note Mark validates book and note slug values with the OpenAPI/huma tag pattern:"[a-z0-9-]+". huma compiles this with reg…
-- **[CVE-2026-85654](https://nvd.nist.gov/vuln/detail/CVE-2026-85654)** `HIGH` — Improper neutralization of special elements used in a template engine in the CDK generator in Amazon awslabs.dynamodb-mcp-server before 2.1.6 might allow a context-dependent actor to execute arbitrar…
-- **[CVE-2026-85787](https://nvd.nist.gov/vuln/detail/CVE-2026-85787)** `HIGH` — An incomplete list of disallowed inputs in the SQL validation component in Amazon awslabs postgres-mcp-server before  version 1.1.7 might allow an unauthenticated actor to modify data beyond the read…
-- **[CVE-2026-86095](https://nvd.nist.gov/vuln/detail/CVE-2026-86095)** `HIGH` — Unidata netcdf-c through 4.10.1 contains an out-of-bounds write vulnerability in NC4_HDF5_inq_attname() that copies HDF5 attribute names into a fixed 256-byte buffer without length validation. Attack…
+No notable CVEs today.
 
 ## Releases
 
-- **containerd** [`v2.3.5`](https://github.com/containerd/containerd/releases/tag/v2.3.5)
+No notable releases today.
 
 ## News
 
@@ -38,6 +31,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ## Archive
 
+- [2026-09-06](reports/2026-09-06.md)
 - [2026-09-05](reports/2026-09-05.md)
 - [2026-09-04](reports/2026-09-04.md)
 - [2026-09-03](reports/2026-09-03.md)
