@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-06
+## Latest — 2026-09-07
 
 ## Security (CVEs)
 
-No notable CVEs today.
+- **[CVE-2026-86242](https://nvd.nist.gov/vuln/detail/CVE-2026-86242)** `HIGH` — Bifrost HTTP transport before 2.0.0 accepts an enabled custom plugin whose path is an HTTP URL through unauthenticated POST /api/plugins when management authentication is disabled (the default, gover…
 
 ## Releases
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-09-07](reports/2026-09-07.md)
 - [2026-09-06](reports/2026-09-06.md)
 - [2026-09-05](reports/2026-09-05.md)
 - [2026-09-04](reports/2026-09-04.md)
