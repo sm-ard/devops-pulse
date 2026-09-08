@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-07
+## Latest — 2026-09-08
 
 ## Security (CVEs)
 
-- **[CVE-2026-86242](https://nvd.nist.gov/vuln/detail/CVE-2026-86242)** `HIGH` — Bifrost HTTP transport before 2.0.0 accepts an enabled custom plugin whose path is an HTTP URL through unauthenticated POST /api/plugins when management authentication is disabled (the default, gover…
+- **[CVE-2026-80238](https://nvd.nist.gov/vuln/detail/CVE-2026-80238)** `CRITICAL` — Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Execution with Unnecessary Privileges vulnerability. An unauthenticated atta…
 
 ## Releases
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-09-08](reports/2026-09-08.md)
 - [2026-09-07](reports/2026-09-07.md)
 - [2026-09-06](reports/2026-09-06.md)
 - [2026-09-05](reports/2026-09-05.md)
