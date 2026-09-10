@@ -6,40 +6,36 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-09
+## Latest — 2026-09-10
 
 ## Security (CVEs)
 
-- **[CVE-2026-77106](https://nvd.nist.gov/vuln/detail/CVE-2026-77106)** `HIGH` — Cvlaunchd contained a missing authorization issue affecting command execution authorization. Software customers upgrade to resolved maintenance release. Update all Commvault installations, including …
-- **[CVE-2026-86600](https://nvd.nist.gov/vuln/detail/CVE-2026-86600)** `HIGH` — In affected Snowflake drivers, WORKLOAD_IDENTITY authentication requests a cloud workload-identity token and attaches it to the login request without verifying that the configured host is a Snowflake…
-- **[CVE-2026-75156](https://nvd.nist.gov/vuln/detail/CVE-2026-75156)** `CRITICAL` — Apache Airflow FAB provider versions 3.7.3 through 3.8.0 do not validate the issuer or audience of Azure AD `id_token`s during OAuth login. Deployments are affected only when the FAB auth manager is …
-- **[CVE-2026-62895](https://nvd.nist.gov/vuln/detail/CVE-2026-62895)** `HIGH` — Permissive cross-domain policy with untrusted domains in Azure Arc allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-69854](https://nvd.nist.gov/vuln/detail/CVE-2026-69854)** `CRITICAL` — Improper authentication in Spring Cloud Azure allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-77909](https://nvd.nist.gov/vuln/detail/CVE-2026-77909)** `HIGH` — Insufficiently protected credentials in Azure CycleCloud allows an authorized attacker to disclose information over a network.
-- **[CVE-2026-81349](https://nvd.nist.gov/vuln/detail/CVE-2026-81349)** `HIGH` — Improper neutralization of special elements used in an os command ('os command injection') in Azure HDInsights allows an authorized attacker to elevate privileges over a network.
-- **[CVE-2026-83948](https://nvd.nist.gov/vuln/detail/CVE-2026-83948)** `HIGH` — Improper neutralization of special elements used in a command ('command injection') in Microsoft Azure CLI allows an authorized attacker to execute code over a network.
-- **[CVE-2026-86464](https://nvd.nist.gov/vuln/detail/CVE-2026-86464)** `CRITICAL` — In the current development version of Eclipse aeriOS, for which no official release has yet been published, the Identity Manager (IdM) deployment included insecure default configurations and credenti…
-- **[CVE-2026-21104](https://nvd.nist.gov/vuln/detail/CVE-2026-21104)** `HIGH` — Heap-based buffer overflow in KnoxVault trustlet prior to SMR Sep-2026 Release 1 allows local privileged attackers to execute arbitrary code.
+- **[CVE-2026-15140](https://nvd.nist.gov/vuln/detail/CVE-2026-15140)** `HIGH` — A privilege-escalation issue in the Portworx Operator when deployed on Red Hat OpenShift (OCP). Only under specific conditions during the initial provisioning of a Portworx storage cluster, a user ho…
+- **[CVE-2026-54694](https://nvd.nist.gov/vuln/detail/CVE-2026-54694)** `CRITICAL` — SkillTree is a micro-learning gamification platform. Prior to version 4.4.2, two independent code flaws combine into a single exploitable attack chain, with three distinct exploitation paths of escal…
+- **[CVE-2026-87911](https://nvd.nist.gov/vuln/detail/CVE-2026-87911)** `CRITICAL` — An OS command injection weakness in the read-only enforcement of the SQL validation component in Amazon awslabs postgres-mcp-server before 1.1.7 might allow an unauthenticated actor to execute operat…
+- **[CVE-2026-87999](https://nvd.nist.gov/vuln/detail/CVE-2026-87999)** `HIGH` — Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform. Prior to 0.11.1, POST /api/v1/retrieval/process/web and POST /api/v1/retrieval/process/web/search in backend/open…
 
 ## Releases
 
-No notable releases today.
+- **Helm** [`v4.3.0`](https://github.com/helm/helm/releases/tag/v4.3.0)
+- **Terraform** [`v1.16.2`](https://github.com/hashicorp/terraform/releases/tag/v1.16.2)
 
 ## News
 
+- [Kubernetes v1.37: Introducing Node Lifecycle Conditions](https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Advancing Workload-Aware Scheduling](https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/) — _Kubernetes Blog_
 - [Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta](https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/) — _Kubernetes Blog_
-- [Kubernetes v1.37: DRA Updates](https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/) — _Kubernetes Blog_
-- [OpenAI GPT-6 Astra is now generally available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/) — _AWS What's New_
-- [Amazon Timestream for InfluxDB 3 now supports custom plugins](https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/) — _AWS What's New_
-- [Amazon SageMaker Feature Store now supports individual feature updates to lower write latency](https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/) — _AWS What's New_
-- [Power agent hubs or custom harnesses with the Antigravity SDK in one toolkit](https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/) — _Google Cloud Blog_
-- [Agentic analytics with the Data Agent Kit](https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/) — _Google Cloud Blog_
+- [Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/) — _AWS What's New_
+- [AWS Transform for .NET modernization is now generally available via CLI](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli) — _AWS What's New_
+- [AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/) — _AWS What's New_
+- [Enterprise-grade PostgreSQL with AlloyDB Omni RPM Orchestrator is generally available](https://cloud.google.com/blog/products/databases/alloydb-omni-rpm-orchestrator-is-generally-available/) — _Google Cloud Blog_
+- [Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Assistants](https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-09-10](reports/2026-09-10.md)
 - [2026-09-09](reports/2026-09-09.md)
 - [2026-09-08](reports/2026-09-08.md)
 - [2026-09-07](reports/2026-09-07.md)
