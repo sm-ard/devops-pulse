@@ -6,22 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-11
+## Latest — 2026-09-12
 
 ## Security (CVEs)
 
-- **[CVE-2026-88877](https://nvd.nist.gov/vuln/detail/CVE-2026-88877)** `CRITICAL` — Traefik is a HTTP reverse proxy and load balancer. In versions >= v3.7.0 and <= v3.7.11, the Kubernetes ingress-nginx provider mishandles Ingresses that carry both an authentication annotation and th…
-- **[CVE-2026-88881](https://nvd.nist.gov/vuln/detail/CVE-2026-88881)** `CRITICAL` — Renovate, a dependency update tool, follows pagination links supplied by the GitHub server in the HTTP `Link` header when interacting with GitHub.com, GitHub Enterprise Cloud, or GitHub Enterprise Se…
-- **[CVE-2026-88882](https://nvd.nist.gov/vuln/detail/CVE-2026-88882)** `CRITICAL` — Renovate is a dependency update automation tool. In versions before 44.11.2 (and Mend Renovate CE/EE images and charts before 15.4.0, and mend-renovate-enterprise-edition helm chart before 10.4.0), w…
-- **[CVE-2026-88883](https://nvd.nist.gov/vuln/detail/CVE-2026-88883)** `HIGH` — Renovate is an automated dependency update tool. In versions before 44.14.4 (and Mend Renovate CE/EE images before 15.4.0 and the mend-renovate-enterprise-edition Helm chart before 10.4.0), log sanit…
-- **[CVE-2026-88885](https://nvd.nist.gov/vuln/detail/CVE-2026-88885)** `HIGH` — Renovate before 44.14.7 contains a command injection vulnerability in the gomod manager when processing unescaped depName parameters in import-path update commands with binarySource=docker mode. Atta…
-- **[CVE-2026-88886](https://nvd.nist.gov/vuln/detail/CVE-2026-88886)** `HIGH` — Renovate is a dependency update automation tool. In versions before 44.14.7 (and in Mend Renovate CE/EE distributions before 15.4.0, and the mend-renovate-enterprise-edition Helm chart before 10.4.0)…
-- **[CVE-2026-88887](https://nvd.nist.gov/vuln/detail/CVE-2026-88887)** `CRITICAL` — Renovate is a dependency update automation tool. When listing tags/digests for a container image, Renovate follows pagination links supplied by the remote registry in the HTTP Link header and attache…
-- **[CVE-2026-88888](https://nvd.nist.gov/vuln/detail/CVE-2026-88888)** `HIGH` — Renovate before 44.14.7 contains a command injection vulnerability in the Mix manager when processing private dependencies with unescaped organization parameters. Attackers can inject shell metachara…
-- **[CVE-2026-88889](https://nvd.nist.gov/vuln/detail/CVE-2026-88889)** `HIGH` — Renovate before 44.14.7 contains a command injection vulnerability in the Maven Wrapper manager that allows attackers to execute arbitrary commands by specifying a malicious distributionType paramete…
-- **[CVE-2026-88893](https://nvd.nist.gov/vuln/detail/CVE-2026-88893)** `HIGH` — OpenPanel share lookup procedures fail to validate access controls and return password hashes and protected report definitions to unauthenticated callers. Attackers with a share link can retrieve arg…
-- **[CVE-2026-87993](https://nvd.nist.gov/vuln/detail/CVE-2026-87993)** `HIGH` — The consul-template library is vulnerable to an information disclosure issue in its error handling path that may allow Vault secret values to appear in template error messages, log output, and downst…
-- **[CVE-2026-89049](https://nvd.nist.gov/vuln/detail/CVE-2026-89049)** `HIGH` — A server-side request forgery issue due to improper validation of equivalent address representations in the port forwarding to remote hosts functionality in Amazon AWS Systems Manager Agent (SSM Agen…
+- **[CVE-2026-89090](https://nvd.nist.gov/vuln/detail/CVE-2026-89090)** `HIGH` — An unrecovered panic in the event stream header decoder in Amazon AWS SDK for Go v2 before release-2026-03-23 might allow an unauthenticated remote actor to terminate the consuming application proces…
 
 ## Releases
 
@@ -29,19 +18,20 @@ No notable releases today.
 
 ## News
 
+- [Kubernetes v1.37: Native Histograms Graduates to Beta](https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)](https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Introducing Node Lifecycle Conditions](https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/) — _Kubernetes Blog_
-- [Kubernetes v1.37: Advancing Workload-Aware Scheduling](https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/) — _Kubernetes Blog_
-- [AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud](https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud) — _AWS What's New_
-- [AWS Transform for .NET now generates unit tests for modernized code](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests) — _AWS What's New_
-- [Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/) — _AWS What's New_
+- [Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)](https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/) — _AWS What's New_
+- [Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts](https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/) — _AWS What's New_
+- [AWS Lambda now supports direct read configuration for Amazon S3 Files](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/) — _AWS What's New_
+- [3 Highlights from Thomas Kurian’s Keynote at the Goldman Sachs Communicopia & Technology Conference](https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/) — _Google Cloud Blog_
 - [Introducing the Google Cloud Developer Plugin for AI Coding Agents](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/) — _Google Cloud Blog_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-09-12](reports/2026-09-12.md)
 - [2026-09-11](reports/2026-09-11.md)
 - [2026-09-10](reports/2026-09-10.md)
 - [2026-09-09](reports/2026-09-09.md)
