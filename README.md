@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-12
+## Latest — 2026-09-13
 
 ## Security (CVEs)
 
-- **[CVE-2026-89090](https://nvd.nist.gov/vuln/detail/CVE-2026-89090)** `HIGH` — An unrecovered panic in the event stream header decoder in Amazon AWS SDK for Go v2 before release-2026-03-23 might allow an unauthenticated remote actor to terminate the consuming application proces…
+No notable CVEs today.
 
 ## Releases
 
@@ -21,9 +21,9 @@ No notable releases today.
 - [Kubernetes v1.37: Native Histograms Graduates to Beta](https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)](https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Introducing Node Lifecycle Conditions](https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/) — _Kubernetes Blog_
+- [AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode](https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/) — _AWS What's New_
 - [Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)](https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/) — _AWS What's New_
 - [Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts](https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/) — _AWS What's New_
-- [AWS Lambda now supports direct read configuration for Amazon S3 Files](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/) — _AWS What's New_
 - [3 Highlights from Thomas Kurian’s Keynote at the Goldman Sachs Communicopia & Technology Conference](https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/) — _Google Cloud Blog_
 - [Introducing the Google Cloud Developer Plugin for AI Coding Agents](https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/) — _Google Cloud Blog_
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-09-13](reports/2026-09-13.md)
 - [2026-09-12](reports/2026-09-12.md)
 - [2026-09-11](reports/2026-09-11.md)
 - [2026-09-10](reports/2026-09-10.md)
