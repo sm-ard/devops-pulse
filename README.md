@@ -6,7 +6,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-13
+## Latest — 2026-09-14
 
 ## Security (CVEs)
 
@@ -14,7 +14,7 @@ No notable CVEs today.
 
 ## Releases
 
-No notable releases today.
+- **Argo CD** [`v3.5.3`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.3)
 
 ## News
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-09-14](reports/2026-09-14.md)
 - [2026-09-13](reports/2026-09-13.md)
 - [2026-09-12](reports/2026-09-12.md)
 - [2026-09-11](reports/2026-09-11.md)
