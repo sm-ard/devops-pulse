@@ -6,29 +6,13 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-18
+## Latest — 2026-09-19
 
 ## Security (CVEs)
 
-- **[CVE-2026-54053](https://nvd.nist.gov/vuln/detail/CVE-2026-54053)** `CRITICAL` — Many Notes is a Markdown note-taking web application designed for simplicity. Prior to 0.16.0, the ZIP vault import implemented in app/Actions/ProcessImportedVault.php accepts archive filenames conta…
-- **[CVE-2026-45720](https://nvd.nist.gov/vuln/detail/CVE-2026-45720)** `HIGH` — Omni manages Kubernetes on bare metal, virtual machines, or in a cloud. Prior to 1.6.6 and from 1.7.0 until 1.7.3, SAML.getSession in internal/pkg/auth/interceptor/saml.go checks SAMLAssertion.Used a…
-- **[CVE-2026-45726](https://nvd.nist.gov/vuln/detail/CVE-2026-45726)** `HIGH` — Omni manages Kubernetes on bare metal, virtual machines, or in a cloud. From 1.3.0 until 1.6.6 and 1.7.3, importing a standalone Talos cluster creates an ImportedClusterSecrets resource containing th…
-- **[CVE-2026-50125](https://nvd.nist.gov/vuln/detail/CVE-2026-50125)** `HIGH` — MKP is a Model Context Protocol server for Kubernetes. Prior to 0.4.1, cmd/server/main.go exposes the default HTTP endpoint and pkg/mcp/server.go registers the unauthenticated get_resource tool, whic…
-- **[CVE-2026-54618](https://nvd.nist.gov/vuln/detail/CVE-2026-54618)** `CRITICAL` — Obsidian Web MCP is a secure remote MCP server for Obsidian vaults. Prior to 0.2.0, /oauth/authorize issues an authorization code without a login, consent, or session check, and /oauth/token can exch…
-- **[CVE-2026-92943](https://nvd.nist.gov/vuln/detail/CVE-2026-92943)** `CRITICAL` — Improper validation of certificate with host mismatch in the MQTT client TLS connection layer in AWS IoT Device SDK for Python 1.5.3 through 1.6.0 on Python 3.7 and later might allow an adversary-in-…
-- **[CVE-2026-54597](https://nvd.nist.gov/vuln/detail/CVE-2026-54597)** `HIGH` — ITFlow provides an IT documentation, ticketing and accounting system for small managed service providers. Prior to version 26.07, an authenticated user with module_support write permission and access…
-- **[CVE-2026-54634](https://nvd.nist.gov/vuln/detail/CVE-2026-54634)** `HIGH` — Hamlib is a ham radio control library for radios, rotators, and amplifiers. Prior to 4.7.2, the unauthenticated rigctld send_raw command on TCP port 4532 reaches rigctl_send_raw() in tests/rigctl_par…
-- **[CVE-2026-68791](https://nvd.nist.gov/vuln/detail/CVE-2026-68791)** `HIGH` — Incorrect authorization in Azure Machine Learning allows an unauthorized attacker to disclose information over a network.
-- **[CVE-2026-69399](https://nvd.nist.gov/vuln/detail/CVE-2026-69399)** `CRITICAL` — Azure Arc Elevation of Privilege Vulnerability
-- **[CVE-2026-70009](https://nvd.nist.gov/vuln/detail/CVE-2026-70009)** `CRITICAL` — Improper limitation of a pathname to a restricted directory ('path traversal') in Azure Arc allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-70200](https://nvd.nist.gov/vuln/detail/CVE-2026-70200)** `CRITICAL` — Improper limitation of a pathname to a restricted directory ('path traversal') in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-83944](https://nvd.nist.gov/vuln/detail/CVE-2026-83944)** `CRITICAL` — Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-85889](https://nvd.nist.gov/vuln/detail/CVE-2026-85889)** `CRITICAL` — Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-85917](https://nvd.nist.gov/vuln/detail/CVE-2026-85917)** `HIGH` — Server-side request forgery (ssrf) in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-87701](https://nvd.nist.gov/vuln/detail/CVE-2026-87701)** `CRITICAL` — Improper neutralization of special elements in output used by a downstream component ('injection') in Azure Cosmos DB allows an authorized attacker to elevate privileges over a network.
-- **[CVE-2026-62874](https://nvd.nist.gov/vuln/detail/CVE-2026-62874)** `CRITICAL` — Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-83946](https://nvd.nist.gov/vuln/detail/CVE-2026-83946)** `HIGH` — Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over a network.
-- **[CVE-2026-85878](https://nvd.nist.gov/vuln/detail/CVE-2026-85878)** `CRITICAL` — Improper authorization in Azure Database for PostgreSQL allows an authorized attacker to elevate privileges over a network.
+- **[CVE-2026-61682](https://nvd.nist.gov/vuln/detail/CVE-2026-61682)** `CRITICAL` — kcp is a Kubernetes-like control plane for form-factors and use-cases beyond Kubernetes and container workloads. Prior to 0.31.4 and 0.32.2, the kcp front-proxy does not remove inbound X-Remote-User,…
+- **[CVE-2026-58197](https://nvd.nist.gov/vuln/detail/CVE-2026-58197)** `HIGH` — ToolHive is a utility designed to simplify the deployment and management of Model Context Protocol servers. Prior to ToolHive CLI 0.30.1 and ToolHive Studio 0.38.0, locally run MCP server containers …
+- **[CVE-2026-61672](https://nvd.nist.gov/vuln/detail/CVE-2026-61672)** `HIGH` — Capsule is a multi-tenancy and policy-based framework for Kubernetes. Prior to 0.13.7, ForbiddenListSpec.ExactMatch in pkg/api/forbidden_list.go sorts denied metadata keys case-insensitively and then…
 
 ## Releases
 
@@ -39,16 +23,17 @@ No notable releases today.
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta](https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/) — _Kubernetes Blog_
 - [Kubernetes Changed Block Tracking API - Beta Differences](https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/) — _Kubernetes Blog_
-- [AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)](https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/) — _AWS What's New_
-- [AWS HealthOmics now supports IAM session policies](https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/) — _AWS What's New_
-- [AWS Batch now supports bulk job cancellation and termination](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/) — _AWS What's New_
-- [Google named a Leader in the External Threat Intelligence Service Forrester Wave™](https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-external-threat-intelligence-service-forrester-wave/) — _Google Cloud Blog_
-- [The future of orchestration: Pine59’s journey to Airflow 3 on Google Cloud](https://cloud.google.com/blog/topics/supply-chain-logistics/the-future-of-orchestration-pine59s-journey-to-airflow-3-on-google-cloud/) — _Google Cloud Blog_
+- [AWS Continuum now supports credential testing and accessible domain suggestions](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/) — _AWS What's New_
+- [Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/) — _AWS What's New_
+- [AWS Resilience Hub adds three new capabilities](https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/) — _AWS What's New_
+- [Announcing Native BM25 Ranking in AlloyDB and Cloud SQL](https://cloud.google.com/blog/products/databases/native-bm25-search-in-alloydb-and-cloud-sql/) — _Google Cloud Blog_
+- [Reimagining service delivery in the agentic era with Google Public Sector](https://cloud.google.com/blog/topics/public-sector/reimagining-service-delivery-in-the-agentic-era-with-google-public-sector/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-09-19](reports/2026-09-19.md)
 - [2026-09-18](reports/2026-09-18.md)
 - [2026-09-17](reports/2026-09-17.md)
 - [2026-09-16](reports/2026-09-16.md)
