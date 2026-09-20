@@ -6,13 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-19
+## Latest — 2026-09-20
 
 ## Security (CVEs)
 
-- **[CVE-2026-61682](https://nvd.nist.gov/vuln/detail/CVE-2026-61682)** `CRITICAL` — kcp is a Kubernetes-like control plane for form-factors and use-cases beyond Kubernetes and container workloads. Prior to 0.31.4 and 0.32.2, the kcp front-proxy does not remove inbound X-Remote-User,…
-- **[CVE-2026-58197](https://nvd.nist.gov/vuln/detail/CVE-2026-58197)** `HIGH` — ToolHive is a utility designed to simplify the deployment and management of Model Context Protocol servers. Prior to ToolHive CLI 0.30.1 and ToolHive Studio 0.38.0, locally run MCP server containers …
-- **[CVE-2026-61672](https://nvd.nist.gov/vuln/detail/CVE-2026-61672)** `HIGH` — Capsule is a multi-tenancy and policy-based framework for Kubernetes. Prior to 0.13.7, ForbiddenListSpec.ExactMatch in pkg/api/forbidden_list.go sorts denied metadata keys case-insensitively and then…
+- **[CVE-2026-93991](https://nvd.nist.gov/vuln/detail/CVE-2026-93991)** `HIGH` — Argo Workflows versions 4.1.0 through 4.1.3 contain an authorization bypass vulnerability in ListArchivedWorkflows that fails to apply cluster-scoped access review when the metadata.namespace field s…
 
 ## Releases
 
@@ -33,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-09-20](reports/2026-09-20.md)
 - [2026-09-19](reports/2026-09-19.md)
 - [2026-09-18](reports/2026-09-18.md)
 - [2026-09-17](reports/2026-09-17.md)
