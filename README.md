@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-20
+## Latest — 2026-09-21
 
 ## Security (CVEs)
 
-- **[CVE-2026-93991](https://nvd.nist.gov/vuln/detail/CVE-2026-93991)** `HIGH` — Argo Workflows versions 4.1.0 through 4.1.3 contain an authorization bypass vulnerability in ListArchivedWorkflows that fails to apply cluster-scoped access review when the metadata.namespace field s…
+- **[CVE-2026-92574](https://nvd.nist.gov/vuln/detail/CVE-2026-92574)** `HIGH` — A vulnerability in CRI-O checkpoint restore allows a user who can create a pod from a malicious checkpointed container to bypass the destination Kubernetes security context. The restored process may …
 
 ## Releases
 
@@ -21,9 +21,9 @@ No notable releases today.
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta](https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/) — _Kubernetes Blog_
 - [Kubernetes Changed Block Tracking API - Beta Differences](https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/) — _Kubernetes Blog_
+- [Amazon EC2 X8i instances are now available in the South America (São Paulo) Region](https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/) — _AWS What's New_
 - [AWS Continuum now supports credential testing and accessible domain suggestions](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/) — _AWS What's New_
 - [Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/) — _AWS What's New_
-- [AWS Resilience Hub adds three new capabilities](https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/) — _AWS What's New_
 - [Announcing Native BM25 Ranking in AlloyDB and Cloud SQL](https://cloud.google.com/blog/products/databases/native-bm25-search-in-alloydb-and-cloud-sql/) — _Google Cloud Blog_
 - [Reimagining service delivery in the agentic era with Google Public Sector](https://cloud.google.com/blog/topics/public-sector/reimagining-service-delivery-in-the-agentic-era-with-google-public-sector/) — _Google Cloud Blog_
 
@@ -31,6 +31,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-09-21](reports/2026-09-21.md)
 - [2026-09-20](reports/2026-09-20.md)
 - [2026-09-19](reports/2026-09-19.md)
 - [2026-09-18](reports/2026-09-18.md)
