@@ -6,29 +6,25 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-22
+## Latest — 2026-09-23
 
 ## Security (CVEs)
 
-- **[CVE-2026-55563](https://nvd.nist.gov/vuln/detail/CVE-2026-55563)** `HIGH` — Feast is the open source feature store for AI and machine learning. Prior to 0.65.0, .github/workflows/pr_integration_tests.yml uses pull_request_target with the synchronize event and preserves ok-to…
-- **[CVE-2026-85751](https://nvd.nist.gov/vuln/detail/CVE-2026-85751)** `CRITICAL` — Mailu is a mail server distributed as a set of Docker images. From Mailu 2.0 until 2024.06.55 and prior to Mailu helm-charts 2.7.3, deployments with PROXY_AUTH_WHITELIST configured but REAL_IP_HEADER…
-- **[CVE-2026-76898](https://nvd.nist.gov/vuln/detail/CVE-2026-76898)** `HIGH` — draw.io is a configurable diagramming and whiteboarding application. Prior to version 30.3.8, src/main/java/com/mxgraph/online/Utils.java checks IPv6 Unique Local Addresses in Utils.sanitizeUrl() by …
-- **[CVE-2026-77560](https://nvd.nist.gov/vuln/detail/CVE-2026-77560)** `HIGH` — Tinyauth is an authentication and authorization server. Prior to 5.1.2, Tinyauth compares forwarded hostnames case-sensitively while reverse proxies route equivalent hostnames case-insensitively, all…
-- **[CVE-2026-61647](https://nvd.nist.gov/vuln/detail/CVE-2026-61647)** `HIGH` — NotebookLM MCP is an MCP server and HTTP service for interacting with Google NotebookLM and exporting generated content to local vault directories. Versions 1.6.0 through 2.0.2 contain a path travers…
-- **[CVE-2026-79916](https://nvd.nist.gov/vuln/detail/CVE-2026-79916)** `CRITICAL` — MaxKB is an open-source AI assistant for enterprise. Prior to 2.10.5-lts, authenticated workspace members can inject control characters into AWS Bedrock access_key_id and secret_access_key fields tha…
+- **[CVE-2026-75608](https://nvd.nist.gov/vuln/detail/CVE-2026-75608)** `HIGH` — Frigate is an open source network video recorder. Prior to 0.18.0, the prefix-matched location /api/go2rtc/api in docker/main/rootfs/usr/local/nginx/conf/nginx.conf requires authentication but does n…
+- **[CVE-2026-95814](https://nvd.nist.gov/vuln/detail/CVE-2026-95814)** `HIGH` — Vaultwarden through 1.37.3 omits organization membership status validation from three cipher access-restriction queries, allowing revoked and not-yet-confirmed members to retain read, write, delete, …
 
 ## Releases
 
-- **Istio** [`1.31.1`](https://github.com/istio/istio/releases/tag/1.31.1)
+- **etcd** [`v3.7.2`](https://github.com/etcd-io/etcd/releases/tag/v3.7.2)
 
 ## News
 
+- [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
-- [Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta](https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/) — _Kubernetes Blog_
-- [Amazon ECS now provides real-time deployment observability in the AWS Management Console](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/) — _AWS What's New_
-- [Amazon EVS now in scope for FedRAMP Class C](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/) — _AWS What's New_
-- [Amazon EC2 X8i instances are now available in the South America (São Paulo) Region](https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/) — _AWS What's New_
+- [Amazon CloudWatch Omni: AI-first observability for agents and applications](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/) — _AWS What's New_
+- [Billing Transfer now supports automatic billing group creation for two-level transfers](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/) — _AWS What's New_
+- [OpenAI GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/) — _AWS What's New_
 - [Global AI routing with <1% overhead on multi-cluster GKE Inference Gateway](https://cloud.google.com/blog/products/containers-kubernetes/gpu-and-tpu-utilization-with-multi-cluster-gke-inference-gateway/) — _Google Cloud Blog_
 - [Maximizing Apache Spark availability: Mitigating compute stockouts with flexible VMs and other best practices](https://cloud.google.com/blog/products/data-analytics/maximize-apache-spark-availability-with-flexible-vms/) — _Google Cloud Blog_
 
@@ -36,6 +32,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ## Archive
 
+- [2026-09-23](reports/2026-09-23.md)
 - [2026-09-22](reports/2026-09-22.md)
 - [2026-09-21](reports/2026-09-21.md)
 - [2026-09-20](reports/2026-09-20.md)
