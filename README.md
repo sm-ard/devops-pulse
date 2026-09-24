@@ -6,32 +6,33 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-23
+## Latest — 2026-09-24
 
 ## Security (CVEs)
 
-- **[CVE-2026-75608](https://nvd.nist.gov/vuln/detail/CVE-2026-75608)** `HIGH` — Frigate is an open source network video recorder. Prior to 0.18.0, the prefix-matched location /api/go2rtc/api in docker/main/rootfs/usr/local/nginx/conf/nginx.conf requires authentication but does n…
-- **[CVE-2026-95814](https://nvd.nist.gov/vuln/detail/CVE-2026-95814)** `HIGH` — Vaultwarden through 1.37.3 omits organization membership status validation from three cipher access-restriction queries, allowing revoked and not-yet-confirmed members to retain read, write, delete, …
+No notable CVEs today.
 
 ## Releases
 
-- **etcd** [`v3.7.2`](https://github.com/etcd-io/etcd/releases/tag/v3.7.2)
+- **Kubernetes** [`v1.37.1`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1)
+- **Terraform** [`v1.16.4`](https://github.com/hashicorp/terraform/releases/tag/v1.16.4)
 
 ## News
 
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
-- [Amazon CloudWatch Omni: AI-first observability for agents and applications](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/) — _AWS What's New_
-- [Billing Transfer now supports automatic billing group creation for two-level transfers](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/) — _AWS What's New_
-- [OpenAI GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/) — _AWS What's New_
-- [Global AI routing with <1% overhead on multi-cluster GKE Inference Gateway](https://cloud.google.com/blog/products/containers-kubernetes/gpu-and-tpu-utilization-with-multi-cluster-gke-inference-gateway/) — _Google Cloud Blog_
-- [Maximizing Apache Spark availability: Mitigating compute stockouts with flexible VMs and other best practices](https://cloud.google.com/blog/products/data-analytics/maximize-apache-spark-availability-with-flexible-vms/) — _Google Cloud Blog_
+- [Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion](https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys) — _AWS What's New_
+- [Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/) — _AWS What's New_
+- [Amazon Connect Customer now provides routing step data in the analytics data lake](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/) — _AWS What's New_
+- [A guide to speeding up your video processing with AlphaEvolve](https://cloud.google.com/blog/topics/developers-practitioners/how-to-speed-up-your-video-processing-with-alphaevolve/) — _Google Cloud Blog_
+- [GKE becomes more elastic: Scale to zero, save costs, and keep workloads responsive](https://cloud.google.com/blog/products/containers-kubernetes/gke-adds-native-scale-to-zero-capabilities/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-09-24](reports/2026-09-24.md)
 - [2026-09-23](reports/2026-09-23.md)
 - [2026-09-22](reports/2026-09-22.md)
 - [2026-09-21](reports/2026-09-21.md)
