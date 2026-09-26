@@ -6,36 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-25
+## Latest — 2026-09-26
 
 ## Security (CVEs)
 
-- **[CVE-2026-93425](https://nvd.nist.gov/vuln/detail/CVE-2026-93425)** `CRITICAL` — Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.29.13, the patch.readRepoDirectories tRPC procedure passes the user-controlled repoPath value from apps/dokploy/server/api/ro…
-- **[CVE-2026-94611](https://nvd.nist.gov/vuln/detail/CVE-2026-94611)** `HIGH` — authentik is an open-source identity provider. Prior to 2026.2.7, 2026.5.7, and 2026.8.2, authentik API serializers return stored credentials when an account has view permission on an affected config…
-- **[CVE-2026-61604](https://nvd.nist.gov/vuln/detail/CVE-2026-61604)** `CRITICAL` — The ixo Blockchain is a Layer 1 blockchain that runs on both Testnet and Mainnet. Prior to version 8.0.0, the x/bonds module moved funds from an address that was resolved from a DID verification meth…
-- **[CVE-2026-96883](https://nvd.nist.gov/vuln/detail/CVE-2026-96883)** `HIGH` — pgcollection is an open source extension to PostgreSQL. A type confusion issue in AWS pgcollection 2.0.0 through 2.1.1 might allow an authenticated remote user to execute arbitrary code as the postgr…
-- **[CVE-2026-95699](https://nvd.nist.gov/vuln/detail/CVE-2026-95699)** `HIGH` — Prior to 9/18/2026, the iSteamX mobile application's AWS policy could grant authenticated users access to wildcard MQTT topics, which can expose other users' device data and allow the attacker to sta…
+- **[CVE-2026-67408](https://nvd.nist.gov/vuln/detail/CVE-2026-67408)** `HIGH` — RabbitMQ is a messaging and streaming broker. From 4.1.0 until 4.3.3, 4.2.9, and 4.1.11, Stream Management Super-Stream Binding Keys Allocation Allows Low-Privilege Node Denial of Service. rabbitMQ 4…
+- **[CVE-2026-84458](https://nvd.nist.gov/vuln/detail/CVE-2026-84458)** `CRITICAL` — Zammad is a web based open source helpdesk/customer support system. Prior to 7.1.2, when the "Automatic account link on initial logon" setting is enabled, Zammad binds an incoming third-party (SSO) i…
+- **[CVE-2026-96795](https://nvd.nist.gov/vuln/detail/CVE-2026-96795)** `HIGH` — Horilla is an HR and CRM software. Prior to 2.0.0, HorillaListView.export_data in horilla_views/generic/cbv/views.py accepts an authenticated user's columns POST parameter, takes field_tuple[1], inte…
 
 ## Releases
 
-- **Prometheus** [`v3.15.0`](https://github.com/prometheus/prometheus/releases/tag/v3.15.0)
-- **containerd** [`v2.4.1`](https://github.com/containerd/containerd/releases/tag/v2.4.1)
+No notable releases today.
 
 ## News
 
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
-- [AWS Billing and Cost Management now provides billing context for your account through a new API](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/) — _AWS What's New_
-- [Amazon EventBridge relaunches event buses for enterprise scale](https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/) — _AWS What's New_
-- [AWS Lambda durable functions are now available in AWS European Sovereign Cloud region](https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/) — _AWS What's New_
-- [Agent Factory recap: Agent harnesses, shifting left, and autonomous coding](https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-agent-harnesses-shifting-left-and-autonomous-coding/) — _Google Cloud Blog_
-- [Google is a Leader in the 2026 Gartner Magic Quadrant for Container Management](https://cloud.google.com/blog/products/containers-kubernetes/2026-gartner-magic-quadrant-for-container-management/) — _Google Cloud Blog_
+- [Amazon Transcribe adds customer-managed KMS keys for custom resources](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/) — _AWS What's New_
+- [Amazon EC2 M8i and M8i-flex instances are now available in additional regions](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/) — _AWS What's New_
+- [Amazon EC2 R8i and R8i-flex instances are now available in additional regions](https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/) — _AWS What's New_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
+- [Unlock 3x QPS and microsecond latency with Memorystore for Valkey 9.1](https://cloud.google.com/blog/products/databases/memorystore-for-valkey-9-1-3x-qps-caching/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-09-26](reports/2026-09-26.md)
 - [2026-09-25](reports/2026-09-25.md)
 - [2026-09-24](reports/2026-09-24.md)
 - [2026-09-23](reports/2026-09-23.md)
