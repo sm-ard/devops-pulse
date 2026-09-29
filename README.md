@@ -6,11 +6,12 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-28
+## Latest — 2026-09-29
 
 ## Security (CVEs)
 
-- **[CVE-2026-101065](https://nvd.nist.gov/vuln/detail/CVE-2026-101065)** `CRITICAL` — Obot is an open-source AI agent/MCP platform. In all versions up to and including commit d7e6970, the Docker quickstart command documented in the README starts the container listening on 0.0.0.0:8080…
+- **[CVE-2026-87114](https://nvd.nist.gov/vuln/detail/CVE-2026-87114)** `HIGH` — A flaw was found in kube-compare. When processing a 'container://' reference path, the tool incorrectly executes an untrusted container image's entrypoint instead of merely extracting data from a sto…
+- **[CVE-2026-55160](https://nvd.nist.gov/vuln/detail/CVE-2026-55160)** `HIGH` — Stringer is a self-hosted, anti-social RSS reader. Prior to commit 75cb095, an unrestricted Server-Side Request Forgery (SSRF) vulnerability allows any authenticated user to force the Stringer server…
 
 ## Releases
 
@@ -21,16 +22,17 @@ No notable releases today.
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
-- [Amazon Transcribe adds customer-managed KMS keys for custom resources](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/) — _AWS What's New_
-- [Amazon EC2 M8i and M8i-flex instances are now available in additional regions](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/) — _AWS What's New_
-- [Amazon EC2 R8i and R8i-flex instances are now available in additional regions](https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/) — _AWS What's New_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
-- [Unlock 3x QPS and microsecond latency with Memorystore for Valkey 9.1](https://cloud.google.com/blog/products/databases/memorystore-for-valkey-9-1-3x-qps-caching/) — _Google Cloud Blog_
+- [Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates](https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/) — _AWS What's New_
+- [Amazon Rekognition Face Liveness now returns Feedback Codes](https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/) — _AWS What's New_
+- [Grok 4.7 is now available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/) — _AWS What's New_
+- [Why your startup needs open models alongside frontier APIs](https://cloud.google.com/blog/topics/startups/why-your-startup-needs-open-models-alongside-frontier-apis/) — _Google Cloud Blog_
+- [Introducing Ask, a new Google Earth Engine feature to accelerate geospatial coding](https://cloud.google.com/blog/products/data-analytics/accelerate-geospatial-coding-with-ai-in-google-earth-engine/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-09-29](reports/2026-09-29.md)
 - [2026-09-28](reports/2026-09-28.md)
 - [2026-09-27](reports/2026-09-27.md)
 - [2026-09-26](reports/2026-09-26.md)
