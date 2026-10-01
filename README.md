@@ -6,13 +6,14 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-09-30
+## Latest — 2026-10-01
 
 ## Security (CVEs)
 
-- **[CVE-2026-82973](https://nvd.nist.gov/vuln/detail/CVE-2026-82973)** `CRITICAL` — Improper neutralization of CRLF sequences in IMAP command construction in psyb0t/docker-mailbox before 0.4.13 allows a remote unauthenticated attacker, when bearer-token authentication is not configu…
-- **[CVE-2026-53988](https://nvd.nist.gov/vuln/detail/CVE-2026-53988)** `CRITICAL` — Dockhand before 1.0.40 contains an authentication bypass vulnerability in its git webhook endpoints that allows unauthenticated remote attackers to trigger arbitrary stack redeployments by exploiting…
-- **[CVE-2026-93853](https://nvd.nist.gov/vuln/detail/CVE-2026-93853)** `HIGH` — Unverified ownership in Barman snapshot backup deletion allows a principal who can write the backup catalog to cause Barman to delete unrelated cloud snapshots. When a snapshot backup is deleted, eit…
+- **[CVE-2026-55181](https://nvd.nist.gov/vuln/detail/CVE-2026-55181)** `CRITICAL` — Tugtainer is a self-hosted app for automating updates of Docker containers. Prior to version 1.30.3, Tugtainer's OIDC authentication can still be initiated even when OIDC_ENABLED=false. The /auth/oid…
+- **[CVE-2026-55494](https://nvd.nist.gov/vuln/detail/CVE-2026-55494)** `CRITICAL` — Tugtainer is a self-hosted app for automating updates of Docker containers. Prior to version 1.30.4, Tugtainer Agent allows unauthenticated access to Docker management APIs when AGENT_SECRET is not c…
+- **[CVE-2026-62308](https://nvd.nist.gov/vuln/detail/CVE-2026-62308)** `CRITICAL` — Tugtainer is a self-hosted app for automating updates of Docker containers. Prior to version 1.30.6, Tugtainer allows an authenticated user to make the backend server send outbound HTTP requests to a…
+- **[CVE-2026-87004](https://nvd.nist.gov/vuln/detail/CVE-2026-87004)** `HIGH` — Tugtainer is a self-hosted app for automating updates of Docker containers. Prior to version 1.31.3, when the OIDC login flow completes, backend/modules/auth/providers/auth_oidc_provider.py decodes t…
 
 ## Releases
 
@@ -23,16 +24,17 @@ No notable releases today.
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
-- [Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview](https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/) — _AWS What's New_
-- [Amazon RDS now adds full snapshot size information to the Console and API](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/) — _AWS What's New_
-- [OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/) — _AWS What's New_
-- [Accelerating agentic RL and evaluation research velocity with 45x faster GKE Agent Sandbox](https://cloud.google.com/blog/products/containers-kubernetes/accelerate-agentic-rl-with-gke-agent-sandbox/) — _Google Cloud Blog_
-- [Graph Workflows in ADK: Everything You Need to Know](https://cloud.google.com/blog/topics/developers-practitioners/graph-workflows-in-adk-everything-you-need-to-know/) — _Google Cloud Blog_
+- [Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/) — _AWS What's New_
+- [AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/) — _AWS What's New_
+- [Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search](https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/) — _AWS What's New_
+- [What’s new in AI infrastructure and orchestration in September](https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/) — _Google Cloud Blog_
+- [Cloud CISO Perspectives: How cybersecurity startups can win CISOs](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-cybersecurity-startups-can-win-cisos/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-01](reports/2026-10-01.md)
 - [2026-09-30](reports/2026-09-30.md)
 - [2026-09-29](reports/2026-09-29.md)
 - [2026-09-28](reports/2026-09-28.md)
