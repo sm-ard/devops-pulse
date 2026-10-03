@@ -6,31 +6,35 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-02
+## Latest — 2026-10-03
 
 ## Security (CVEs)
 
-- **[CVE-2026-15911](https://nvd.nist.gov/vuln/detail/CVE-2026-15911)** `HIGH` — Confluent Kafka Python client's HashiCorp Vault KMS integration could allow a remote attacker to obtain sensitive information due to improper TLS certificate validation.
+- **[CVE-2026-104859](https://nvd.nist.gov/vuln/detail/CVE-2026-104859)** `HIGH` — Nx is a monorepo solution for TypeScript and polyglot codebases. From 21.4.0 until 22.7.8 and from 23.0.0 until 23.1.1, the @nx/docker release pipeline builds docker tag, image lookup, and docker pus…
+- **[CVE-2026-103956](https://nvd.nist.gov/vuln/detail/CVE-2026-103956)** `CRITICAL` — Missing authentication for critical function in the authentication dependency in Loom for AWS before 1.6.1 allowed remote actors to obtain super-admin authority over the agent control plane, includin…
+- **[CVE-2026-103957](https://nvd.nist.gov/vuln/detail/CVE-2026-103957)** `HIGH` — Server-side request forgery in the OAuth2 discovery handling in Loom for AWS before 1.7.0 might allow an authenticated remote user to obtain the access token of another user of the deployment and to …
+- **[CVE-2026-103958](https://nvd.nist.gov/vuln/detail/CVE-2026-103958)** `HIGH` — Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS before 1.7.0 might allow an authenticated remote user to obtain the credentials of the application'…
 
 ## Releases
 
-No notable releases today.
+- **Terraform** [`v1.16.5`](https://github.com/hashicorp/terraform/releases/tag/v1.16.5)
 
 ## News
 
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
-- [GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/) — _AWS What's New_
-- [AWS Well-Architected Agent is now available in preview](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/) — _AWS What's New_
-- [Amazon Redshift now supports cross-Region queries for your data lake](https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake) — _AWS What's New_
-- [Enabling Cloud Storage end-to-end checksums for improved data integrity and durability](https://cloud.google.com/blog/products/storage-data-transfer/enabling-end-to-end-checksums-in-cloud-storage/) — _Google Cloud Blog_
-- [Accelerating analytics: PayPal’s journey with Managed Service for Apache Spark](https://cloud.google.com/blog/products/data-analytics/paypals-journey-with-managed-service-for-apache-spark/) — _Google Cloud Blog_
+- [Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments) — _AWS What's New_
+- [AWS Health introduces the version catalog for software lifecycle management](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management) — _AWS What's New_
+- [Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37) — _AWS What's New_
+- [AI21 achieves an 83% reduction in time-to-start for AI workloads with AI Hypercomputer](https://cloud.google.com/blog/products/containers-kubernetes/ai21-trains-its-models-on-ai-hypercomputer/) — _Google Cloud Blog_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-03](reports/2026-10-03.md)
 - [2026-10-02](reports/2026-10-02.md)
 - [2026-10-01](reports/2026-10-01.md)
 - [2026-09-30](reports/2026-09-30.md)
