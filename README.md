@@ -6,11 +6,12 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-04
+## Latest — 2026-10-05
 
 ## Security (CVEs)
 
-No notable CVEs today.
+- **[CVE-2026-105216](https://nvd.nist.gov/vuln/detail/CVE-2026-105216)** `CRITICAL` — go-micro before 6.0.0 contains an improper certificate validation vulnerability that allows network attackers to impersonate services because the shared TLS helper sets InsecureSkipVerify to true by …
+- **[CVE-2026-105223](https://nvd.nist.gov/vuln/detail/CVE-2026-105223)** `CRITICAL` — maclof kubernetes-client 0.17.0 before 0.32.0 disables TLS certificate verification in parseKubeconfig() and parseKubeconfigFile() when a kubeconfig lacks certificate-authority-data, ignoring insecur…
 
 ## Releases
 
@@ -23,7 +24,7 @@ No notable releases today.
 - [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
 - [Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments) — _AWS What's New_
 - [AWS Health introduces the version catalog for software lifecycle management](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management) — _AWS What's New_
-- [Amazon Aurora DSQL now supports partial indexes](https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/) — _AWS What's New_
+- [Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37) — _AWS What's New_
 - [AI21 achieves an 83% reduction in time-to-start for AI workloads with AI Hypercomputer](https://cloud.google.com/blog/products/containers-kubernetes/ai21-trains-its-models-on-ai-hypercomputer/) — _Google Cloud Blog_
 - [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 
@@ -31,6 +32,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-10-05](reports/2026-10-05.md)
 - [2026-10-04](reports/2026-10-04.md)
 - [2026-10-03](reports/2026-10-03.md)
 - [2026-10-02](reports/2026-10-02.md)
