@@ -6,12 +6,20 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-05
+## Latest — 2026-10-06
 
 ## Security (CVEs)
 
-- **[CVE-2026-105216](https://nvd.nist.gov/vuln/detail/CVE-2026-105216)** `CRITICAL` — go-micro before 6.0.0 contains an improper certificate validation vulnerability that allows network attackers to impersonate services because the shared TLS helper sets InsecureSkipVerify to true by …
-- **[CVE-2026-105223](https://nvd.nist.gov/vuln/detail/CVE-2026-105223)** `CRITICAL` — maclof kubernetes-client 0.17.0 before 0.32.0 disables TLS certificate verification in parseKubeconfig() and parseKubeconfigFile() when a kubeconfig lacks certificate-authority-data, ignoring insecur…
+- **[CVE-2026-102282](https://nvd.nist.gov/vuln/detail/CVE-2026-102282)** `HIGH` — adm-zip is a JavaScript library for creating and extracting ZIP archives in Node.js. Prior to 0.6.1, adm-zip applies the Unix permission bits stored in a zip entry directly to the extracted file via …
+- **[CVE-2026-86671](https://nvd.nist.gov/vuln/detail/CVE-2026-86671)** `HIGH` — In Eclipse Che versions 7.29.0 and later, the GET `/api/scm/resolve` and `POST /api/factory/resolver` endpoints pass an attacker-controlled URL to `URLFetcher.fetch()`, which calls `new URL(url).open…
+- **[CVE-2026-101919](https://nvd.nist.gov/vuln/detail/CVE-2026-101919)** `HIGH` — A flaw was found in the HyperShift operator. The operator copies user-provided Kubernetes configuration (kubeconfig) secrets directly into the privileged control plane namespace without proper valida…
+- **[CVE-2026-105641](https://nvd.nist.gov/vuln/detail/CVE-2026-105641)** `CRITICAL` — Plane is an open-source project management tool. Prior to 1.4.0, the deployments/aio/community/ and deployments/cli/community/ manifests provide fixed, publicly known SECRET_KEY and LIVE_SERVER_SECRE…
+- **[CVE-2026-105071](https://nvd.nist.gov/vuln/detail/CVE-2026-105071)** `HIGH` — Unauthenticated Sensitive Data Exposure in SiteVault – Backup, Restore, Migration &amp; Cloning <= 1.5.17 versions.
+- **[CVE-2026-105985](https://nvd.nist.gov/vuln/detail/CVE-2026-105985)** `HIGH` — Craft CMS 5.10.13.2 contains an authenticated remote code execution vulnerability in the Control Panel action app/render-components.
+
+
+
+Any authenticated user with basic Control Panel access can subm…
 
 ## Releases
 
@@ -19,19 +27,20 @@ No notable releases today.
 
 ## News
 
+- [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
 - [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
-- [Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions](https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/) — _Kubernetes Blog_
-- [Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments) — _AWS What's New_
-- [AWS Health introduces the version catalog for software lifecycle management](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management) — _AWS What's New_
-- [Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37) — _AWS What's New_
+- [Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views](https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views) — _AWS What's New_
+- [GLM 5.3 by Z.ai is now generally available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/) — _AWS What's New_
+- [AWS IAM Identity Center now supports network access controls for Identity Store](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/) — _AWS What's New_
+- [Introducing Google Cloud Modernize, transforming for (and with) AI](https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/) — _Google Cloud Blog_
 - [AI21 achieves an 83% reduction in time-to-start for AI workloads with AI Hypercomputer](https://cloud.google.com/blog/products/containers-kubernetes/ai21-trains-its-models-on-ai-hypercomputer/) — _Google Cloud Blog_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-06](reports/2026-10-06.md)
 - [2026-10-05](reports/2026-10-05.md)
 - [2026-10-04](reports/2026-10-04.md)
 - [2026-10-03](reports/2026-10-03.md)
