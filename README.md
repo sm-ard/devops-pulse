@@ -6,40 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-06
+## Latest — 2026-10-07
 
 ## Security (CVEs)
 
-- **[CVE-2026-102282](https://nvd.nist.gov/vuln/detail/CVE-2026-102282)** `HIGH` — adm-zip is a JavaScript library for creating and extracting ZIP archives in Node.js. Prior to 0.6.1, adm-zip applies the Unix permission bits stored in a zip entry directly to the extracted file via …
-- **[CVE-2026-86671](https://nvd.nist.gov/vuln/detail/CVE-2026-86671)** `HIGH` — In Eclipse Che versions 7.29.0 and later, the GET `/api/scm/resolve` and `POST /api/factory/resolver` endpoints pass an attacker-controlled URL to `URLFetcher.fetch()`, which calls `new URL(url).open…
-- **[CVE-2026-101919](https://nvd.nist.gov/vuln/detail/CVE-2026-101919)** `HIGH` — A flaw was found in the HyperShift operator. The operator copies user-provided Kubernetes configuration (kubeconfig) secrets directly into the privileged control plane namespace without proper valida…
-- **[CVE-2026-105641](https://nvd.nist.gov/vuln/detail/CVE-2026-105641)** `CRITICAL` — Plane is an open-source project management tool. Prior to 1.4.0, the deployments/aio/community/ and deployments/cli/community/ manifests provide fixed, publicly known SECRET_KEY and LIVE_SERVER_SECRE…
-- **[CVE-2026-105071](https://nvd.nist.gov/vuln/detail/CVE-2026-105071)** `HIGH` — Unauthenticated Sensitive Data Exposure in SiteVault – Backup, Restore, Migration &amp; Cloning <= 1.5.17 versions.
-- **[CVE-2026-105985](https://nvd.nist.gov/vuln/detail/CVE-2026-105985)** `HIGH` — Craft CMS 5.10.13.2 contains an authenticated remote code execution vulnerability in the Control Panel action app/render-components.
-
-
-
-Any authenticated user with basic Control Panel access can subm…
+- **[CVE-2026-26287](https://nvd.nist.gov/vuln/detail/CVE-2026-26287)** `HIGH` — External Secrets Operator reads information from a third-party service and automatically injects the values as Kubernetes Secrets. Starting in version 0.10.0 and prior to version 1.3.2, a bug in the …
+- **[CVE-2026-96890](https://nvd.nist.gov/vuln/detail/CVE-2026-96890)** `HIGH` — A Server-Side Request Forgery (SSRF) vulnerability was identified in GitHub Enterprise Server that allowed a repository contributor to cause the appliance to issue requests to attacker-controlled int…
+- **[CVE-2026-105811](https://nvd.nist.gov/vuln/detail/CVE-2026-105811)** `HIGH` — Authorization bypass through a user-controlled key in the optional Amazon Q Business Lambda hook sample ( q-business-lambda-hook https://github.com/aws-solutions-library-samples/qnabot-on-aws/blob/ma…
 
 ## Releases
 
-No notable releases today.
+- **Argo CD** [`v3.5.4`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.4)
 
 ## News
 
+- [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
-- [Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)](https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/) — _Kubernetes Blog_
+- [AWS Batch now publishes job metrics to Amazon CloudWatch](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/) — _AWS What's New_
+- [AWS Certificate Manager now supports ACME issuance through AWS PrivateLink](https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink) — _AWS What's New_
 - [Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views](https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views) — _AWS What's New_
-- [GLM 5.3 by Z.ai is now generally available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/) — _AWS What's New_
-- [AWS IAM Identity Center now supports network access controls for Identity Store](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/) — _AWS What's New_
-- [Introducing Google Cloud Modernize, transforming for (and with) AI](https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/) — _Google Cloud Blog_
-- [AI21 achieves an 83% reduction in time-to-start for AI workloads with AI Hypercomputer](https://cloud.google.com/blog/products/containers-kubernetes/ai21-trains-its-models-on-ai-hypercomputer/) — _Google Cloud Blog_
+- [Announcing MCP Toolbox Java SDK v1.0: Agentic data access for the enterprise](https://cloud.google.com/blog/topics/developers-practitioners/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise/) — _Google Cloud Blog_
+- [Managed Apache Iceberg at scale: How Spanner powers Lakehouse runtime catalog](https://cloud.google.com/blog/products/data-analytics/lakehouse-runtime-catalog-powered-by-spanner/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-07](reports/2026-10-07.md)
 - [2026-10-06](reports/2026-10-06.md)
 - [2026-10-05](reports/2026-10-05.md)
 - [2026-10-04](reports/2026-10-04.md)
