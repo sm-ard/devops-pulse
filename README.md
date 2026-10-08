@@ -6,33 +6,36 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-07
+## Latest — 2026-10-08
 
 ## Security (CVEs)
 
-- **[CVE-2026-26287](https://nvd.nist.gov/vuln/detail/CVE-2026-26287)** `HIGH` — External Secrets Operator reads information from a third-party service and automatically injects the values as Kubernetes Secrets. Starting in version 0.10.0 and prior to version 1.3.2, a bug in the …
-- **[CVE-2026-96890](https://nvd.nist.gov/vuln/detail/CVE-2026-96890)** `HIGH` — A Server-Side Request Forgery (SSRF) vulnerability was identified in GitHub Enterprise Server that allowed a repository contributor to cause the appliance to issue requests to attacker-controlled int…
-- **[CVE-2026-105811](https://nvd.nist.gov/vuln/detail/CVE-2026-105811)** `HIGH` — Authorization bypass through a user-controlled key in the optional Amazon Q Business Lambda hook sample ( q-business-lambda-hook https://github.com/aws-solutions-library-samples/qnabot-on-aws/blob/ma…
+- **[CVE-2026-62251](https://nvd.nist.gov/vuln/detail/CVE-2026-62251)** `HIGH` — Homer is open source telecom observability software. Prior to version 11.0.283, the `V4StatisticsQuery` handler passes the user-supplied `rawquery` field directly to DuckDB without calling the `sqlva…
+- **[CVE-2026-92543](https://nvd.nist.gov/vuln/detail/CVE-2026-92543)** `HIGH` — Docker Engine classifies a registry hostname as insecure using an any-match DNS check. loadInsecureRegistries() injects 127.0.0.0/8 and ::1/128 as insecure CIDRs by default. isCIDRMatch resolves all …
+- **[CVE-2026-105816](https://nvd.nist.gov/vuln/detail/CVE-2026-105816)** `HIGH` — Vault and Vault Enterprise did not consistently verify that stored plugin catalog entries reference binaries within the configured plugin directory. When Vault uses Shamir seals and has an external p…
+- **[CVE-2026-89322](https://nvd.nist.gov/vuln/detail/CVE-2026-89322)** `HIGH` — Vault and Vault Enterprise did not consistently evaluate ACL policies against the canonical form of resource and policy names. This may allow an authenticated user with delegated permissions to bypas…
+- **[CVE-2026-87682](https://nvd.nist.gov/vuln/detail/CVE-2026-87682)** `HIGH` — Multiple OS Command Injection vulnerabilities exist in the management interface and session processing routines of Brocade Fabric OS versions before 10.0.1. Input processing flaws during remote manag…
 
 ## Releases
 
-- **Argo CD** [`v3.5.4`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.4)
+- **Vault** [`v2.1.2`](https://github.com/hashicorp/vault/releases/tag/v2.1.2)
 
 ## News
 
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
-- [AWS Batch now publishes job metrics to Amazon CloudWatch](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/) — _AWS What's New_
-- [AWS Certificate Manager now supports ACME issuance through AWS PrivateLink](https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink) — _AWS What's New_
-- [Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views](https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views) — _AWS What's New_
-- [Announcing MCP Toolbox Java SDK v1.0: Agentic data access for the enterprise](https://cloud.google.com/blog/topics/developers-practitioners/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise/) — _Google Cloud Blog_
-- [Managed Apache Iceberg at scale: How Spanner powers Lakehouse runtime catalog](https://cloud.google.com/blog/products/data-analytics/lakehouse-runtime-catalog-powered-by-spanner/) — _Google Cloud Blog_
+- [AWS Capabilities by Region now offers availability notifications for individual features and advanced filters](https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/) — _AWS What's New_
+- [AWS Config now supports 77 new resource types](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types) — _AWS What's New_
+- [Claude Haiku 5.5 is now available on AWS](https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/) — _AWS What's New_
+- [Innovation in Ireland: How Irish brands scale with Gemini Enterprise](https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini/) — _Google Cloud Blog_
+- [Empowering SMBs to do more with Gemini](https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-08](reports/2026-10-08.md)
 - [2026-10-07](reports/2026-10-07.md)
 - [2026-10-06](reports/2026-10-06.md)
 - [2026-10-05](reports/2026-10-05.md)
