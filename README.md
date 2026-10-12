@@ -6,15 +6,16 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-11
+## Latest — 2026-10-12
 
 ## Security (CVEs)
 
-- **[CVE-2026-42696](https://nvd.nist.gov/vuln/detail/CVE-2026-42696)** `CRITICAL` — Unauthenticated Remote Code Execution (RCE) in SiteVault – Backup, Restore, Migration &amp; Cloning <= 1.5.19 versions.
+- **[CVE-2026-19736](https://nvd.nist.gov/vuln/detail/CVE-2026-19736)** `HIGH` — The NXP MCUX TRNG entropy driver in drivers/entropy/entropy_mcux_trng.c passed the caller's byte count straight to the vendor SDK routine TRNG_GetRandomData(). On i.MX RT5xx and RT6xx parts the SDK c…
+- **[CVE-2026-108980](https://nvd.nist.gov/vuln/detail/CVE-2026-108980)** `HIGH` — Blinko through 1.8.8 allows directory traversal, overwriting startup files as root, via installPlugin. It builds the plugin install path from an unsanitized name in server/routerTrpc/plugin.ts, and t…
 
 ## Releases
 
-No notable releases today.
+- **Argo CD** [`v3.5.5`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.5)
 
 ## News
 
@@ -31,6 +32,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-10-12](reports/2026-10-12.md)
 - [2026-10-11](reports/2026-10-11.md)
 - [2026-10-10](reports/2026-10-10.md)
 - [2026-10-09](reports/2026-10-09.md)
