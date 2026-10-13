@@ -6,32 +6,43 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-12
+## Latest — 2026-10-13
 
 ## Security (CVEs)
 
-- **[CVE-2026-19736](https://nvd.nist.gov/vuln/detail/CVE-2026-19736)** `HIGH` — The NXP MCUX TRNG entropy driver in drivers/entropy/entropy_mcux_trng.c passed the caller's byte count straight to the vendor SDK routine TRNG_GetRandomData(). On i.MX RT5xx and RT6xx parts the SDK c…
-- **[CVE-2026-108980](https://nvd.nist.gov/vuln/detail/CVE-2026-108980)** `HIGH` — Blinko through 1.8.8 allows directory traversal, overwriting startup files as root, via installPlugin. It builds the plugin install path from an unsanitized name in server/routerTrpc/plugin.ts, and t…
+- **[CVE-2026-85951](https://nvd.nist.gov/vuln/detail/CVE-2026-85951)** `HIGH` — Progress MarkLogic Server 12.x releases before 12.1.0 and 11.x releases before 11.3.7 on Azure contain a server-side request forgery vulnerability that could allow an authenticated attacker to access…
+- **[CVE-2026-109245](https://nvd.nist.gov/vuln/detail/CVE-2026-109245)** `HIGH` — FreeRDP 3.0.0 before 3.32.0 contains an improper certificate validation vulnerability in freerdp_http_request() in libfreerdp/utils/http.c that completes TLS handshakes without verifying the server c…
+- **[CVE-2026-109358](https://nvd.nist.gov/vuln/detail/CVE-2026-109358)** `HIGH` — Edgeless Systems Contrast 1.8.0 before 1.24.1 contains an incorrect permissions vulnerability where the node installer writes the containerd config world-writable (0666). Local unprivileged users on …
+- **[CVE-2026-75888](https://nvd.nist.gov/vuln/detail/CVE-2026-75888)** `HIGH` — A flaw was found in the OpenShift console. An authenticated console user can exploit a Server-Side Request Forgery (SSRF) vulnerability by providing a specially crafted Helm chart URL without proper …
+- **[CVE-2026-85961](https://nvd.nist.gov/vuln/detail/CVE-2026-85961)** `HIGH` — On Azure deployments, Progress MarkLogic Server 12.x releases before 12.1.0 and 11.x releases before 11.3.7 may record security-sensitive authentication information in diagnostic logs under certain c…
+- **[CVE-2026-77363](https://nvd.nist.gov/vuln/detail/CVE-2026-77363)** `HIGH` — obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. Prior to 1.3.1, the Streamable HTTP transport does not validate the Host or Origin header or enable DNS-rebin…
+- **[CVE-2026-77366](https://nvd.nist.gov/vuln/detail/CVE-2026-77366)** `CRITICAL` — obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. Prior to 1.3.1, tool dispatch does not compare the caller-controlled input.vault value with the vault bound t…
+- **[CVE-2026-95837](https://nvd.nist.gov/vuln/detail/CVE-2026-95837)** `HIGH` — containerd is an open-source container runtime. From 2.1.0 until 2.2.7 and 2.3.4, containerd's CRI CreateContainer checkpoint restore is vulnerable because CRIU restores process security state from c…
+- **[CVE-2026-18517](https://nvd.nist.gov/vuln/detail/CVE-2026-18517)** `HIGH` — IBM Maximo Application Suite - Location Service for Esri Component 9.2, 9.1, and 9.0 IBM Maximo Application Suite — Location Service for Esri Component is vulnerable to unintended network egress due …
+- **[CVE-2026-18529](https://nvd.nist.gov/vuln/detail/CVE-2026-18529)** `HIGH` — IBM Maximo Application Suite - Location Service for Esri Component 9.2, 9.1, and 9.0 is vulnerable to command injection due to improper sanitisation of a user-controlled value passed to a shell comma…
+- **[CVE-2026-18537](https://nvd.nist.gov/vuln/detail/CVE-2026-18537)** `HIGH` — IBM Maximo Application Suite - Location Service for Esri Component 9.2, 9.1, and 9.0 is vulnerable to improper input validation due to an unsanitised container image reference in a Kubernetes operato…
+- **[CVE-2026-84317](https://nvd.nist.gov/vuln/detail/CVE-2026-84317)** `HIGH` — Nginx UI is a web user interface for the Nginx web server. Prior to 2.4.1, internal/config/validation.go (ValidateConfigFile) is a security control that blocks dangerous nginx directives — js_*, perl…
 
 ## Releases
 
-- **Argo CD** [`v3.5.5`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.5)
+No notable releases today.
 
 ## News
 
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
 - [Spotlight on SIG Apps](https://kubernetes.io/blog/2026/09/22/sig-apps-spotlight/) — _Kubernetes Blog_
-- [AWS Security Hub now exports findings to S3 in CSV or JSON format](https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/) — _AWS What's New_
-- [Amazon EC2 R8gd instances are now available in additional regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/) — _AWS What's New_
-- [Amazon EC2 R8g instances now available in additional regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/) — _AWS What's New_
-- [Modernizing Unstructured Data Workflows: Alteryx Live Query meets Google Cloud BigQuery](https://cloud.google.com/blog/products/data-analytics/modernize-unstructured-data-workloads-with-alteryx-and-bigquery/) — _Google Cloud Blog_
-- [What’s new with Google Data Cloud](https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/) — _Google Cloud Blog_
+- [Amazon CloudFront now supports AWS Lambda Web Functions as an origin](https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/) — _AWS What's New_
+- [Amazon EC2 G7 instances now available in Europe (Frankfurt) and Europe (Stockholm) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/) — _AWS What's New_
+- [Amazon Connect Customer now prefills step-by-step guides for after contact work](https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-prefills-guides-acw) — _AWS What's New_
+- [One Agent Development Kit, five languages](https://cloud.google.com/blog/topics/developers-practitioners/one-agent-development-kit-five-languages/) — _Google Cloud Blog_
+- [Agentic data science with the Data Agent Kit](https://cloud.google.com/blog/products/data-analytics/bringing-you-the-data-agent-kit/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-13](reports/2026-10-13.md)
 - [2026-10-12](reports/2026-10-12.md)
 - [2026-10-11](reports/2026-10-11.md)
 - [2026-10-10](reports/2026-10-10.md)
