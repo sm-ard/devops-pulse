@@ -6,39 +6,39 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-15
+## Latest — 2026-10-16
 
 ## Security (CVEs)
 
-- **[CVE-2026-94197](https://nvd.nist.gov/vuln/detail/CVE-2026-94197)** `HIGH` — An authentication and authorization bypass vulnerability exists in F5 NGINX Kubernetes Ingress Controller (NIC) when configured with the `ExternalAuth` policy or Ingress external authentication. Clie…
-- **[CVE-2026-103929](https://nvd.nist.gov/vuln/detail/CVE-2026-103929)** `HIGH` — mise manages dev tools like node, python, cmake, and terraform. Prior to 2026.7.14, in the default non-safe mode, mise loads .mise.toml [settings] from an untrusted local project before trust approva…
-- **[CVE-2026-86002](https://nvd.nist.gov/vuln/detail/CVE-2026-86002)** `CRITICAL` — Dokku is a docker-powered platform as a service. In Dokku versions before 0.38.25, a user with app-level Dokku access and remote SSH access to execute docker-options commands can store arbitrary stri…
-- **[CVE-2026-91881](https://nvd.nist.gov/vuln/detail/CVE-2026-91881)** `CRITICAL` — Dell Terraform Provider for Redfish, versions prior to 1.6.2, contains an Improper Certificate Validation vulnerability in the HTTP transport component. An unauthenticated attacker with remote access…
-- **[CVE-2026-91882](https://nvd.nist.gov/vuln/detail/CVE-2026-91882)** `HIGH` — Dell Terraform Provider for OME, versions 1.0.0 through 1.2.3, contains an Insertion of Sensitive Information into Externally-Accessible File or Directory vulnerability in the API client error handli…
-- **[CVE-2026-77524](https://nvd.nist.gov/vuln/detail/CVE-2026-77524)** `CRITICAL` — KEDA is a Kubernetes-based Event Driven Autoscaling component. In version 2.20.2 and earlier, a namespace administrator who can create TriggerAuthentication and ScaledObject resources can set hashiCo…
-- **[CVE-2026-100413](https://nvd.nist.gov/vuln/detail/CVE-2026-100413)** `HIGH` — SeaweedFS is a distributed storage system for files and blobs. From 4.0.388 until 4.41, the SFTP Helm chart embedded one unencrypted Ed25519 private host key in k8s/charts/seaweedfs/templates/sftp/sf…
-- **[CVE-2026-53999](https://nvd.nist.gov/vuln/detail/CVE-2026-53999)** `HIGH` — Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps. Prior to 0.58.0, the Kubernetes controller deserializes the user-contro…
-- **[CVE-2026-110868](https://nvd.nist.gov/vuln/detail/CVE-2026-110868)** `HIGH` — Renovate before 44.79.0 contains a server-side request forgery vulnerability that allows users to make the shared HTTP client request arbitrary internal URLs via extends presets or customDatasources.…
+- **[CVE-2026-92982](https://nvd.nist.gov/vuln/detail/CVE-2026-92982)** `HIGH` — A flaw was found in Ansible Operator Plugins. A low-privileged Kubernetes user can exploit a Jinja2 template injection vulnerability by crafting malicious custom resource (CR) specification values. T…
+- **[CVE-2026-77467](https://nvd.nist.gov/vuln/detail/CVE-2026-77467)** `HIGH` — Lychee is a free, open-source photo-management tool. Prior to 7.7.0, Lychee enables ImageMagick PDF support with Ghostscript but does not apply an effective pre-render limit to PDF page dimensions in…
+- **[CVE-2026-47218](https://nvd.nist.gov/vuln/detail/CVE-2026-47218)** `CRITICAL` — runwasi facilitates running Wasm and WASI workloads managed by containerd. Prior to 0.6.1, containerd-shim-wasmtime-v1 can treat Wasmtime precompiled bytes supplied directly in an OCI image layer as …
+- **[CVE-2026-55587](https://nvd.nist.gov/vuln/detail/CVE-2026-55587)** `HIGH` — AliasVault is a privacy-first password manager with built-in email aliasing. Prior to 0.29.4, the AliasVault browser extension passkey provider does not bind passkey requests to the actual webpage or…
+- **[CVE-2026-105037](https://nvd.nist.gov/vuln/detail/CVE-2026-105037)** `CRITICAL` — EnergizeLab station-middleware (NestJS) Docker images 1.6.5 through 1.8.2 allow any registered, low-privilege account to read arbitrary files from the server by supplying an attacker-controlled file …
+- **[CVE-2026-105039](https://nvd.nist.gov/vuln/detail/CVE-2026-105039)** `CRITICAL` — EnergizeLab station-middleware (NestJS) Docker images 1.6.5 through 1.8.2 do not check user roles on administrative APIs. Any authenticated low-privilege user can retrieve AI provider keys and change…
 
 ## Releases
 
-- **Helm** [`v4.3.1`](https://github.com/helm/helm/releases/tag/v4.3.1)
+- **Istio** [`1.31.2`](https://github.com/istio/istio/releases/tag/1.31.2)
+- **Cilium** [`v1.20.3`](https://github.com/cilium/cilium/releases/tag/v1.20.3)
+- **Vault** [`v2.2.0`](https://github.com/hashicorp/vault/releases/tag/v2.2.0)
 
 ## News
 
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
-- [Amazon CloudWatch announces log routing and chained log parsers](https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/) — _AWS What's New_
-- [Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in](https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/) — _AWS What's New_
-- [ARC Region switch adds four new capabilities](https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/) — _AWS What's New_
-- [Cloud CISO Perspectives: New Gemini Notebook can help CISOs and policymakers prepare for PQC](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-new-gemini-notebook-can-help-cisos-policymakers-prepare-for-pqc/) — _Google Cloud Blog_
-- [Predictable AI spend in BigQuery: Introducing cost management for generative AI functions](https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/) — _Google Cloud Blog_
+- [Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/) — _AWS What's New_
+- [Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options](https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/) — _AWS What's New_
+- [Amazon EC2 T8i instances are now available in South America (São Paulo)](https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/) — _AWS What's New_
+- [Temporal Serverless Workers on Cloud Run: Scale workers ahead of demand](https://cloud.google.com/blog/products/serverless/temporal-serverless-workers-on-cloud-run-worker-pools/) — _Google Cloud Blog_
+- [What the Gemini agent means for startups](https://cloud.google.com/blog/topics/startups/what-the-gemini-agent-means-for-startups/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-16](reports/2026-10-16.md)
 - [2026-10-15](reports/2026-10-15.md)
 - [2026-10-14](reports/2026-10-14.md)
 - [2026-10-13](reports/2026-10-13.md)
