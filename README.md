@@ -6,38 +6,36 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-16
+## Latest — 2026-10-17
 
 ## Security (CVEs)
 
-- **[CVE-2026-92982](https://nvd.nist.gov/vuln/detail/CVE-2026-92982)** `HIGH` — A flaw was found in Ansible Operator Plugins. A low-privileged Kubernetes user can exploit a Jinja2 template injection vulnerability by crafting malicious custom resource (CR) specification values. T…
-- **[CVE-2026-77467](https://nvd.nist.gov/vuln/detail/CVE-2026-77467)** `HIGH` — Lychee is a free, open-source photo-management tool. Prior to 7.7.0, Lychee enables ImageMagick PDF support with Ghostscript but does not apply an effective pre-render limit to PDF page dimensions in…
-- **[CVE-2026-47218](https://nvd.nist.gov/vuln/detail/CVE-2026-47218)** `CRITICAL` — runwasi facilitates running Wasm and WASI workloads managed by containerd. Prior to 0.6.1, containerd-shim-wasmtime-v1 can treat Wasmtime precompiled bytes supplied directly in an OCI image layer as …
-- **[CVE-2026-55587](https://nvd.nist.gov/vuln/detail/CVE-2026-55587)** `HIGH` — AliasVault is a privacy-first password manager with built-in email aliasing. Prior to 0.29.4, the AliasVault browser extension passkey provider does not bind passkey requests to the actual webpage or…
-- **[CVE-2026-105037](https://nvd.nist.gov/vuln/detail/CVE-2026-105037)** `CRITICAL` — EnergizeLab station-middleware (NestJS) Docker images 1.6.5 through 1.8.2 allow any registered, low-privilege account to read arbitrary files from the server by supplying an attacker-controlled file …
-- **[CVE-2026-105039](https://nvd.nist.gov/vuln/detail/CVE-2026-105039)** `CRITICAL` — EnergizeLab station-middleware (NestJS) Docker images 1.6.5 through 1.8.2 do not check user roles on administrative APIs. Any authenticated low-privilege user can retrieve AI provider keys and change…
+- **[CVE-2026-57169](https://nvd.nist.gov/vuln/detail/CVE-2026-57169)** `CRITICAL` — Dockhand is a Docker management application. Prior to 1.0.34, the in-browser container terminal endpoint /api/containers/<id>/exec does not enforce authentication on the WebSocket upgrade request. Wh…
+- **[CVE-2026-86008](https://nvd.nist.gov/vuln/detail/CVE-2026-86008)** `HIGH` — Mailu is a mail server distributed as a set of Docker images. Prior to 8577c929b4ade04d3cd4210cf036601abd793556, a domain manager targeting an administrative account or another domain manager with gr…
+- **[CVE-2026-86009](https://nvd.nist.gov/vuln/detail/CVE-2026-86009)** `HIGH` — Mailu is a mail server distributed as a set of Docker images. Prior to f05aeb8322e2f61096af6b089d61ba6f40587d96, domain managers can enable spoofing for hosted domains they do not control. A potentia…
+- **[CVE-2026-96626](https://nvd.nist.gov/vuln/detail/CVE-2026-96626)** `HIGH` — Arcane is an interface for managing Docker containers, images, networks, and volumes. Prior to 2.5.0, UpdateRegistry and TestRegistry in backend/api/services/container_registry_service.go allow the r…
+- **[CVE-2026-96627](https://nvd.nist.gov/vuln/detail/CVE-2026-96627)** `HIGH` — Arcane is an interface for managing Docker containers, images, networks, and volumes. Prior to 2.6.0, UpdateUser in backend/api/handlers/users.go sets PasswordHash for any target without comparing ca…
 
 ## Releases
 
-- **Istio** [`1.31.2`](https://github.com/istio/istio/releases/tag/1.31.2)
-- **Cilium** [`v1.20.3`](https://github.com/cilium/cilium/releases/tag/v1.20.3)
-- **Vault** [`v2.2.0`](https://github.com/hashicorp/vault/releases/tag/v2.2.0)
+No notable releases today.
 
 ## News
 
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
-- [Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/) — _AWS What's New_
-- [Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options](https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/) — _AWS What's New_
-- [Amazon EC2 T8i instances are now available in South America (São Paulo)](https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/) — _AWS What's New_
-- [Temporal Serverless Workers on Cloud Run: Scale workers ahead of demand](https://cloud.google.com/blog/products/serverless/temporal-serverless-workers-on-cloud-run-worker-pools/) — _Google Cloud Blog_
-- [What the Gemini agent means for startups](https://cloud.google.com/blog/topics/startups/what-the-gemini-agent-means-for-startups/) — _Google Cloud Blog_
+- [Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion) — _AWS What's New_
+- [AWS Lambda durable functions are now available in AWS GovCloud (US) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/) — _AWS What's New_
+- [Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart](https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/) — _AWS What's New_
+- [Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo](https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud/) — _Google Cloud Blog_
+- [Architecting autonomy: A design pattern for high-compute, governed agents in biotech](https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-17](reports/2026-10-17.md)
 - [2026-10-16](reports/2026-10-16.md)
 - [2026-10-15](reports/2026-10-15.md)
 - [2026-10-14](reports/2026-10-14.md)
