@@ -6,15 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-17
+## Latest — 2026-10-18
 
 ## Security (CVEs)
 
-- **[CVE-2026-57169](https://nvd.nist.gov/vuln/detail/CVE-2026-57169)** `CRITICAL` — Dockhand is a Docker management application. Prior to 1.0.34, the in-browser container terminal endpoint /api/containers/<id>/exec does not enforce authentication on the WebSocket upgrade request. Wh…
-- **[CVE-2026-86008](https://nvd.nist.gov/vuln/detail/CVE-2026-86008)** `HIGH` — Mailu is a mail server distributed as a set of Docker images. Prior to 8577c929b4ade04d3cd4210cf036601abd793556, a domain manager targeting an administrative account or another domain manager with gr…
-- **[CVE-2026-86009](https://nvd.nist.gov/vuln/detail/CVE-2026-86009)** `HIGH` — Mailu is a mail server distributed as a set of Docker images. Prior to f05aeb8322e2f61096af6b089d61ba6f40587d96, domain managers can enable spoofing for hosted domains they do not control. A potentia…
-- **[CVE-2026-96626](https://nvd.nist.gov/vuln/detail/CVE-2026-96626)** `HIGH` — Arcane is an interface for managing Docker containers, images, networks, and volumes. Prior to 2.5.0, UpdateRegistry and TestRegistry in backend/api/services/container_registry_service.go allow the r…
-- **[CVE-2026-96627](https://nvd.nist.gov/vuln/detail/CVE-2026-96627)** `HIGH` — Arcane is an interface for managing Docker containers, images, networks, and volumes. Prior to 2.6.0, UpdateUser in backend/api/handlers/users.go sets PasswordHash for any target without comparing ca…
+No notable CVEs today.
 
 ## Releases
 
@@ -29,12 +25,13 @@ No notable releases today.
 - [AWS Lambda durable functions are now available in AWS GovCloud (US) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/) — _AWS What's New_
 - [Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart](https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/) — _AWS What's New_
 - [Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo](https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud/) — _Google Cloud Blog_
-- [Architecting autonomy: A design pattern for high-compute, governed agents in biotech](https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/) — _Google Cloud Blog_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-18](reports/2026-10-18.md)
 - [2026-10-17](reports/2026-10-17.md)
 - [2026-10-16](reports/2026-10-16.md)
 - [2026-10-15](reports/2026-10-15.md)
