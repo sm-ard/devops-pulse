@@ -6,11 +6,16 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-18
+## Latest — 2026-10-19
 
 ## Security (CVEs)
 
-No notable CVEs today.
+- **[CVE-2026-78164](https://nvd.nist.gov/vuln/detail/CVE-2026-78164)** `HIGH` — Improper Neutralization of Special Elements Used in a Template Engine and Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP, Netty HTTP, Undertow and Vert.…
+- **[CVE-2026-79986](https://nvd.nist.gov/vuln/detail/CVE-2026-79986)** `HIGH` — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel Azure Files component.
+
+
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from …
 
 ## Releases
 
@@ -25,12 +30,13 @@ No notable releases today.
 - [AWS Lambda durable functions are now available in AWS GovCloud (US) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/) — _AWS What's New_
 - [Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart](https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/) — _AWS What's New_
 - [Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo](https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud/) — _Google Cloud Blog_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
+- [Architecting autonomy: A design pattern for high-compute, governed agents in biotech](https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-19](reports/2026-10-19.md)
 - [2026-10-18](reports/2026-10-18.md)
 - [2026-10-17](reports/2026-10-17.md)
 - [2026-10-16](reports/2026-10-16.md)
