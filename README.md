@@ -6,7 +6,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-19
+## Latest — 2026-10-20
 
 ## Security (CVEs)
 
@@ -16,6 +16,13 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 
 This issue affects Apache Camel: from 4.0.0 before 4.18.5, from …
+- **[CVE-2026-103314](https://nvd.nist.gov/vuln/detail/CVE-2026-103314)** `HIGH` — A flaw was found in Red Hat Advanced Cluster Security for Kubernetes (RHACS). The Central SAML authentication ACS endpoint does not retain used SAML assertion or response identifiers to prevent repla…
+- **[CVE-2026-112264](https://nvd.nist.gov/vuln/detail/CVE-2026-112264)** `HIGH` — BentoML through 1.4.39 contains a Dockerfile instruction injection vulnerability that allows attackers to add arbitrary build instructions by embedding newlines in docker.env mapping keys rendered by…
+- **[CVE-2026-112893](https://nvd.nist.gov/vuln/detail/CVE-2026-112893)** `HIGH` — Pillow is a Python imaging library. From 10.0.0 until 13.0.0, Pillow can free an invalid glyph pointer during FreeType rendering with an active stroker. If FT_Load_Glyph fails, cleanup may call FT_Do…
+- **[CVE-2026-109440](https://nvd.nist.gov/vuln/detail/CVE-2026-109440)** `HIGH` — LangAlpha through 2026.09.07 contains an indirect prompt injection vulnerability that allows remote attackers to execute shell commands or Python by planting instructions in web content retrieved by …
+- **[CVE-2026-75128](https://nvd.nist.gov/vuln/detail/CVE-2026-75128)** `CRITICAL` — Langchain-Chatchat through 0.3.1.3 exposes a POST /tools/call API endpoint that invokes any registered tool by name without authentication, leaving the always-registered shell tool callable. Remote a…
+- **[CVE-2026-77933](https://nvd.nist.gov/vuln/detail/CVE-2026-77933)** `CRITICAL` — DB-GPT through 0.8.2 contains a hardcoded credentials vulnerability in its default docker-compose.yml that sets a static MYSQL_ROOT_PASSWORD and publishes port 3306 on all interfaces. Attackers reach…
+- **[CVE-2026-77934](https://nvd.nist.gov/vuln/detail/CVE-2026-77934)** `HIGH` — Coze Studio before 0.5.0 contains an insecure default configuration that allows any registered user to execute commands by running workflow code nodes in an unsandboxed python3 subprocess. Attackers …
 
 ## Releases
 
@@ -26,16 +33,17 @@ No notable releases today.
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
-- [Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion) — _AWS What's New_
-- [AWS Lambda durable functions are now available in AWS GovCloud (US) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/) — _AWS What's New_
-- [Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart](https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/) — _AWS What's New_
-- [Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo](https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud/) — _Google Cloud Blog_
-- [Architecting autonomy: A design pattern for high-compute, governed agents in biotech](https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/) — _Google Cloud Blog_
+- [Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across linked Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview) — _AWS What's New_
+- [Amazon CloudWatch Omni is now available in additional AWS Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/) — _AWS What's New_
+- [EC2 Image Builder now integrates with ASG for faster image builds](https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/) — _AWS What's New_
+- [Introducing Gemini for government services](https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/) — _Google Cloud Blog_
+- [Enabling the next era of sovereign AI: The latest Google Distributed Cloud innovations](https://cloud.google.com/blog/topics/hybrid-cloud/new-innovations-in-google-distributed-cloud/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-20](reports/2026-10-20.md)
 - [2026-10-19](reports/2026-10-19.md)
 - [2026-10-18](reports/2026-10-18.md)
 - [2026-10-17](reports/2026-10-17.md)
