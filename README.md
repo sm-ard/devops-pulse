@@ -6,42 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-21
+## Latest — 2026-10-22
 
 ## Security (CVEs)
 
-- **[CVE-2026-105311](https://nvd.nist.gov/vuln/detail/CVE-2026-105311)** `HIGH` — The StreamsHub Console operator acts as a confused deputy: a Kubernetes tenant with permission to create a Console custom resource can set spec.kafkaClusters[].credentials.kafkaUser.namespace to any …
-- **[CVE-2026-105312](https://nvd.nist.gov/vuln/detail/CVE-2026-105312)** `CRITICAL` — A Kubernetes tenant with create permission on Console custom resources can set spec.containers.api.spec.image to an arbitrary container image. The operator deploys this image into a pod whose Service…
-- **[CVE-2026-105941](https://nvd.nist.gov/vuln/detail/CVE-2026-105941)** `HIGH` — The Azure Key Vault KMS provider in Kroxylicious accepts an untrusted vaultName from wire-deserialized EDEK bytes without format validation, enabling SSRF that exfiltrates the proxy's Azure bearer to…
-- **[CVE-2026-113672](https://nvd.nist.gov/vuln/detail/CVE-2026-113672)** `CRITICAL` — Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. From 0.9.0 until 3.3.15, 3.4.10, 3.5.4, and 3.6.0-rc2, the repo-server evaluates .jsonnet files with an importer that does no…
-- **[CVE-2026-113708](https://nvd.nist.gov/vuln/detail/CVE-2026-113708)** `CRITICAL` — Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. From 2.7.0 until 3.3.15, 3.4.10, 3.5.4, and 3.6.0-rc2, Kustomize passes ref or version query values from remote resource, bas…
-- **[CVE-2026-113709](https://nvd.nist.gov/vuln/detail/CVE-2026-113709)** `CRITICAL` — Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. From 2.1.0 until 3.3.15, 3.4.10, 3.5.4, and 3.6.0-rc2, when an operator has enabled --enable-helm for kustomize build, helmGl…
-- **[CVE-2026-113725](https://nvd.nist.gov/vuln/detail/CVE-2026-113725)** `HIGH` — virtualenv is a tool for creating isolated virtual python environments. Prior to 21.14.7, the bash activate script escapes the environment name for only one of the two passes bash makes over PS1, so …
-- **[CVE-2026-112407](https://nvd.nist.gov/vuln/detail/CVE-2026-112407)** `HIGH` — Incorrect privilege assignment in the IAM policy of AWS CICD-toolchain-for-serverless-applications 1.0.7 through 1.0.10 allows remote authenticated users with push access to the application source re…
-- **[CVE-2026-113727](https://nvd.nist.gov/vuln/detail/CVE-2026-113727)** `HIGH` — OpenChoreo is a developer platform for Kubernetes. From 1.0.0 until 1.0.6, 1.1.7, and 1.2.5, the PUT .../workflowruns/{runName} update route authorizes a request using the openchoreo.dev/project and …
-- **[CVE-2026-114087](https://nvd.nist.gov/vuln/detail/CVE-2026-114087)** `CRITICAL` — Trigger.dev before 4.5.6 self-hosted Docker Compose deployments using the default secrets from hosting/docker/.env.example allow authentication bypass because the hardcoded MAGIC_LINK_SECRET lets any…
-- **[CVE-2026-114112](https://nvd.nist.gov/vuln/detail/CVE-2026-114112)** `HIGH` — Sharp before 0.35.4 bundles a vulnerable libheif dependency that allows attackers to achieve possible remote code execution on glibc-based Linux by supplying crafted images. Attackers can submit mali…
-- **[CVE-2026-114113](https://nvd.nist.gov/vuln/detail/CVE-2026-114113)** `HIGH` — Sharp before 0.35.0 bundles a version of libvips affected by multiple vulnerabilities (CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591 and CVE-2026-69242) in its GIF, TIFF and VIPS ima…
+> ⚠ Feed unavailable today: The read operation timed out
+
 
 ## Releases
 
-- **Argo CD** [`v3.5.6`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.6)
+- **Prometheus** [`v3.15.1`](https://github.com/prometheus/prometheus/releases/tag/v3.15.1)
+- **Terraform** [`v1.17.0`](https://github.com/hashicorp/terraform/releases/tag/v1.17.0)
 
 ## News
 
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
-- [Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services](https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/) — _AWS What's New_
-- [Amazon DynamoDB global tables now support disassociating replicas](https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/) — _AWS What's New_
-- [Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages](https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/) — _AWS What's New_
-- [Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search](https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search/) — _Google Cloud Blog_
-- [Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity](https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity/) — _Google Cloud Blog_
+- [AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx](https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/) — _AWS What's New_
+- [AWS Direct Connect announces 100G expansion in Manchester, England](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-manchester/) — _AWS What's New_
+- [Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/) — _AWS What's New_
+- [BigQuery ObjectRef now GA: Build multimodal data platforms for conversational analytics entirely in SQL](https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/) — _Google Cloud Blog_
+- [ZenteiQ scales batch inference 4x with GKE Inference Gateway powered by llm-d](https://cloud.google.com/blog/products/containers-kubernetes/zenteiq-scales-physical-ai-inference-4x-with-gke-and-llm-d/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-22](reports/2026-10-22.md)
 - [2026-10-21](reports/2026-10-21.md)
 - [2026-10-20](reports/2026-10-20.md)
 - [2026-10-19](reports/2026-10-19.md)
