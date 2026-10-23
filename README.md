@@ -6,33 +6,42 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-22
+## Latest — 2026-10-23
 
 ## Security (CVEs)
 
-> ⚠ Feed unavailable today: The read operation timed out
-
+- **[CVE-2026-115414](https://nvd.nist.gov/vuln/detail/CVE-2026-115414)** `HIGH` — OS command injection in the Terraform hook in AWS SAM CLI before 1.166.2 might allow an actor who can influence the Terraform configuration or plan file consumed by a build to execute arbitrary comma…
+- **[CVE-2026-115508](https://nvd.nist.gov/vuln/detail/CVE-2026-115508)** `HIGH` — Crawl4AI 0.7.0 before 0.9.5 contains an inefficient regular expression complexity vulnerability in the Docker API server that allows authenticated API clients to supply unbounded regular expressions …
+- **[CVE-2026-115417](https://nvd.nist.gov/vuln/detail/CVE-2026-115417)** `HIGH` — Memory allocation with excessive size value in the MQTT 3.1.1 compatibility adapter in AWS aws-c-mqtt before 0.16.2 might allow a remote actor to cause a denial of service of the client application.
+…
+- **[CVE-2026-105014](https://nvd.nist.gov/vuln/detail/CVE-2026-105014)** `CRITICAL` — Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network.
+- **[CVE-2026-108456](https://nvd.nist.gov/vuln/detail/CVE-2026-108456)** `HIGH` — Server-side request forgery (ssrf) in Azure AI Foundry allows an authorized attacker to elevate privileges over a network.
+- **[CVE-2026-110063](https://nvd.nist.gov/vuln/detail/CVE-2026-110063)** `CRITICAL` — Improper link resolution before file access ('link following') in VM Inspector for Azure Virtual Machines allows an unauthorized attacker to elevate privileges over a network.
+- **[CVE-2026-83938](https://nvd.nist.gov/vuln/detail/CVE-2026-83938)** `CRITICAL` — Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges over a network.
+- **[CVE-2026-54630](https://nvd.nist.gov/vuln/detail/CVE-2026-54630)** `CRITICAL` — Part-DB is an open source inventory management system for electronic components. Prior to version 2.12.1, the part attachment upload handler stores uploaded files under the web-served media directory…
 
 ## Releases
 
-- **Prometheus** [`v3.15.1`](https://github.com/prometheus/prometheus/releases/tag/v3.15.1)
-- **Terraform** [`v1.17.0`](https://github.com/hashicorp/terraform/releases/tag/v1.17.0)
+- **Istio** [`1.31.3`](https://github.com/istio/istio/releases/tag/1.31.3)
+- **etcd** [`v3.7.3`](https://github.com/etcd-io/etcd/releases/tag/v3.7.3)
+- **Vault** [`v2.2.1`](https://github.com/hashicorp/vault/releases/tag/v2.2.1)
 
 ## News
 
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
-- [AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx](https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/) — _AWS What's New_
-- [AWS Direct Connect announces 100G expansion in Manchester, England](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-manchester/) — _AWS What's New_
-- [Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/) — _AWS What's New_
-- [BigQuery ObjectRef now GA: Build multimodal data platforms for conversational analytics entirely in SQL](https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/) — _Google Cloud Blog_
-- [ZenteiQ scales batch inference 4x with GKE Inference Gateway powered by llm-d](https://cloud.google.com/blog/products/containers-kubernetes/zenteiq-scales-physical-ai-inference-4x-with-gke-and-llm-d/) — _Google Cloud Blog_
+- [Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace](https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp) — _AWS What's New_
+- [AWS Continuum for code vulnerabilities is now generally available](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available) — _AWS What's New_
+- [Amazon OpenSearch Serverless now supports a 5-second default refresh interval](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/) — _AWS What's New_
+- [Expanding Claude availability and deployment choice on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/) — _Google Cloud Blog_
+- [Introducing new self-learning context enrichment in Knowledge Catalog](https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-23](reports/2026-10-23.md)
 - [2026-10-22](reports/2026-10-22.md)
 - [2026-10-21](reports/2026-10-21.md)
 - [2026-10-20](reports/2026-10-20.md)
