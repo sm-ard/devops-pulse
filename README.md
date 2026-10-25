@@ -6,26 +6,22 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-24
+## Latest — 2026-10-25
 
 ## Security (CVEs)
 
-- **[CVE-2026-57117](https://nvd.nist.gov/vuln/detail/CVE-2026-57117)** `HIGH` — PraisonAI is a multi-agent teams system. From version 4.6.10 to before version 4.6.59, LocalManagedAgent / SandboxedAgent compute bridging wraps read_file, list_files, and write_file when a compute p…
-- **[CVE-2026-63120](https://nvd.nist.gov/vuln/detail/CVE-2026-63120)** `HIGH` — pghoard is a PostgreSQL backup daemon and restore tooling that stores backup data in cloud object stores. Prior to version 2.7.2, an incomplete path traversal fix in pghoard allows an attacker with w…
-- **[CVE-2026-106765](https://nvd.nist.gov/vuln/detail/CVE-2026-106765)** `HIGH` — An issue in @rog0x/mcp-docker-tools 1.0.1 allows a remote attacker to execute arbitrary code via the handleImageList function.
-- **[CVE-2026-115477](https://nvd.nist.gov/vuln/detail/CVE-2026-115477)** `HIGH` — obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. From 1.13.0 until 1.31.4, on a Streamable HTTP deployment with `auth.jwtSecret` configured and a 2026-07-28-e…
-- **[CVE-2026-115478](https://nvd.nist.gov/vuln/detail/CVE-2026-115478)** `HIGH` — obsidian-tc is a governed, agent-ready Model Context Protocol server for Obsidian vaults. From 1.0.1 until 1.31.4, `create_entity`, `link_entities`, `rename_entity`, `unlink_entities` and `delete_ent…
+No notable CVEs today.
 
 ## Releases
 
-- **Cilium** [`v1.20.4`](https://github.com/cilium/cilium/releases/tag/v1.20.4)
+No notable releases today.
 
 ## News
 
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
-- [Web Search on AWS Bedrock now supports domain filtering and user location controls](https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/) — _AWS What's New_
+- [Web Search on Amazon Bedrock now supports domain filtering and user location controls](https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/) — _AWS What's New_
 - [Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat) — _AWS What's New_
 - [AWS Transit Gateway and AWS Cloud WAN now support 1:1 NAT](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/) — _AWS What's New_
 - [Expanding Claude availability and deployment choice on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/) — _Google Cloud Blog_
@@ -35,6 +31,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ## Archive
 
+- [2026-10-25](reports/2026-10-25.md)
 - [2026-10-24](reports/2026-10-24.md)
 - [2026-10-23](reports/2026-10-23.md)
 - [2026-10-22](reports/2026-10-22.md)
