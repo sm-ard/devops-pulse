@@ -6,35 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-27
+## Latest — 2026-10-28
 
 ## Security (CVEs)
 
-- **[CVE-2026-115188](https://nvd.nist.gov/vuln/detail/CVE-2026-115188)** `CRITICAL` — An unrestricted file upload vulnerability exists in the campaign import feature of Mautic 7. When processing an uploaded campaign archive, the application copies the bundled asset files into a public…
-- **[CVE-2026-77055](https://nvd.nist.gov/vuln/detail/CVE-2026-77055)** `CRITICAL` — boneIO black_debian_images gives the boneio service account excessive privileges, including full passwordless sudo access and membership in the docker group. A local attacker who compromises the bone…
-- **[CVE-2026-112346](https://nvd.nist.gov/vuln/detail/CVE-2026-112346)** `CRITICAL` — OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code execution vulnerability where the DockerWorkspace and Apptainer workspace launchers bind the sandbox agent server to…
-- **[CVE-2026-115418](https://nvd.nist.gov/vuln/detail/CVE-2026-115418)** `HIGH` — SQL injection in the database-query custom resource handlers in the Amazon Web Services (AWS) Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module before 2.274.0-alpha.0 could allow a third…
-- **[CVE-2026-102649](https://nvd.nist.gov/vuln/detail/CVE-2026-102649)** `CRITICAL` — Burrito is a Terraform Automation Collaboration Software (TACoS) Kubernetes operator. Prior to 0.13.0, `POST /api/webhook` accepts unsigned GitHub and GitLab events when a `TerraformRepository`'s cre…
+- **[CVE-2026-116676](https://nvd.nist.gov/vuln/detail/CVE-2026-116676)** `HIGH` — Atlantis is a self-hosted golang application that listens for Terraform pull request events via webhooks. From version 0.4.0 until 0.47.1, Atlantis passes the pull-request-controlled workspace value …
+- **[CVE-2026-115413](https://nvd.nist.gov/vuln/detail/CVE-2026-115413)** `HIGH` — Missing token audience validation in the OAuth authentication mode of AWS API MCP Server before version 1.6.0 might allow local users to run AWS operations with the server's configured AWS credential…
+- **[CVE-2026-116683](https://nvd.nist.gov/vuln/detail/CVE-2026-116683)** `HIGH` — CTFer.io's CTFd Terraform Provider manages CTFd resources as code. From 0.1.5 until 2.8.2, ctfd_team.password is stored as a non-sensitive value in Terraform state. A local or remote user with access…
 
 ## Releases
 
-No notable releases today.
+- **Kubernetes** [`v1.37.2`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.2)
 
 ## News
 
+- [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
-- [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/) — _Kubernetes Blog_
-- [OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/) — _AWS What's New_
-- [Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/) — _AWS What's New_
-- [Amazon SageMaker Unified Studio adds light mode support for IDC-based domains](https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode) — _AWS What's New_
-- [Easy to integrate, compliant by design: Bringing the Swiss Franc to Google Cloud Universal Ledger](https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/) — _Google Cloud Blog_
-- [Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA](https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/) — _Google Cloud Blog_
+- [Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/) — _AWS What's New_
+- [SageMaker MLflow Apps now support MLflow 3.16](https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/) — _AWS What's New_
+- [Amazon Aurora serverless now supports up to 384 ACUs](https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/) — _AWS What's New_
+- [Introducing VMware solution on Google Cloud](https://cloud.google.com/blog/products/infrastructure-modernization/vmware-solution-on-google-cloud/) — _Google Cloud Blog_
+- [Powering the agentic enterprise with latest innovations in Oracle AI Database@Google Cloud](https://cloud.google.com/blog/products/databases/oracle-ai-databasegoogle-cloud-whats-new-at-oracle-ai-world/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-28](reports/2026-10-28.md)
 - [2026-10-27](reports/2026-10-27.md)
 - [2026-10-26](reports/2026-10-26.md)
 - [2026-10-25](reports/2026-10-25.md)
