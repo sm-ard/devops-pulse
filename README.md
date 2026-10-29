@@ -6,33 +6,38 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-28
+## Latest — 2026-10-29
 
 ## Security (CVEs)
 
-- **[CVE-2026-116676](https://nvd.nist.gov/vuln/detail/CVE-2026-116676)** `HIGH` — Atlantis is a self-hosted golang application that listens for Terraform pull request events via webhooks. From version 0.4.0 until 0.47.1, Atlantis passes the pull-request-controlled workspace value …
-- **[CVE-2026-115413](https://nvd.nist.gov/vuln/detail/CVE-2026-115413)** `HIGH` — Missing token audience validation in the OAuth authentication mode of AWS API MCP Server before version 1.6.0 might allow local users to run AWS operations with the server's configured AWS credential…
-- **[CVE-2026-116683](https://nvd.nist.gov/vuln/detail/CVE-2026-116683)** `HIGH` — CTFer.io's CTFd Terraform Provider manages CTFd resources as code. From 0.1.5 until 2.8.2, ctfd_team.password is stored as a non-sensitive value in Terraform state. A local or remote user with access…
+- **[CVE-2026-59177](https://nvd.nist.gov/vuln/detail/CVE-2026-59177)** `HIGH` — ESPHome Device Builder Dashboard is a dashboard for the ESPHome home management software. Prior to 1.0.10, the `Home Assistant` add-on's trusted `ingress` site binds to `0.0.0.0` while intentionally …
+- **[CVE-2026-59179](https://nvd.nist.gov/vuln/detail/CVE-2026-59179)** `HIGH` — OpenHop is a tool for creating interactive data-flow diagrams. Prior to 0.3.7, `@openhop/server` passes unauthenticated flow route parameters from `GET /api/flows/:id` and `DELETE /api/flows/:id` in …
+- **[CVE-2026-59185](https://nvd.nist.gov/vuln/detail/CVE-2026-59185)** `HIGH` — identrail is a machine identity security platform for AWS, GitHub/OIDC, and Kubernetes. Prior to 1.0.2, the default-on `POST /v1/workspaces/:workspace_id/projects/:project_id/github/connect/complete`…
+- **[CVE-2026-103506](https://nvd.nist.gov/vuln/detail/CVE-2026-103506)** `HIGH` — An authenticated user in Grafana can read SSO client secrets and modify instance-wide SSO settings without the required permissions (missing authorization). This affects Grafana OSS and Enterprise 13…
+- **[CVE-2026-88967](https://nvd.nist.gov/vuln/detail/CVE-2026-88967)** `HIGH` — A user with query access to an Azure Monitor data source in Grafana can cause server-side requests to an attacker-controlled endpoint that disclose the data source's Azure access token (server-side r…
+- **[CVE-2026-118244](https://nvd.nist.gov/vuln/detail/CVE-2026-118244)** `HIGH` — Highcharts JS is a JavaScript charting library based on SVG. From 12.0.0 until 12.6.1 and 13.1.0, Highcharts falls back to assigning raw markup to innerHTML when DOMParser cannot return a document, b…
+- **[CVE-2026-63190](https://nvd.nist.gov/vuln/detail/CVE-2026-63190)** `CRITICAL` — FearlessCMS is a flat-file `content` management system centered on simplicity and open source. Prior to version 0.1.4, five debug/test PHP scripts under `admin/` perform privileged operations without…
 
 ## Releases
 
-- **Kubernetes** [`v1.37.2`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.2)
+- **Terraform** [`v1.17.1`](https://github.com/hashicorp/terraform/releases/tag/v1.17.1)
 
 ## News
 
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
 - [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
-- [Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/) — _AWS What's New_
-- [SageMaker MLflow Apps now support MLflow 3.16](https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/) — _AWS What's New_
-- [Amazon Aurora serverless now supports up to 384 ACUs](https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/) — _AWS What's New_
-- [Introducing VMware solution on Google Cloud](https://cloud.google.com/blog/products/infrastructure-modernization/vmware-solution-on-google-cloud/) — _Google Cloud Blog_
-- [Powering the agentic enterprise with latest innovations in Oracle AI Database@Google Cloud](https://cloud.google.com/blog/products/databases/oracle-ai-databasegoogle-cloud-whats-new-at-oracle-ai-world/) — _Google Cloud Blog_
+- [Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp) — _AWS What's New_
+- [Amazon Bedrock AgentCore CLI version 1.0 is now available](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/) — _AWS What's New_
+- [AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/) — _AWS What's New_
+- [Introducing the AlloyDB Omni web UI for easier cluster observability](https://cloud.google.com/blog/products/databases/alloydb-omni-delivers-a-web-ui-for-cluster-observability/) — _Google Cloud Blog_
+- [Near-zero downtime upgrades: Announcing Cloud SQL for MySQL blue-green deployments](https://cloud.google.com/blog/products/databases/cloud-sql-blue-green-deployments/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-29](reports/2026-10-29.md)
 - [2026-10-28](reports/2026-10-28.md)
 - [2026-10-27](reports/2026-10-27.md)
 - [2026-10-26](reports/2026-10-26.md)
