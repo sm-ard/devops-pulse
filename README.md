@@ -6,37 +6,37 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-29
+## Latest — 2026-10-30
 
 ## Security (CVEs)
 
-- **[CVE-2026-59177](https://nvd.nist.gov/vuln/detail/CVE-2026-59177)** `HIGH` — ESPHome Device Builder Dashboard is a dashboard for the ESPHome home management software. Prior to 1.0.10, the `Home Assistant` add-on's trusted `ingress` site binds to `0.0.0.0` while intentionally …
-- **[CVE-2026-59179](https://nvd.nist.gov/vuln/detail/CVE-2026-59179)** `HIGH` — OpenHop is a tool for creating interactive data-flow diagrams. Prior to 0.3.7, `@openhop/server` passes unauthenticated flow route parameters from `GET /api/flows/:id` and `DELETE /api/flows/:id` in …
-- **[CVE-2026-59185](https://nvd.nist.gov/vuln/detail/CVE-2026-59185)** `HIGH` — identrail is a machine identity security platform for AWS, GitHub/OIDC, and Kubernetes. Prior to 1.0.2, the default-on `POST /v1/workspaces/:workspace_id/projects/:project_id/github/connect/complete`…
-- **[CVE-2026-103506](https://nvd.nist.gov/vuln/detail/CVE-2026-103506)** `HIGH` — An authenticated user in Grafana can read SSO client secrets and modify instance-wide SSO settings without the required permissions (missing authorization). This affects Grafana OSS and Enterprise 13…
-- **[CVE-2026-88967](https://nvd.nist.gov/vuln/detail/CVE-2026-88967)** `HIGH` — A user with query access to an Azure Monitor data source in Grafana can cause server-side requests to an attacker-controlled endpoint that disclose the data source's Azure access token (server-side r…
-- **[CVE-2026-118244](https://nvd.nist.gov/vuln/detail/CVE-2026-118244)** `HIGH` — Highcharts JS is a JavaScript charting library based on SVG. From 12.0.0 until 12.6.1 and 13.1.0, Highcharts falls back to assigning raw markup to innerHTML when DOMParser cannot return a document, b…
-- **[CVE-2026-63190](https://nvd.nist.gov/vuln/detail/CVE-2026-63190)** `CRITICAL` — FearlessCMS is a flat-file `content` management system centered on simplicity and open source. Prior to version 0.1.4, five debug/test PHP scripts under `admin/` perform privileged operations without…
+- **[CVE-2026-116864](https://nvd.nist.gov/vuln/detail/CVE-2026-116864)** `HIGH` — Author PHP Object Injection in WPCargo Track & Trace <= 8.0.5 versions.
+- **[CVE-2026-119119](https://nvd.nist.gov/vuln/detail/CVE-2026-119119)** `HIGH` — Crawl4AI before 0.9.5 contains a denial of service vulnerability in the Docker API server where _clamp_untrusted() fails to cap the delay_before_return_html, mean_delay, and max_range fields of untru…
+- **[CVE-2026-119120](https://nvd.nist.gov/vuln/detail/CVE-2026-119120)** `HIGH` — Crawl4AI from 0.9.0 before 0.9.5 fails to filter the CosineStrategy model_name field in untrusted Docker API request bodies, allowing authenticated clients to choose which HuggingFace model the serve…
+- **[CVE-2026-118763](https://nvd.nist.gov/vuln/detail/CVE-2026-118763)** `HIGH` — sigstore-js provides JavaScript libraries for interacting with Sigstore services. Prior to 0.7.2, packages/oci/src/registry.ts contains a RegistryClient.signIn() method that stores registry Authoriza…
+- **[CVE-2026-119115](https://nvd.nist.gov/vuln/detail/CVE-2026-119115)** `HIGH` — Incorrect authorization in the issuer resolution logic in AWS Private CA Connector for Kubernetes (aws-privateca-issuer) before v1.10.1 might allow an authenticated remote user to obtain certificates…
+- **[CVE-2026-13303](https://nvd.nist.gov/vuln/detail/CVE-2026-13303)** `HIGH` — HashiCorp Boundary and Boundary Enterprise are vulnerable to a server-side request forgery in the Vault credential store integration that may allow an authenticated user with permission to manage cre…
 
 ## Releases
 
-- **Terraform** [`v1.17.1`](https://github.com/hashicorp/terraform/releases/tag/v1.17.1)
+No notable releases today.
 
 ## News
 
+- [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [The Shift to cgroup v2 in Kubernetes: What You Need to Know](https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/) — _Kubernetes Blog_
-- [Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp) — _AWS What's New_
-- [Amazon Bedrock AgentCore CLI version 1.0 is now available](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/) — _AWS What's New_
-- [AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/) — _AWS What's New_
-- [Introducing the AlloyDB Omni web UI for easier cluster observability](https://cloud.google.com/blog/products/databases/alloydb-omni-delivers-a-web-ui-for-cluster-observability/) — _Google Cloud Blog_
-- [Near-zero downtime upgrades: Announcing Cloud SQL for MySQL blue-green deployments](https://cloud.google.com/blog/products/databases/cloud-sql-blue-green-deployments/) — _Google Cloud Blog_
+- [AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization) — _AWS What's New_
+- [Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes) — _AWS What's New_
+- [Amazon Aurora now supports post-quantum TLS key exchange](https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/) — _AWS What's New_
+- [Querying Databricks Apache Iceberg Tables with the borderless Lakehouse](https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/) — _Google Cloud Blog_
+- [Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&A)](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-30](reports/2026-10-30.md)
 - [2026-10-29](reports/2026-10-29.md)
 - [2026-10-28](reports/2026-10-28.md)
 - [2026-10-27](reports/2026-10-27.md)
