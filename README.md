@@ -6,16 +6,24 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-10-30
+## Latest — 2026-10-31
 
 ## Security (CVEs)
 
-- **[CVE-2026-116864](https://nvd.nist.gov/vuln/detail/CVE-2026-116864)** `HIGH` — Author PHP Object Injection in WPCargo Track & Trace <= 8.0.5 versions.
-- **[CVE-2026-119119](https://nvd.nist.gov/vuln/detail/CVE-2026-119119)** `HIGH` — Crawl4AI before 0.9.5 contains a denial of service vulnerability in the Docker API server where _clamp_untrusted() fails to cap the delay_before_return_html, mean_delay, and max_range fields of untru…
-- **[CVE-2026-119120](https://nvd.nist.gov/vuln/detail/CVE-2026-119120)** `HIGH` — Crawl4AI from 0.9.0 before 0.9.5 fails to filter the CosineStrategy model_name field in untrusted Docker API request bodies, allowing authenticated clients to choose which HuggingFace model the serve…
-- **[CVE-2026-118763](https://nvd.nist.gov/vuln/detail/CVE-2026-118763)** `HIGH` — sigstore-js provides JavaScript libraries for interacting with Sigstore services. Prior to 0.7.2, packages/oci/src/registry.ts contains a RegistryClient.signIn() method that stores registry Authoriza…
-- **[CVE-2026-119115](https://nvd.nist.gov/vuln/detail/CVE-2026-119115)** `HIGH` — Incorrect authorization in the issuer resolution logic in AWS Private CA Connector for Kubernetes (aws-privateca-issuer) before v1.10.1 might allow an authenticated remote user to obtain certificates…
-- **[CVE-2026-13303](https://nvd.nist.gov/vuln/detail/CVE-2026-13303)** `HIGH` — HashiCorp Boundary and Boundary Enterprise are vulnerable to a server-side request forgery in the Vault credential store integration that may allow an authenticated user with permission to manage cre…
+- **[CVE-2026-119572](https://nvd.nist.gov/vuln/detail/CVE-2026-119572)** `HIGH` — Traefik from 3.7.0-ea.1 before 3.7.15 contains an authentication bypass vulnerability in the Kubernetes Ingress NGINX provider that silently disables mTLS configured via the auth-tls-secret annotatio…
+- **[CVE-2026-61730](https://nvd.nist.gov/vuln/detail/CVE-2026-61730)** `CRITICAL` — SOCFortress CoPilot focuses on providing a single pane of glass for all your security operations needs. In affected deployments, the unauthenticated `/scoutsuite-report` `StaticFiles` mount in `backe…
+- **[CVE-2026-61738](https://nvd.nist.gov/vuln/detail/CVE-2026-61738)** `CRITICAL` — SOCFortress CoPilot focuses on providing a single pane of glass for all your security operations needs. Prior to 0.1.77, `POST /api/scoutsuite/generate-gcp-report` in `backend/app/integrations/scouts…
+- **[CVE-2026-119116](https://nvd.nist.gov/vuln/detail/CVE-2026-119116)** `HIGH` — A use-after-free and double-free issue in the SetClient command handler of the kmstool-enclave sample application of AWS aws-nitro-enclaves-sdk-c before 0.4.6 may allow an application that runs on th…
+- **[CVE-2026-119148](https://nvd.nist.gov/vuln/detail/CVE-2026-119148)** `HIGH` — Incomplete string validation in AWS aws-nitro-enclaves-sdk-c before 0.4.6 may allow a third party to impersonate the AWS KMS endpoint.
+
+
+
+To remediate this issue, users should rebuild any custom encl…
+- **[CVE-2026-119117](https://nvd.nist.gov/vuln/detail/CVE-2026-119117)** `HIGH` — Insertion of sensitive information into a log file in Amazon Kinesis Producer Library for Java before 1.0.8, when the library's logger is configured at DEBUG log level, might allow local users to obt…
+- **[CVE-2026-62331](https://nvd.nist.gov/vuln/detail/CVE-2026-62331)** `HIGH` — praktor is a multi-agent Claude Code orchestrator with Telegram input and output, Docker isolation, and a Mission Control UI. Prior to 0.9.1, both Telegram upload sites in `internal/telegram/bot.go` …
+- **[CVE-2026-61850](https://nvd.nist.gov/vuln/detail/CVE-2026-61850)** `CRITICAL` — Kargo manages and automates the promotion of software artifacts. From 0.6.0 until 1.8.14, 1.9.9, and 1.10.8, two authorization flaws in the `project-scoped RBAC API` let an authenticated user with de…
+- **[CVE-2026-62284](https://nvd.nist.gov/vuln/detail/CVE-2026-62284)** `HIGH` — OSAC operator is a Kubernetes operator. In the affected revision identified as 8220502, the `console-proxy` `RemoteConfigResolver` parses Kubernetes Secret kubeconfig data with `clientcmd.RESTConfigF…
+- **[CVE-2026-63377](https://nvd.nist.gov/vuln/detail/CVE-2026-63377)** `CRITICAL` — TAKO AI Agent for Okta is a local-first AI agent that helps Okta administrators query tenant data using natural language. Prior to 3.0.1-beta, `POST /api/auth/setup` in `src/api/routers/auth.py` allo…
 
 ## Releases
 
@@ -26,16 +34,17 @@ No notable releases today.
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization) — _AWS What's New_
-- [Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes) — _AWS What's New_
-- [Amazon Aurora now supports post-quantum TLS key exchange](https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/) — _AWS What's New_
-- [Querying Databricks Apache Iceberg Tables with the borderless Lakehouse](https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/) — _Google Cloud Blog_
-- [Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&A)](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/) — _Google Cloud Blog_
+- [Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/) — _AWS What's New_
+- [Web Search now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/) — _AWS What's New_
+- [Amazon Connect Customer automatically saves in-progress emails as drafts](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/) — _AWS What's New_
+- [What’s new in AI infrastructure and orchestration in October](https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/) — _Google Cloud Blog_
+- [When the Kubernetes API went silent: A three-layer networking mystery](https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-10-31](reports/2026-10-31.md)
 - [2026-10-30](reports/2026-10-30.md)
 - [2026-10-29](reports/2026-10-29.md)
 - [2026-10-28](reports/2026-10-28.md)
