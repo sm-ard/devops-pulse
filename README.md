@@ -6,11 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-01
+## Latest — 2026-11-02
 
 ## Security (CVEs)
 
-- **[CVE-2026-120203](https://nvd.nist.gov/vuln/detail/CVE-2026-120203)** `HIGH` — ShowDoc 2.8.14 before 3.9.6 contains a code injection vulnerability in its Mock feature that allows authenticated users to execute shell commands through mockjs templates. Attackers can store a templ…
+No notable CVEs today.
 
 ## Releases
 
@@ -24,13 +24,14 @@ No notable releases today.
 - [Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/) — _AWS What's New_
 - [Web Search now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/) — _AWS What's New_
 - [Amazon Connect Customer automatically saves in-progress emails as drafts](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/) — _AWS What's New_
-- [What’s new in AI infrastructure and orchestration in October](https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/) — _Google Cloud Blog_
-- [When the Kubernetes API went silent: A three-layer networking mystery](https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/) — _Google Cloud Blog_
+- [Shutting the Door on the XCPE Botnet](https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/) — _Google Cloud Blog_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-02](reports/2026-11-02.md)
 - [2026-11-01](reports/2026-11-01.md)
 - [2026-10-31](reports/2026-10-31.md)
 - [2026-10-30](reports/2026-10-30.md)
