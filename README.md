@@ -6,31 +6,36 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-02
+## Latest — 2026-11-03
 
 ## Security (CVEs)
 
-No notable CVEs today.
+- **[CVE-2026-120460](https://nvd.nist.gov/vuln/detail/CVE-2026-120460)** `HIGH` — Jpom through 2.11.12 contains a cross-workspace authorization bypass vulnerability that allows authenticated users to manage other workspaces' Docker hosts by supplying foreign Docker asset ids. Atta…
+- **[CVE-2026-105769](https://nvd.nist.gov/vuln/detail/CVE-2026-105769)** `CRITICAL` — kaniko before 1.25.20 can send a Microsoft Entra ID (Azure AD) access token for Azure Resource Manager to an attacker-controlled registry host. kaniko uses the Azure Container Registry credential hel…
+- **[CVE-2026-119085](https://nvd.nist.gov/vuln/detail/CVE-2026-119085)** `CRITICAL` — Improper neutralization of special elements used in a template engine in the publishing component of Amazon Virtual Engineering Workbench (VEW) could allow a remote authenticated third party to run a…
+- **[CVE-2026-120091](https://nvd.nist.gov/vuln/detail/CVE-2026-120091)** `HIGH` — Temporal Server compiles a Worker Controller Instance module, go.temporal.io/auto-scaled-workers, into its Worker Service, and that module registers a compute provider named k8s whose function is to …
+- **[CVE-2026-77778](https://nvd.nist.gov/vuln/detail/CVE-2026-77778)** `HIGH` — ZohoCorp ManageEngine Key Manager Plus versions up to 7150 allow authenticated users to export certificates belonging to other users to their own registered key vaults.
 
 ## Releases
 
-No notable releases today.
+- **Argo CD** [`v3.5.7`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.7)
 
 ## News
 
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/) — _AWS What's New_
-- [Web Search now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/) — _AWS What's New_
-- [Amazon Connect Customer automatically saves in-progress emails as drafts](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/) — _AWS What's New_
-- [Shutting the Door on the XCPE Botnet](https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/) — _Google Cloud Blog_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
+- [Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions](https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/) — _AWS What's New_
+- [Haiku 5.5 now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/) — _AWS What's New_
+- [Amazon RDS now supports per snapshot billing](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/) — _AWS What's New_
+- [Google Cloud Developer plugin now available in Antigravity Marketplace](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/) — _Google Cloud Blog_
+- [Beyond Migration: Using Database Migration Service for disk shrinking](https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-03](reports/2026-11-03.md)
 - [2026-11-02](reports/2026-11-02.md)
 - [2026-11-01](reports/2026-11-01.md)
 - [2026-10-31](reports/2026-10-31.md)
