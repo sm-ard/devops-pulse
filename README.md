@@ -6,35 +6,38 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-03
+## Latest — 2026-11-04
 
 ## Security (CVEs)
 
-- **[CVE-2026-120460](https://nvd.nist.gov/vuln/detail/CVE-2026-120460)** `HIGH` — Jpom through 2.11.12 contains a cross-workspace authorization bypass vulnerability that allows authenticated users to manage other workspaces' Docker hosts by supplying foreign Docker asset ids. Atta…
-- **[CVE-2026-105769](https://nvd.nist.gov/vuln/detail/CVE-2026-105769)** `CRITICAL` — kaniko before 1.25.20 can send a Microsoft Entra ID (Azure AD) access token for Azure Resource Manager to an attacker-controlled registry host. kaniko uses the Azure Container Registry credential hel…
-- **[CVE-2026-119085](https://nvd.nist.gov/vuln/detail/CVE-2026-119085)** `CRITICAL` — Improper neutralization of special elements used in a template engine in the publishing component of Amazon Virtual Engineering Workbench (VEW) could allow a remote authenticated third party to run a…
-- **[CVE-2026-120091](https://nvd.nist.gov/vuln/detail/CVE-2026-120091)** `HIGH` — Temporal Server compiles a Worker Controller Instance module, go.temporal.io/auto-scaled-workers, into its Worker Service, and that module registers a compute provider named k8s whose function is to …
-- **[CVE-2026-77778](https://nvd.nist.gov/vuln/detail/CVE-2026-77778)** `HIGH` — ZohoCorp ManageEngine Key Manager Plus versions up to 7150 allow authenticated users to export certificates belonging to other users to their own registered key vaults.
+- **[CVE-2026-121449](https://nvd.nist.gov/vuln/detail/CVE-2026-121449)** `HIGH` — Dockhand from 1.0.47 before 1.0.54 exposes plaintext stack secrets because deployStack() attaches resolved secret values to its result as resolvedSecrets, which Git-stack routes return unfiltered. Ho…
+- **[CVE-2026-103916](https://nvd.nist.gov/vuln/detail/CVE-2026-103916)** `HIGH` — Docker Sandboxes sbx cp does not safely confine host-side paths to a shared workspace. A malicious sandbox can create or replace a workspace symlink so that a later user-initiated copy reads a host f…
+- **[CVE-2026-115714](https://nvd.nist.gov/vuln/detail/CVE-2026-115714)** `HIGH` — Improper Certificate Validation (CWE-295) in the operating system certificate bundle shipped in the Docker images of APM Server; Auditbeat, Filebeat, Heartbeat, Metricbeat and Packetbeat; Elastic Age…
+- **[CVE-2026-112917](https://nvd.nist.gov/vuln/detail/CVE-2026-112917)** `CRITICAL` — In Docker Desktop for Windows with the WSL2 backend, an unprivileged Linux container can use 32-bit socketcall to bypass the default seccomp restriction on AF_VSOCK. This can expose host-facing servi…
+- **[CVE-2026-121621](https://nvd.nist.gov/vuln/detail/CVE-2026-121621)** `HIGH` — A command injection vulnerability was found in Argo CD Image Updater, where a proxy URL configured on an SSH Git repository is passed unsanitized into a shell-interpreted SSH command. An attacker abl…
+- **[CVE-2026-119084](https://nvd.nist.gov/vuln/detail/CVE-2026-119084)** `CRITICAL` — Unsafe reflection in the connection parameter and credentials profile handling of Amazon Redshift JDBC Driver before 2.3.0 might allow an actor who can influence the JDBC connection URL or the AWS cr…
+- **[CVE-2026-121614](https://nvd.nist.gov/vuln/detail/CVE-2026-121614)** `HIGH` — Docker Sandboxes versions 0.31.0 before 0.50.0 do not neutralize repository-controlled Git configuration when running certain host-side Git commands. An attacker who can modify a host repository's Gi…
 
 ## Releases
 
-- **Argo CD** [`v3.5.7`](https://github.com/argoproj/argo-cd/releases/tag/v3.5.7)
+- **Argo CD** [`v3.6.0`](https://github.com/argoproj/argo-cd/releases/tag/v3.6.0)
 
 ## News
 
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions](https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/) — _AWS What's New_
-- [Haiku 5.5 now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/) — _AWS What's New_
-- [Amazon RDS now supports per snapshot billing](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/) — _AWS What's New_
-- [Google Cloud Developer plugin now available in Antigravity Marketplace](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/) — _Google Cloud Blog_
-- [Beyond Migration: Using Database Migration Service for disk shrinking](https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/) — _Google Cloud Blog_
+- [Amazon Connect Customer lets agents pause and resume emails](https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/) — _AWS What's New_
+- [Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops](https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11) — _AWS What's New_
+- [Amazon Connect Customer prefills the email address for new threads started from cases](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-email-addresses/) — _AWS What's New_
+- [How Nammu21 automates syndicated loans on Google Cloud Universal Ledger](https://cloud.google.com/blog/topics/financial-services/how-nammu21-automates-syndicated-loans-on-google-cloud-universal-ledger/) — _Google Cloud Blog_
+- [Leading in the agentic era: How to put people first as you adopt AI agents](https://cloud.google.com/blog/topics/consulting/lessons-for-adopting-ai-agents/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-04](reports/2026-11-04.md)
 - [2026-11-03](reports/2026-11-03.md)
 - [2026-11-02](reports/2026-11-02.md)
 - [2026-11-01](reports/2026-11-01.md)
