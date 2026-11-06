@@ -6,41 +6,37 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-05
+## Latest — 2026-11-06
 
 ## Security (CVEs)
 
-- **[CVE-2026-57853](https://nvd.nist.gov/vuln/detail/CVE-2026-57853)** `HIGH` — DataGerry before 3.3.0 contains a server-side template injection vulnerability that allows authenticated attackers with base.docapi.template.add permission to store arbitrary Jinja2 payloads in the t…
-- **[CVE-2026-102339](https://nvd.nist.gov/vuln/detail/CVE-2026-102339)** `HIGH` — Telepresence enables local development against a remote Kubernetes or OpenShift cluster. Prior to 2.31.0, the Traffic Manager Tunnel gRPC streaming endpoint parses a session ID from the first bytes o…
-- **[CVE-2026-102340](https://nvd.nist.gov/vuln/detail/CVE-2026-102340)** `HIGH` — Telepresence enables local development against a remote Kubernetes or OpenShift cluster. Prior to 2.31.0, the Traffic Manager gRPC API on port 8081 accepts unauthenticated cluster-network callers, Ar…
-- **[CVE-2026-103002](https://nvd.nist.gov/vuln/detail/CVE-2026-103002)** `HIGH` — GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. From 2.2.0 until 2.2.2, cluster_apiserver_proxy forwarded an authenticated non-administrator's reque…
-- **[CVE-2026-54378](https://nvd.nist.gov/vuln/detail/CVE-2026-54378)** `CRITICAL` — VitaFit cloud API before 2026-10-30 contained a broken access control vulnerability that allows any authenticated user to obtain temporary AWS credentials by calling the POST /front/user/s3/token/ en…
-- **[CVE-2026-57566](https://nvd.nist.gov/vuln/detail/CVE-2026-57566)** `CRITICAL` — Readest is a modern, feature-rich ebook reader designed for seamless cross-platform access and an intuitive reading experience. Prior to 0.11.10, the unauthenticated /api/opds/proxy route in apps/rea…
-- **[CVE-2026-63655](https://nvd.nist.gov/vuln/detail/CVE-2026-63655)** `HIGH` — tsParticles is a TypeScript library for creating highly customizable particle animations. Prior to 4.3.1, the HTTP mode of @tsparticles/mcp-server accepts unauthenticated POST /mcp requests in integr…
-- **[CVE-2026-97693](https://nvd.nist.gov/vuln/detail/CVE-2026-97693)** `CRITICAL` — Yuxi is a large-model-based intelligent knowledge base and knowledge graph agent development platform.  From 0.6.0.beta1 until 0.7.1, there is insufficient isolation between execution-capable Docker …
-- **[CVE-2026-122310](https://nvd.nist.gov/vuln/detail/CVE-2026-122310)** `CRITICAL` — Kyverno from 1.19.1 before 1.19.2 validates a Policy's context.apiCall urlPath after cleaning it but executes the raw path, whose fragment or query the Kubernetes client discards. A namespace-scoped …
-- **[CVE-2026-109408](https://nvd.nist.gov/vuln/detail/CVE-2026-109408)** `HIGH` — vault-java-driver, a Java client for HashiCorp Vault, silently disables TLS certificate and hostname verification in three states where the caller asked for verification: an SslConfig passed to Vault…
-- **[CVE-2026-123047](https://nvd.nist.gov/vuln/detail/CVE-2026-123047)** `HIGH` — In Eclipse BaSyx Helm Charts versions 3.0.0-rc.1 to 3.12.1 of the `basyx` chart, deployments with the bundled Keycloak enabled store the passwords of the Keycloak users that the chart creates in clea…
+- **[CVE-2026-123059](https://nvd.nist.gov/vuln/detail/CVE-2026-123059)** `HIGH` — In Eclipse BaSyx Helm Charts version 2.2.0 of the `aas-basyx-v2-full` chart, deployments with the bundled Keycloak enabled store the client secret of the `basyx-technical-user` OAuth2 client in clear…
+- **[CVE-2026-119744](https://nvd.nist.gov/vuln/detail/CVE-2026-119744)** `HIGH` — Cendio ThinLinc contains an improper authentication vulnerability in its browser-based web client (tlwebaccess) that allows an authenticated attacker to impersonate any other user, including root, by…
+- **[CVE-2026-76077](https://nvd.nist.gov/vuln/detail/CVE-2026-76077)** `HIGH` — ASN1SCC is an open source ASN.1 compiler for embedded systems. Prior to 4.7.0.1, the XER tokenizer NT() in asn1crt/asn1crt_encoding_xer.c, which is reached by all XER decode paths, copies tag charact…
+- **[CVE-2026-88984](https://nvd.nist.gov/vuln/detail/CVE-2026-88984)** `HIGH` — Kubeflow Pipelines enables users to build and deploy portable, scalable machine learning workflows. Prior to 2.16.1, the multi-user API server treats the empty namespace used by shared or global pipe…
+- **[CVE-2026-123293](https://nvd.nist.gov/vuln/detail/CVE-2026-123293)** `HIGH` — In JetBrains IntelliJ IDEA before 2026.3, 
+2026.2.4 code execution was possible in untrusted projects  via the Terraform tool path setting
 
 ## Releases
 
-- **Argo CD** [`v3.6.1`](https://github.com/argoproj/argo-cd/releases/tag/v3.6.1)
+- **Prometheus** [`v3.16.0`](https://github.com/prometheus/prometheus/releases/tag/v3.16.0)
 
 ## News
 
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/) — _AWS What's New_
-- [Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions/) — _AWS What's New_
-- [Amazon RDS for Oracle now supports copying option groups during cross-Region snapshot copy](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-oracle-cross-region-snapshot-copy-option-group/) — _AWS What's New_
-- [Powering open infrastructure for autonomous agents](https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf/) — _Google Cloud Blog_
-- [Helping you build and defend at machine-speed in the agentic era](https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/) — _Google Cloud Blog_
+- [AWS Security Hub now provides an SBOM inventory for your compute resources](https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/) — _AWS What's New_
+- [AWS Interconnect - last mile announces new metro in Northern Virginia, USA](https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-northern-virginia/) — _AWS What's New_
+- [Announcing Web Answer on Amazon Bedrock AgentCore](https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/) — _AWS What's New_
+- [Semantic aggregation over millions of rows in BigQuery with AI.AGG](https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/) — _Google Cloud Blog_
+- [Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available](https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-06](reports/2026-11-06.md)
 - [2026-11-05](reports/2026-11-05.md)
 - [2026-11-04](reports/2026-11-04.md)
 - [2026-11-03](reports/2026-11-03.md)
