@@ -6,36 +6,38 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-06
+## Latest — 2026-11-07
 
 ## Security (CVEs)
 
-- **[CVE-2026-123059](https://nvd.nist.gov/vuln/detail/CVE-2026-123059)** `HIGH` — In Eclipse BaSyx Helm Charts version 2.2.0 of the `aas-basyx-v2-full` chart, deployments with the bundled Keycloak enabled store the client secret of the `basyx-technical-user` OAuth2 client in clear…
-- **[CVE-2026-119744](https://nvd.nist.gov/vuln/detail/CVE-2026-119744)** `HIGH` — Cendio ThinLinc contains an improper authentication vulnerability in its browser-based web client (tlwebaccess) that allows an authenticated attacker to impersonate any other user, including root, by…
-- **[CVE-2026-76077](https://nvd.nist.gov/vuln/detail/CVE-2026-76077)** `HIGH` — ASN1SCC is an open source ASN.1 compiler for embedded systems. Prior to 4.7.0.1, the XER tokenizer NT() in asn1crt/asn1crt_encoding_xer.c, which is reached by all XER decode paths, copies tag charact…
-- **[CVE-2026-88984](https://nvd.nist.gov/vuln/detail/CVE-2026-88984)** `HIGH` — Kubeflow Pipelines enables users to build and deploy portable, scalable machine learning workflows. Prior to 2.16.1, the multi-user API server treats the empty namespace used by shared or global pipe…
-- **[CVE-2026-123293](https://nvd.nist.gov/vuln/detail/CVE-2026-123293)** `HIGH` — In JetBrains IntelliJ IDEA before 2026.3, 
-2026.2.4 code execution was possible in untrusted projects  via the Terraform tool path setting
+- **[CVE-2026-123786](https://nvd.nist.gov/vuln/detail/CVE-2026-123786)** `HIGH` — Agenta before 0.122.5 contains a server-side request forgery vulnerability that allows workspace members with workflow edit rights to redirect workflow invocations by setting arbitrary revision URLs.…
+- **[CVE-2026-58141](https://nvd.nist.gov/vuln/detail/CVE-2026-58141)** `HIGH` — Dify before 1.15.0 contains a server-side request forgery vulnerability that allows any authenticated console user to bypass SSRF protections and issue arbitrary HTTP requests to internal services an…
+- **[CVE-2026-123849](https://nvd.nist.gov/vuln/detail/CVE-2026-123849)** `HIGH` — In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in untrusted projects via the Terraform File Watchers
+- **[CVE-2026-58490](https://nvd.nist.gov/vuln/detail/CVE-2026-58490)** `CRITICAL` — Tracecat is an open-source security automation platform for teams and AI agents. From version 0.37.0 until 1.0.0-beta.49, Docker Compose deployments with SAML enabled can render SAML_SIGNED_ASSERTION…
+- **[CVE-2026-65960](https://nvd.nist.gov/vuln/detail/CVE-2026-65960)** `HIGH` — Tetragon is an eBPF-based security observability and runtime enforcement project. Versions before 1.7.0 can use a Helm default that exposes the privileged Tetragon gRPC API through an unauthenticated…
+- **[CVE-2026-85295](https://nvd.nist.gov/vuln/detail/CVE-2026-85295)** `CRITICAL` — Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, four authentication helpers accepted session tokens sign…
+- **[CVE-2026-85708](https://nvd.nist.gov/vuln/detail/CVE-2026-85708)** `HIGH` — Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, Chart share and embed tokens were signed with CB_SECRET,…
 
 ## Releases
 
-- **Prometheus** [`v3.16.0`](https://github.com/prometheus/prometheus/releases/tag/v3.16.0)
+- **Istio** [`1.31.4`](https://github.com/istio/istio/releases/tag/1.31.4)
 
 ## News
 
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [AWS Security Hub now provides an SBOM inventory for your compute resources](https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/) — _AWS What's New_
-- [AWS Interconnect - last mile announces new metro in Northern Virginia, USA](https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-northern-virginia/) — _AWS What's New_
-- [Announcing Web Answer on Amazon Bedrock AgentCore](https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/) — _AWS What's New_
-- [Semantic aggregation over millions of rows in BigQuery with AI.AGG](https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/) — _Google Cloud Blog_
-- [Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available](https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/) — _Google Cloud Blog_
+- [Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock) — _AWS What's New_
+- [Agent Registry is now generally available in AWS GovCloud (US-West) Region](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/) — _AWS What's New_
+- [Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions) — _AWS What's New_
+- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
+- [Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems](https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-07](reports/2026-11-07.md)
 - [2026-11-06](reports/2026-11-06.md)
 - [2026-11-05](reports/2026-11-05.md)
 - [2026-11-04](reports/2026-11-04.md)
