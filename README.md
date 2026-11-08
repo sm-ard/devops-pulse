@@ -6,21 +6,15 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-07
+## Latest — 2026-11-08
 
 ## Security (CVEs)
 
-- **[CVE-2026-123786](https://nvd.nist.gov/vuln/detail/CVE-2026-123786)** `HIGH` — Agenta before 0.122.5 contains a server-side request forgery vulnerability that allows workspace members with workflow edit rights to redirect workflow invocations by setting arbitrary revision URLs.…
-- **[CVE-2026-58141](https://nvd.nist.gov/vuln/detail/CVE-2026-58141)** `HIGH` — Dify before 1.15.0 contains a server-side request forgery vulnerability that allows any authenticated console user to bypass SSRF protections and issue arbitrary HTTP requests to internal services an…
-- **[CVE-2026-123849](https://nvd.nist.gov/vuln/detail/CVE-2026-123849)** `HIGH` — In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in untrusted projects via the Terraform File Watchers
-- **[CVE-2026-58490](https://nvd.nist.gov/vuln/detail/CVE-2026-58490)** `CRITICAL` — Tracecat is an open-source security automation platform for teams and AI agents. From version 0.37.0 until 1.0.0-beta.49, Docker Compose deployments with SAML enabled can render SAML_SIGNED_ASSERTION…
-- **[CVE-2026-65960](https://nvd.nist.gov/vuln/detail/CVE-2026-65960)** `HIGH` — Tetragon is an eBPF-based security observability and runtime enforcement project. Versions before 1.7.0 can use a Helm default that exposes the privileged Tetragon gRPC API through an unauthenticated…
-- **[CVE-2026-85295](https://nvd.nist.gov/vuln/detail/CVE-2026-85295)** `CRITICAL` — Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, four authentication helpers accepted session tokens sign…
-- **[CVE-2026-85708](https://nvd.nist.gov/vuln/detail/CVE-2026-85708)** `HIGH` — Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, Chart share and embed tokens were signed with CB_SECRET,…
+No notable CVEs today.
 
 ## Releases
 
-- **Istio** [`1.31.4`](https://github.com/istio/istio/releases/tag/1.31.4)
+No notable releases today.
 
 ## News
 
@@ -37,6 +31,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ## Archive
 
+- [2026-11-08](reports/2026-11-08.md)
 - [2026-11-07](reports/2026-11-07.md)
 - [2026-11-06](reports/2026-11-06.md)
 - [2026-11-05](reports/2026-11-05.md)
