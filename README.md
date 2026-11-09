@@ -6,7 +6,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-08
+## Latest — 2026-11-09
 
 ## Security (CVEs)
 
@@ -24,13 +24,14 @@ No notable releases today.
 - [Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock) — _AWS What's New_
 - [Agent Registry is now generally available in AWS GovCloud (US-West) Region](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/) — _AWS What's New_
 - [Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions) — _AWS What's New_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
-- [Introducing Z4M: storage-optimized compute for AI/ML and parallel file systems](https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/) — _Google Cloud Blog_
+- [Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/) — _Google Cloud Blog_
+- [Now generally available: GKE dynamic slicing for higher resilience, and efficiency for TPUs](https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-09](reports/2026-11-09.md)
 - [2026-11-08](reports/2026-11-08.md)
 - [2026-11-07](reports/2026-11-07.md)
 - [2026-11-06](reports/2026-11-06.md)
