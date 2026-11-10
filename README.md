@@ -6,31 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-09
+## Latest — 2026-11-10
 
 ## Security (CVEs)
 
-No notable CVEs today.
+- **[CVE-2026-123815](https://nvd.nist.gov/vuln/detail/CVE-2026-123815)** `CRITICAL` — pyLoad is a free and open-source download manager written in Python. Prior to 0.5.0b3.dev102, UnTar._safe_extractall in src/pyload/plugins/extractors/UnTar.py validates archive member paths and link …
+- **[CVE-2026-109797](https://nvd.nist.gov/vuln/detail/CVE-2026-109797)** `HIGH` — In SAP/astonish, an authenticated user could potentially identify and operate on another team�s sandbox containers because of improper tenant isolation in the legacy Incus sandbox-management API hand…
+- **[CVE-2026-123717](https://nvd.nist.gov/vuln/detail/CVE-2026-123717)** `HIGH` — OS command injection in the pass and bitwarden credential providers in Eclipse Foundation Eclipse Otterdog through 1.7.1 allows a user able to modify an organization configuration to execute arbitrar…
 
 ## Releases
 
-No notable releases today.
+- **Istio** [`1.32.0`](https://github.com/istio/istio/releases/tag/1.32.0)
 
 ## News
 
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock) — _AWS What's New_
-- [Agent Registry is now generally available in AWS GovCloud (US-West) Region](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/) — _AWS What's New_
-- [Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions](https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions) — _AWS What's New_
-- [Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/) — _Google Cloud Blog_
-- [Now generally available: GKE dynamic slicing for higher resilience, and efficiency for TPUs](https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/) — _Google Cloud Blog_
+- [Amazon Bedrock AgentCore now offers a Web Search API](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/) — _AWS What's New_
+- [Amazon CloudWatch Logs announces account-level retention policies](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-log-retention/) — _AWS What's New_
+- [AWS Glue adds 100 new native connectors for popular SaaS applications](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-glue-adds-100-new-native-connectors/) — _AWS What's New_
+- [Introducing Gemini for healthcare](https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/) — _Google Cloud Blog_
+- [The open AI-native stack on Kubernetes: From open models to distributed inference and agents](https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-10](reports/2026-11-10.md)
 - [2026-11-09](reports/2026-11-09.md)
 - [2026-11-08](reports/2026-11-08.md)
 - [2026-11-07](reports/2026-11-07.md)
