@@ -6,33 +6,52 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-10
+## Latest — 2026-11-11
 
 ## Security (CVEs)
 
-- **[CVE-2026-123815](https://nvd.nist.gov/vuln/detail/CVE-2026-123815)** `CRITICAL` — pyLoad is a free and open-source download manager written in Python. Prior to 0.5.0b3.dev102, UnTar._safe_extractall in src/pyload/plugins/extractors/UnTar.py validates archive member paths and link …
-- **[CVE-2026-109797](https://nvd.nist.gov/vuln/detail/CVE-2026-109797)** `HIGH` — In SAP/astonish, an authenticated user could potentially identify and operate on another team�s sandbox containers because of improper tenant isolation in the legacy Incus sandbox-management API hand…
-- **[CVE-2026-123717](https://nvd.nist.gov/vuln/detail/CVE-2026-123717)** `HIGH` — OS command injection in the pass and bitwarden credential providers in Eclipse Foundation Eclipse Otterdog through 1.7.1 allows a user able to modify an organization configuration to execute arbitrar…
+- **[CVE-2026-125757](https://nvd.nist.gov/vuln/detail/CVE-2026-125757)** `CRITICAL` — mailcow: dockerized before 2026-11 contains a server-side template injection vulnerability that allows domain administrators to execute commands in the shared rspamd container by storing a malicious …
+- **[CVE-2026-125271](https://nvd.nist.gov/vuln/detail/CVE-2026-125271)** `HIGH` — Incorrect normalization of operation names in the custom security policy enforcement in awslabs aws-api-mcp-server before 1.5.1 might allow an actor to execute AWS API operations across AWS services …
+- **[CVE-2026-125323](https://nvd.nist.gov/vuln/detail/CVE-2026-125323)** `HIGH` — pgEdge Control Plane is a distributed application for managing and orchestrating Postgres databases across multiple hosts. From 0.1.0 to 0.10.1, generated pg_hba.conf files began with hard-coded trus…
+- **[CVE-2026-102224](https://nvd.nist.gov/vuln/detail/CVE-2026-102224)** `HIGH` — Improper neutralization of special elements used in an os command ('os command injection') in Azure CycleCloud allows an authorized attacker to elevate privileges over a network.
+- **[CVE-2026-105494](https://nvd.nist.gov/vuln/detail/CVE-2026-105494)** `HIGH` — Untrusted search path in Azure NFS mount helper (aznfs) allows an authorized attacker to elevate privileges locally.
+- **[CVE-2026-105734](https://nvd.nist.gov/vuln/detail/CVE-2026-105734)** `HIGH` — Incorrect permission assignment for critical resource in Azure Local allows an authorized attacker to elevate privileges locally.
+- **[CVE-2026-109457](https://nvd.nist.gov/vuln/detail/CVE-2026-109457)** `HIGH` — Improper neutralization of special elements used in an os command ('os command injection') in Azure CLI allows an authorized attacker to execute code over a network.
+- **[CVE-2026-109467](https://nvd.nist.gov/vuln/detail/CVE-2026-109467)** `CRITICAL` — Improper authentication in Azure DevOps allows an authorized attacker to execute code over a network.
+- **[CVE-2026-113823](https://nvd.nist.gov/vuln/detail/CVE-2026-113823)** `HIGH` — Improper limitation of a pathname to a restricted directory ('path traversal') in Azure CycleCloud allows an unauthorized attacker to disclose information over a network.
+- **[CVE-2026-114160](https://nvd.nist.gov/vuln/detail/CVE-2026-114160)** `CRITICAL` — Server-side request forgery (ssrf) in Azure Managed Grafana allows an unauthorized attacker to elevate privileges over a network.
+- **[CVE-2026-114161](https://nvd.nist.gov/vuln/detail/CVE-2026-114161)** `HIGH` — Improper limitation of a pathname to a restricted directory ('path traversal') in Azure CycleCloud allows an authorized attacker to elevate privileges locally.
+- **[CVE-2026-118288](https://nvd.nist.gov/vuln/detail/CVE-2026-118288)** `HIGH` — Incorrect permission assignment for critical resource in Azure File Sync allows an authorized attacker to elevate privileges locally.
+- **[CVE-2026-118742](https://nvd.nist.gov/vuln/detail/CVE-2026-118742)** `HIGH` — Incorrect permission assignment for critical resource in Azure Front Door (AFD) allows an unauthorized attacker to elevate privileges over a network.
+- **[CVE-2026-119989](https://nvd.nist.gov/vuln/detail/CVE-2026-119989)** `HIGH` — Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an authorized attacker to execute code over a network.
+- **[CVE-2026-119990](https://nvd.nist.gov/vuln/detail/CVE-2026-119990)** `CRITICAL` — Missing authentication for critical function in Azure OpenAI allows an unauthorized attacker to elevate privileges over a network.
+- **[CVE-2026-121668](https://nvd.nist.gov/vuln/detail/CVE-2026-121668)** `HIGH` — Missing authorization in Azure Confidential Clean Rooms allows an authorized attacker to perform tampering over a network.
+- **[CVE-2026-122986](https://nvd.nist.gov/vuln/detail/CVE-2026-122986)** `HIGH` — Improper privilege management in Microsoft Azure Kubernetes Service allows an authorized attacker to elevate privileges locally.
+- **[CVE-2026-126087](https://nvd.nist.gov/vuln/detail/CVE-2026-126087)** `CRITICAL` — Untrusted search path in the cross-user process launcher in Open Job Description (OpenJD) Sessions for Python before 0.11.0, as used in the AWS Deadline Cloud worker agent before 0.33.0, on Linux mig…
+- **[CVE-2026-85923](https://nvd.nist.gov/vuln/detail/CVE-2026-85923)** `HIGH` — Authorization bypass through user-controlled key in Azure DevOps Server allows an authorized attacker to elevate privileges over a network.
+- **[CVE-2026-115538](https://nvd.nist.gov/vuln/detail/CVE-2026-115538)** `HIGH` — Moby's overlay network driver does not restore the iptables rules for encrypted overlay networks after firewalld deletes them. Unlike other Docker Engine networking components, the overlay driver doe…
+- **[CVE-2026-96437](https://nvd.nist.gov/vuln/detail/CVE-2026-96437)** `HIGH` — The ai-azure-content-safety plugin in Kong Gateway Enterprise skips inspection of request bodies larger than the in-memory body buffer, allowing prompts to bypass input content-safety checks.
 
 ## Releases
 
-- **Istio** [`1.32.0`](https://github.com/istio/istio/releases/tag/1.32.0)
+- **Terraform** [`v1.17.2`](https://github.com/hashicorp/terraform/releases/tag/v1.17.2)
 
 ## News
 
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [Amazon Bedrock AgentCore now offers a Web Search API](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/) — _AWS What's New_
-- [Amazon CloudWatch Logs announces account-level retention policies](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-log-retention/) — _AWS What's New_
-- [AWS Glue adds 100 new native connectors for popular SaaS applications](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-glue-adds-100-new-native-connectors/) — _AWS What's New_
-- [Introducing Gemini for healthcare](https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/) — _Google Cloud Blog_
-- [The open AI-native stack on Kubernetes: From open models to distributed inference and agents](https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/) — _Google Cloud Blog_
+- [AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for custom billing views](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-and-cost-management-multi-source-custom-billing-views) — _AWS What's New_
+- [Amazon EC2 G7 instances now available in additional regions](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-additional-regions/) — _AWS What's New_
+- [Amazon OpenSearch Service announces managed cross-Region disaster recovery](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-managed-cross-region-disaster-recovery/) — _AWS What's New_
+- [Inside the Gemini factory: Accelerating partner solutions](https://cloud.google.com/blog/topics/partners/inside-the-gemini-factory-accelerating-partner-solutions/) — _Google Cloud Blog_
+- [Don't just flag it, fix it: How to run CodeMender in your pull requests](https://cloud.google.com/blog/products/identity-security/how-to-run-codemender-in-your-pull-requests/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-11](reports/2026-11-11.md)
 - [2026-11-10](reports/2026-11-10.md)
 - [2026-11-09](reports/2026-11-09.md)
 - [2026-11-08](reports/2026-11-08.md)
