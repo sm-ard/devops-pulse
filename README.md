@@ -6,41 +6,32 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-13
+## Latest — 2026-11-14
 
 ## Security (CVEs)
 
-- **[CVE-2026-126329](https://nvd.nist.gov/vuln/detail/CVE-2026-126329)** `HIGH` — Docker Sandboxes reuses existing state and configuration directories without verifying their ownership. If sbx or sandboxd is run as root with HOME or, on Linux, XDG_STATE_HOME pointing to an attacke…
-- **[CVE-2026-126793](https://nvd.nist.gov/vuln/detail/CVE-2026-126793)** `HIGH` — An untrusted search path issue in Aurora PostgreSQL dialect detection in the AWS Advanced Go Wrapper from release 2026-04-06 (awssql/v2.0.0) and before release 2026-07-29 (awssql/v2.0.3) could allow …
-- **[CVE-2026-126320](https://nvd.nist.gov/vuln/detail/CVE-2026-126320)** `HIGH` — Dockhand before 1.0.55 contains an improper authorization vulnerability that lets users holding only containers:view download arbitrary container files instead of requiring containers:exec. Authentic…
-- **[CVE-2026-126384](https://nvd.nist.gov/vuln/detail/CVE-2026-126384)** `HIGH` — n8n before 1.123.89, 2.x before 2.45.5, 2.46.x before 2.46.1, and 3.x before 3.0.1 bundles a GraphicsMagick version with known vulnerabilities in its official Docker image, which the Edit Image node …
-- **[CVE-2026-126473](https://nvd.nist.gov/vuln/detail/CVE-2026-126473)** `CRITICAL` — OpenEMR before 8.4.0 contains OAuth scope canonicalization and containment flaws that allow unauthenticated attackers to obtain unapproved system-level FHIR access. Attackers can register a colon-for…
-- **[CVE-2026-126937](https://nvd.nist.gov/vuln/detail/CVE-2026-126937)** `CRITICAL` — Zipline before 4.6.5 contains a TOCTOU race condition in the POST /api/setup endpoint that allows unauthenticated attackers to create multiple SUPERADMIN accounts by racing concurrent requests before…
-- **[CVE-2026-127073](https://nvd.nist.gov/vuln/detail/CVE-2026-127073)** `CRITICAL` — OpsTree BuildPiper before 2.7.0 contains a privilege escalation vulnerability that allows project users to gain Kubernetes cluster-admin rights by submitting unrestricted manifests through the Additi…
-- **[CVE-2026-127077](https://nvd.nist.gov/vuln/detail/CVE-2026-127077)** `HIGH` — OpsTree BuildPiper before 2.7.0 contains an authorization bypass vulnerability that allows authenticated users to create environments on unassigned Kubernetes clusters by tampering with cluster_id an…
-- **[CVE-2026-127080](https://nvd.nist.gov/vuln/detail/CVE-2026-127080)** `CRITICAL` — OpsTree BuildPiper before 2.7.0 contains an improper authorization vulnerability that allows authenticated deploy users to define arbitrary Kubernetes hostPath volumes without allow-list or policy ch…
-- **[CVE-2026-128027](https://nvd.nist.gov/vuln/detail/CVE-2026-128027)** `CRITICAL` — FrankenPHP Docker images before 1.1.11 were rebuilt only when new base image tags were created, so security fixes that Alpine, PHP, and Go applied under existing tags were not propagated. Remote atta…
-- **[CVE-2026-112182](https://nvd.nist.gov/vuln/detail/CVE-2026-112182)** `HIGH` — Unauthorization vulnerability in the management of workflow definitions in OpenKM Community Edition. The REST endpoints `registerProcessDefinition` and `runProcessDefinition` require authentication b…
+- **[CVE-2026-124969](https://nvd.nist.gov/vuln/detail/CVE-2026-124969)** `HIGH` — The Optimole – Optimize Images | Convert WebP & AVIF | CDN & Lazy Load | Image Optimization plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in t…
 
 ## Releases
 
-- **Helm** [`v4.3.2`](https://github.com/helm/helm/releases/tag/v4.3.2)
+No notable releases today.
 
 ## News
 
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
 - [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [Amazon Cognito now supports OAuth 2.0 token exchange](https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/) — _AWS What's New_
-- [Amazon Aurora and RDS now support Graviton5-based R9g database instances](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/) — _AWS What's New_
-- [Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments](https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/) — _AWS What's New_
-- [Chrome Enterprise brings more protections to healthcare technologies](https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/) — _Google Cloud Blog_
-- [Powering agentic cloud governance: What's new in Organization Policy](https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/) — _Google Cloud Blog_
+- [Aurora PostgreSQL with express configuration now supported in CloudFormation](https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/) — _AWS What's New_
+- [Grok 4.7 now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/) — _AWS What's New_
+- [Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance](https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-reduces-maintenance-downtime-for-amvu-scheduled-upgrades/) — _AWS What's New_
+- [New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) — _Google Cloud Blog_
+- [Where supercomputing meets agentic AI: What’s new in Google Cloud HPC and AI at SC26](https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-14](reports/2026-11-14.md)
 - [2026-11-13](reports/2026-11-13.md)
 - [2026-11-12](reports/2026-11-12.md)
 - [2026-11-11](reports/2026-11-11.md)
