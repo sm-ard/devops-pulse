@@ -6,11 +6,13 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-14
+## Latest — 2026-11-15
 
 ## Security (CVEs)
 
-- **[CVE-2026-124969](https://nvd.nist.gov/vuln/detail/CVE-2026-124969)** `HIGH` — The Optimole – Optimize Images | Convert WebP & AVIF | CDN & Lazy Load | Image Optimization plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in t…
+> ⚠ Feed unavailable today: Server error '503 Service Unavailable' for url 'https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-14T13%3A00%3A24.000Z&pubEndDate=2026-11-15T13%3A00%3A24.000Z&resultsPerPage=2000'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+
 
 ## Releases
 
@@ -31,6 +33,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-11-15](reports/2026-11-15.md)
 - [2026-11-14](reports/2026-11-14.md)
 - [2026-11-13](reports/2026-11-13.md)
 - [2026-11-12](reports/2026-11-12.md)
