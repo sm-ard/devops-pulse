@@ -6,13 +6,11 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-15
+## Latest — 2026-11-16
 
 ## Security (CVEs)
 
-> ⚠ Feed unavailable today: Server error '503 Service Unavailable' for url 'https://services.nvd.nist.gov/rest/json/cves/2.0?pubStartDate=2026-11-14T13%3A00%3A24.000Z&pubEndDate=2026-11-15T13%3A00%3A24.000Z&resultsPerPage=2000'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
-
+No notable CVEs today.
 
 ## Releases
 
@@ -26,13 +24,14 @@ No notable releases today.
 - [Aurora PostgreSQL with express configuration now supported in CloudFormation](https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/) — _AWS What's New_
 - [Grok 4.7 now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/) — _AWS What's New_
 - [Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance](https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-reduces-maintenance-downtime-for-amvu-scheduled-upgrades/) — _AWS What's New_
-- [New AI agent observability and governance across BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) — _Google Cloud Blog_
-- [Where supercomputing meets agentic AI: What’s new in Google Cloud HPC and AI at SC26](https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/) — _Google Cloud Blog_
+- [How ISVs are unlocking European workloads using Google Cloud Dedicated technology](https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/) — _Google Cloud Blog_
+- [Inside the new Google Cloud Data Boundary experience](https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-16](reports/2026-11-16.md)
 - [2026-11-15](reports/2026-11-15.md)
 - [2026-11-14](reports/2026-11-14.md)
 - [2026-11-13](reports/2026-11-13.md)
