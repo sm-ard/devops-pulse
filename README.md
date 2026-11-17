@@ -6,31 +6,34 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-16
+## Latest — 2026-11-17
 
 ## Security (CVEs)
 
-No notable CVEs today.
+- **[CVE-2026-129236](https://nvd.nist.gov/vuln/detail/CVE-2026-129236)** `HIGH` — Kubeshark is an eBPF-powered network observability tool for Kubernetes. From 53.1.0 until 53.4.0, the start_kubeshark MCP tool in cmd/mcpRunner.go uses callStartKubeshark to append caller-controlled …
+- **[CVE-2026-95839](https://nvd.nist.gov/vuln/detail/CVE-2026-95839)** `HIGH` — containerd is an open-source container runtime. From 2.2.0 until 2.2.10, 2.3.7, and 2.4.2, image manifest processing through the transfer service can encounter a child descriptor containing the io.co…
+- **[CVE-2026-97187](https://nvd.nist.gov/vuln/detail/CVE-2026-97187)** `HIGH` — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.6 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that under certain conditions could have allowed an authentic…
 
 ## Releases
 
-No notable releases today.
+- **Cilium** [`v1.20.5`](https://github.com/cilium/cilium/releases/tag/v1.20.5)
 
 ## News
 
+- [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
-- [Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp](https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/) — _Kubernetes Blog_
-- [Aurora PostgreSQL with express configuration now supported in CloudFormation](https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/) — _AWS What's New_
-- [Grok 4.7 now available on Kiro in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/) — _AWS What's New_
-- [Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance](https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-reduces-maintenance-downtime-for-amvu-scheduled-upgrades/) — _AWS What's New_
-- [How ISVs are unlocking European workloads using Google Cloud Dedicated technology](https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/) — _Google Cloud Blog_
-- [Inside the new Google Cloud Data Boundary experience](https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/) — _Google Cloud Blog_
+- [Amazon ECR now replicates image deletions across regions and accounts](https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr) — _AWS What's New_
+- [Amazon EBS now supports associating additional KMS keys with snapshots](https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/) — _AWS What's New_
+- [Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results](https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/) — _AWS What's New_
+- [Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator](https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/) — _Google Cloud Blog_
+- [Sovereign AI in Europe: New ways to control your AI stack](https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-17](reports/2026-11-17.md)
 - [2026-11-16](reports/2026-11-16.md)
 - [2026-11-15](reports/2026-11-15.md)
 - [2026-11-14](reports/2026-11-14.md)
