@@ -6,33 +6,32 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-17
+## Latest — 2026-11-18
 
 ## Security (CVEs)
 
-- **[CVE-2026-129236](https://nvd.nist.gov/vuln/detail/CVE-2026-129236)** `HIGH` — Kubeshark is an eBPF-powered network observability tool for Kubernetes. From 53.1.0 until 53.4.0, the start_kubeshark MCP tool in cmd/mcpRunner.go uses callStartKubeshark to append caller-controlled …
-- **[CVE-2026-95839](https://nvd.nist.gov/vuln/detail/CVE-2026-95839)** `HIGH` — containerd is an open-source container runtime. From 2.2.0 until 2.2.10, 2.3.7, and 2.4.2, image manifest processing through the transfer service can encounter a child descriptor containing the io.co…
-- **[CVE-2026-97187](https://nvd.nist.gov/vuln/detail/CVE-2026-97187)** `HIGH` — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.6 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that under certain conditions could have allowed an authentic…
+- **[CVE-2026-100975](https://nvd.nist.gov/vuln/detail/CVE-2026-100975)** `HIGH` — NVIDIA OpenShell for Linux contains a vulnerability in the Kubernetes sandbox SSH authentication configuration where a local attacker with low privileges could obtain sensitive authentication informa…
 
 ## Releases
 
-- **Cilium** [`v1.20.5`](https://github.com/cilium/cilium/releases/tag/v1.20.5)
+No notable releases today.
 
 ## News
 
 - [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
-- [Amazon ECR now replicates image deletions across regions and accounts](https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr) — _AWS What's New_
-- [Amazon EBS now supports associating additional KMS keys with snapshots](https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/) — _AWS What's New_
-- [Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results](https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/) — _AWS What's New_
-- [Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator](https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/) — _Google Cloud Blog_
-- [Sovereign AI in Europe: New ways to control your AI stack](https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/) — _Google Cloud Blog_
+- [Amazon WorkSpaces Applications adds support for smart card redirection](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/) — _AWS What's New_
+- [Amazon EMR 8.2 is now available](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/) — _AWS What's New_
+- [Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless](https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/) — _AWS What's New_
+- [How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops](https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/) — _Google Cloud Blog_
+- [Simplifying multicloud networking to Azure with partner Cross-Cloud Interconnect](https://cloud.google.com/blog/products/networking/cross-cloud-interconnect-for-microsoft-azure/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-18](reports/2026-11-18.md)
 - [2026-11-17](reports/2026-11-17.md)
 - [2026-11-16](reports/2026-11-16.md)
 - [2026-11-15](reports/2026-11-15.md)
