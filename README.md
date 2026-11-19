@@ -6,31 +6,45 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-18
+## Latest — 2026-11-19
 
 ## Security (CVEs)
 
-- **[CVE-2026-100975](https://nvd.nist.gov/vuln/detail/CVE-2026-100975)** `HIGH` — NVIDIA OpenShell for Linux contains a vulnerability in the Kubernetes sandbox SSH authentication configuration where a local attacker with low privileges could obtain sensitive authentication informa…
+- **[CVE-2026-71861](https://nvd.nist.gov/vuln/detail/CVE-2026-71861)** `HIGH` — The Chainguard SDK is a public Go SDK for integrating with the Chainguard platform. Prior to 0.1.107, auth/aws.VerifyToken trusts the Chainguard-Audience and Chainguard-Identity headers without requi…
+- **[CVE-2026-130007](https://nvd.nist.gov/vuln/detail/CVE-2026-130007)** `HIGH` — k8s-mcp-server manages Kubernetes clusters through the Model Context Protocol. Prior to 1.1.0, SERVER_MODE defaults to SSE, with the listener on 0.0.0.0:8080, but main.go creates the SSE server witho…
+- **[CVE-2026-130154](https://nvd.nist.gov/vuln/detail/CVE-2026-130154)** `CRITICAL` — Zyrabit Platform provides sovereign AI infrastructure for enterprise retrieval-augmented generation. Prior to 2.4.4, import_to_vault(source_path, destination_name) accepts both caller-controlled path…
+- **[CVE-2026-132239](https://nvd.nist.gov/vuln/detail/CVE-2026-132239)** `HIGH` — In JetBrains TeamCity before 2026.1.3, 2025.11.7 missing authorization in the Kubernetes integration allowed project viewers to use stored credentials
+- **[CVE-2026-132243](https://nvd.nist.gov/vuln/detail/CVE-2026-132243)** `HIGH` — In JetBrains TeamCity before 2026.1.3, 2025.11.7 stored XSS on the Docker Container Info tab was possible
+- **[CVE-2026-61581](https://nvd.nist.gov/vuln/detail/CVE-2026-61581)** `HIGH` — The Datadog Agent collects events and metrics from hosts and sends them to Datadog. Prior to datadog-apm-inject 0.66.0, the Datadog Single Step Instrumentation injector stores helper tooling in a pre…
+- **[CVE-2026-68903](https://nvd.nist.gov/vuln/detail/CVE-2026-68903)** `HIGH` — LLMKube is a Kubernetes operator for self-hosted large language model inference across heterogeneous hardware. Prior to 0.9.0, the ModelReconciler accepts arbitrary absolute paths and file:// URIs in…
+- **[CVE-2026-77295](https://nvd.nist.gov/vuln/detail/CVE-2026-77295)** `HIGH` — MyMangaDB is a self-hosted manga collection manager with automatic metadata, MyAnimeList import, Docker support, and collection statistics. Prior to 2.7.2, the unauthenticated /api/v1/database/export…
+- **[CVE-2026-77296](https://nvd.nist.gov/vuln/detail/CVE-2026-77296)** `CRITICAL` — MyMangaDB is a self-hosted manga collection manager with automatic metadata, MyAnimeList import, Docker support, and collection statistics. Prior to 2.7.2, the unauthenticated /api/v1/images/manga/sa…
+- **[CVE-2026-77297](https://nvd.nist.gov/vuln/detail/CVE-2026-77297)** `CRITICAL` — MyMangaDB is a self-hosted manga collection manager with automatic metadata, MyAnimeList import, Docker support, and collection statistics. Prior to 2.7.2, the unauthenticated /api/v1/database/import…
+- **[CVE-2026-129316](https://nvd.nist.gov/vuln/detail/CVE-2026-129316)** `CRITICAL` — Dokploy is a free, self-hostable Platform as a Service (PaaS). From 0.29.13 until 0.31.0, the Docker terminal, container-log, and monitoring WebSocket handlers accept a caller-controlled serviceId as…
+- **[CVE-2026-129989](https://nvd.nist.gov/vuln/detail/CVE-2026-129989)** `CRITICAL` — Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.31.1, the Nixpacks publishDirectory build setting accepts shell metacharacters and is interpolated into a docker cp command e…
+- **[CVE-2026-129990](https://nvd.nist.gov/vuln/detail/CVE-2026-129990)** `HIGH` — Dokploy is a free, self-hostable Platform as a Service (PaaS). Prior to 0.31.1, every network.* procedure is only authentication-protected and does not require the Docker permission, allowing a stand…
+- **[CVE-2026-77283](https://nvd.nist.gov/vuln/detail/CVE-2026-77283)** `HIGH` — obsidian-sync-mcp is an MCP server that gives AI agents access to Obsidian vaults. Prior to 0.5.7, deployments running without MCP_AUTH_TOKEN install no serverOptions.authenticate check for the HTTP …
+- **[CVE-2026-132894](https://nvd.nist.gov/vuln/detail/CVE-2026-132894)** `HIGH` — In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF in AWS connection settings could expose server credentials
+- **[CVE-2026-132896](https://nvd.nist.gov/vuln/detail/CVE-2026-132896)** `HIGH` — In JetBrains TeamCity before 2026.2, 2026.1.4 remote code execution was possible via Kubernetes Executor settings
+- **[CVE-2026-132902](https://nvd.nist.gov/vuln/detail/CVE-2026-132902)** `HIGH` — In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 access keys of parent project AWS connections could be disclosed
+- **[CVE-2026-132905](https://nvd.nist.gov/vuln/detail/CVE-2026-132905)** `HIGH` — In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the AWS Credentials build feature was possible
+- **[CVE-2026-133094](https://nvd.nist.gov/vuln/detail/CVE-2026-133094)** `HIGH` — In JetBrains TeamCity before 2026.2.2 missing authorization allowed project developers to read arbitrary HashiCorp Vault secrets
 
 ## Releases
 
-No notable releases today.
+- **Argo CD** [`v3.6.2`](https://github.com/argoproj/argo-cd/releases/tag/v3.6.2)
+- **etcd** [`v3.7.4`](https://github.com/etcd-io/etcd/releases/tag/v3.7.4)
 
 ## News
 
-- [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
-- [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
-- [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
-- [Amazon WorkSpaces Applications adds support for smart card redirection](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/) — _AWS What's New_
-- [Amazon EMR 8.2 is now available](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/) — _AWS What's New_
-- [Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless](https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/) — _AWS What's New_
-- [How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops](https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/) — _Google Cloud Blog_
-- [Simplifying multicloud networking to Azure with partner Cross-Cloud Interconnect](https://cloud.google.com/blog/products/networking/cross-cloud-interconnect-for-microsoft-azure/) — _Google Cloud Blog_
+> ⚠ Feed unavailable today: IncompleteRead(10913 bytes read, 132446 more expected)
+
 
 ---
 
 ## Archive
 
+- [2026-11-19](reports/2026-11-19.md)
 - [2026-11-18](reports/2026-11-18.md)
 - [2026-11-17](reports/2026-11-17.md)
 - [2026-11-16](reports/2026-11-16.md)
