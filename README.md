@@ -6,19 +6,14 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-20
+## Latest — 2026-11-21
 
 ## Security (CVEs)
 
-- **[CVE-2026-120753](https://nvd.nist.gov/vuln/detail/CVE-2026-120753)** `CRITICAL` — In Eclipse Ditto versions 1.1.0 to 3.9.8, when pre-authentication is enabled, the gateway service accepts the pre-authenticated subject not only from the `x-ditto-pre-authenticated` HTTP header set b…
-- **[CVE-2026-129291](https://nvd.nist.gov/vuln/detail/CVE-2026-129291)** `HIGH` — PHP-FPM epoll use-after-free can lead to local privilege escalation.
-
-When catch_workers_output is enabled and the epoll event backend is used, the PHP-FPM master can close a worker's output pipe in …
-- **[CVE-2026-133173](https://nvd.nist.gov/vuln/detail/CVE-2026-133173)** `HIGH` — WatchAlert 2.0.0 through 3.9.20 contains an insecure direct object reference vulnerability in the /api/w8t/datasource/dataSourceGet endpoint that lets authenticated users read other tenants' datasour…
-- **[CVE-2026-85018](https://nvd.nist.gov/vuln/detail/CVE-2026-85018)** `HIGH` — IBM Guardium Data Protection 12.2 is vulnerable to improper TLS certificate validation in the GDP Terraform provider, allowing a network attacker with a man-in-the-middle position to intercept sensit…
-- **[CVE-2026-133631](https://nvd.nist.gov/vuln/detail/CVE-2026-133631)** `HIGH` — FlowIntel contains multiple security flaws in its note variable resolution, chatbot API tooling, and AI report generation.
-
-- Note variable references (e.g. cross-case or cross-task lookups) were res…
+- **[CVE-2026-55216](https://nvd.nist.gov/vuln/detail/CVE-2026-55216)** `HIGH` — Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.46.0, social account linking can use an unverified email returned by the standard OAuth 2.0 or Azure AD connector…
+- **[CVE-2026-129995](https://nvd.nist.gov/vuln/detail/CVE-2026-129995)** `HIGH` — mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail. Prior to 3.8.5, ssh_backup_create, ssh_backup_restore, ssh_backup_sched…
+- **[CVE-2026-77383](https://nvd.nist.gov/vuln/detail/CVE-2026-77383)** `HIGH` — mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail. Prior to 3.6.7, ssh_db_list, ssh_db_dump, ssh_db_import, and ssh_db_res…
+- **[CVE-2026-120676](https://nvd.nist.gov/vuln/detail/CVE-2026-120676)** `HIGH` — The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'upload-1 (the File Upload field's element_id)' param…
 
 ## Releases
 
@@ -29,16 +24,17 @@ No notable releases today.
 - [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
-- [Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-local-zone-bogota-colombia/) — _AWS What's New_
-- [AWS DevOps Agent now supports Slack code channels and Microsoft Teams two-way conversations](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/) — _AWS What's New_
-- [AWS Marketplace now supports agentic payments with AgentCore](https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/) — _AWS What's New_
-- [The Blueprint: How Kult built a gaming companion that actually knows your game](https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game/) — _Google Cloud Blog_
-- [What’s new with Google Cloud](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/) — _Google Cloud Blog_
+- [Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure) — _AWS What's New_
+- [Web Search on Amazon Bedrock expands language support and country-aware search](https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/) — _AWS What's New_
+- [Amazon RDS for Oracle now supports Primary Endpoint](https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/) — _AWS What's New_
+- [Ultimate guide for fixing your team’s API keys](https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/) — _Google Cloud Blog_
+- [Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents](https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-21](reports/2026-11-21.md)
 - [2026-11-20](reports/2026-11-20.md)
 - [2026-11-19](reports/2026-11-19.md)
 - [2026-11-18](reports/2026-11-18.md)
