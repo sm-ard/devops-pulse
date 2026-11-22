@@ -6,14 +6,13 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-21
+## Latest — 2026-11-22
 
 ## Security (CVEs)
 
-- **[CVE-2026-55216](https://nvd.nist.gov/vuln/detail/CVE-2026-55216)** `HIGH` — Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.46.0, social account linking can use an unverified email returned by the standard OAuth 2.0 or Azure AD connector…
-- **[CVE-2026-129995](https://nvd.nist.gov/vuln/detail/CVE-2026-129995)** `HIGH` — mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail. Prior to 3.8.5, ssh_backup_create, ssh_backup_restore, ssh_backup_sched…
-- **[CVE-2026-77383](https://nvd.nist.gov/vuln/detail/CVE-2026-77383)** `HIGH` — mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail. Prior to 3.6.7, ssh_db_list, ssh_db_dump, ssh_db_import, and ssh_db_res…
-- **[CVE-2026-120676](https://nvd.nist.gov/vuln/detail/CVE-2026-120676)** `HIGH` — The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'upload-1 (the File Upload field's element_id)' param…
+- **[CVE-2026-134360](https://nvd.nist.gov/vuln/detail/CVE-2026-134360)** `HIGH` — Heym before 0.0.148 passes Playwright navigate-step URLs to page.goto() without validating the scheme and runs step-based scripts inside the backend container. A signed-in user who can run workflows …
+- **[CVE-2026-134452](https://nvd.nist.gov/vuln/detail/CVE-2026-134452)** `HIGH` — Dockhand before 1.0.57 merges stack secret environment variables into the environment used to spawn docker compose during stack deploys without filtering reserved keys such as PATH. An authenticated …
+- **[CVE-2026-134453](https://nvd.nist.gov/vuln/detail/CVE-2026-134453)** `HIGH` — Dockhand before 1.0.50 contains an improper access control vulnerability that allows authenticated unprivileged users to read restricted data by querying API endpoints lacking RBAC checks. Attackers …
 
 ## Releases
 
@@ -24,9 +23,9 @@ No notable releases today.
 - [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/) — _Kubernetes Blog_
+- [AWS Quick now supports plugins to bundle agents, skills, connectors and flows](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/) — _AWS What's New_
 - [Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure) — _AWS What's New_
-- [Web Search on Amazon Bedrock expands language support and country-aware search](https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/) — _AWS What's New_
-- [Amazon RDS for Oracle now supports Primary Endpoint](https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/) — _AWS What's New_
+- [AWS Quick launches a new web experience with updated browser extension and Microsoft 365 add-ins](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/) — _AWS What's New_
 - [Ultimate guide for fixing your team’s API keys](https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/) — _Google Cloud Blog_
 - [Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents](https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/) — _Google Cloud Blog_
 
@@ -34,6 +33,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-11-22](reports/2026-11-22.md)
 - [2026-11-21](reports/2026-11-21.md)
 - [2026-11-20](reports/2026-11-20.md)
 - [2026-11-19](reports/2026-11-19.md)
