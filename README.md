@@ -6,51 +6,38 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-24
+## Latest — 2026-11-25
 
 ## Security (CVEs)
 
-- **[CVE-2026-135436](https://nvd.nist.gov/vuln/detail/CVE-2026-135436)** `HIGH` — KindleEar 3.0.0 through 3.5.3 contains a remote code execution vulnerability that allows authenticated non-admin users to run Python code by uploading malicious recipes. Attackers can submit crafted …
-- **[CVE-2026-134056](https://nvd.nist.gov/vuln/detail/CVE-2026-134056)** `HIGH` — An out-of-bounds write issue exists in padded block cipher decryption in AWS-LC. It affects applications that decrypt CBC or ECB ciphertext with PKCS7 padding over multiple calls into the minimum doc…
-- **[CVE-2026-130164](https://nvd.nist.gov/vuln/detail/CVE-2026-130164)** `HIGH` — Hermes Agent is an open-source autonomous AI agent built by Nous Research for running tool-using workflows across CLI, desktop, and messaging interfaces. From 0.21.6 to 0.23.1, when Bot Desktop is ho…
-- **[CVE-2026-118285](https://nvd.nist.gov/vuln/detail/CVE-2026-118285)** `CRITICAL` — Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.
-- **[CVE-2026-118286](https://nvd.nist.gov/vuln/detail/CVE-2026-118286)** `CRITICAL` — Improper access control in Azure Site Recovery allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-120777](https://nvd.nist.gov/vuln/detail/CVE-2026-120777)** `HIGH` — Incorrect authorization in Azure Managed Service Identity allows an authorized attacker to elevate privileges over a network.
-- **[CVE-2026-134069](https://nvd.nist.gov/vuln/detail/CVE-2026-134069)** `HIGH` — Use of a default cryptographic key in the instance registration component in Amazon SSM Agent before 3.3.5226.0 on AWS-provided Windows Server AMIs released before 2026-09-09 might allow local users …
-- **[CVE-2026-62841](https://nvd.nist.gov/vuln/detail/CVE-2026-62841)** `CRITICAL` — Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-65817](https://nvd.nist.gov/vuln/detail/CVE-2026-65817)** `HIGH` — Improper neutralization of special elements used in an os command ('os command injection') in Azure Managed Instance for Apache Cassandra allows an unauthorized attacker to execute code over an adjac…
-- **[CVE-2026-69437](https://nvd.nist.gov/vuln/detail/CVE-2026-69437)** `HIGH` — Missing authorization in Azure AI Foundry allows an unauthorized attacker to disclose information over a network.
-- **[CVE-2026-69899](https://nvd.nist.gov/vuln/detail/CVE-2026-69899)** `CRITICAL` — Authentication bypass by spoofing in Azure DevTest Labs allows an unauthorized attacker to perform spoofing over a network.
-- **[CVE-2026-70305](https://nvd.nist.gov/vuln/detail/CVE-2026-70305)** `CRITICAL` — Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over a network.
-- **[CVE-2026-81962](https://nvd.nist.gov/vuln/detail/CVE-2026-81962)** `HIGH` — Incorrect authorization in Azure Machine Learning allows an unauthorized attacker to disclose information over a network.
-- **[CVE-2026-130178](https://nvd.nist.gov/vuln/detail/CVE-2026-130178)** `HIGH` — AutoGPT is a workflow automation platform for creating, deploying, and managing continuous artificial intelligence agents. In versions 0.7.1 through 0.8.4, an incomplete IPv6 blocklist in AutoGPT's o…
-- **[CVE-2026-59697](https://nvd.nist.gov/vuln/detail/CVE-2026-59697)** `HIGH` — Server-Side Request Forgery (SSRF) vulnerability in ex_aws (instance metadata token provider).
-
-This vulnerability is associated with program files lib/ex_aws/instance_meta_token_provider.ex and prog…
-- **[CVE-2026-59698](https://nvd.nist.gov/vuln/detail/CVE-2026-59698)** `HIGH` — Relative path traversal in ex_aws allows an attacker who controls an S3 object key to escape the intended bucket or key prefix.
-
-When ex_aws builds a path-style S3 request, ExAws.Operation.S3.add_buc…
-- **[CVE-2026-63583](https://nvd.nist.gov/vuln/detail/CVE-2026-63583)** `HIGH` — ExAws.S3.Utils.build_lifecycle_rule/1 in ex_aws_s3 interpolates caller-supplied lifecycle rule fields (the rule id, filter prefix, tag key and value, storage class, and noncurrent-version count) dire…
+- **[CVE-2026-136187](https://nvd.nist.gov/vuln/detail/CVE-2026-136187)** `HIGH` — Spug 4.0.0 before 4.1.1 contains an OS command injection vulnerability that allows any authenticated user to execute commands by supplying a crafted git URL to the /api/credential/check/ endpoint. At…
+- **[CVE-2026-109484](https://nvd.nist.gov/vuln/detail/CVE-2026-109484)** `CRITICAL` — Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privileges over a network.
+- **[CVE-2026-134066](https://nvd.nist.gov/vuln/detail/CVE-2026-134066)** `HIGH` — Improper neutralization of special elements in data query logic in the query construction of AWS Graph Explorer before 3.2.1 might allow an authenticated remote user with write access to the connecte…
+- **[CVE-2026-134068](https://nvd.nist.gov/vuln/detail/CVE-2026-134068)** `HIGH` — A stack-based buffer overflow in the replication origin name parsing component in AWS pgactive before 2.1.10 might allow an authenticated remote user to execute arbitrary operating system commands as…
+- **[CVE-2026-132734](https://nvd.nist.gov/vuln/detail/CVE-2026-132734)** `HIGH` — Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Wikimedia Foundation MediaWiki - ExternalData Extension. This vulnerability is associated with program files includes/conne…
+- **[CVE-2026-133738](https://nvd.nist.gov/vuln/detail/CVE-2026-133738)** `HIGH` — Vulnerability involving the exposure of sensitive information in the ver_usuarios endpoint. The JSON response includes data that is not required for the query and which should remain restricted, such…
 
 ## Releases
 
-No notable releases today.
+- **Kubernetes** [`v1.37.3`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.3)
+- **Argo CD** [`v3.6.3`](https://github.com/argoproj/argo-cd/releases/tag/v3.6.3)
 
 ## News
 
 - [Kubernetes v1.38 Sneak Peek](https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/) — _Kubernetes Blog_
 - [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
-- [Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/) — _AWS What's New_
-- [AWS Sign-In introduces configurable Sign-in duration of up to 90 days](https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/) — _AWS What's New_
-- [Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters](https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/) — _AWS What's New_
-- [Data + AI Anywhere: AlloyDB Omni integration with local models](https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/) — _Google Cloud Blog_
-- [How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI](https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/) — _Google Cloud Blog_
+- [AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM Identity Center](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/) — _AWS What's New_
+- [Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/) — _AWS What's New_
+- [Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/) — _AWS What's New_
+- [Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud](https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/) — _Google Cloud Blog_
+- [Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium](https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/) — _Google Cloud Blog_
 
 ---
 
 ## Archive
 
+- [2026-11-25](reports/2026-11-25.md)
 - [2026-11-24](reports/2026-11-24.md)
 - [2026-11-23](reports/2026-11-23.md)
 - [2026-11-22](reports/2026-11-22.md)
