@@ -6,30 +6,31 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-25
+## Latest — 2026-11-26
 
 ## Security (CVEs)
 
-- **[CVE-2026-136187](https://nvd.nist.gov/vuln/detail/CVE-2026-136187)** `HIGH` — Spug 4.0.0 before 4.1.1 contains an OS command injection vulnerability that allows any authenticated user to execute commands by supplying a crafted git URL to the /api/credential/check/ endpoint. At…
-- **[CVE-2026-109484](https://nvd.nist.gov/vuln/detail/CVE-2026-109484)** `CRITICAL` — Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privileges over a network.
-- **[CVE-2026-134066](https://nvd.nist.gov/vuln/detail/CVE-2026-134066)** `HIGH` — Improper neutralization of special elements in data query logic in the query construction of AWS Graph Explorer before 3.2.1 might allow an authenticated remote user with write access to the connecte…
-- **[CVE-2026-134068](https://nvd.nist.gov/vuln/detail/CVE-2026-134068)** `HIGH` — A stack-based buffer overflow in the replication origin name parsing component in AWS pgactive before 2.1.10 might allow an authenticated remote user to execute arbitrary operating system commands as…
-- **[CVE-2026-132734](https://nvd.nist.gov/vuln/detail/CVE-2026-132734)** `HIGH` — Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Wikimedia Foundation MediaWiki - ExternalData Extension. This vulnerability is associated with program files includes/conne…
-- **[CVE-2026-133738](https://nvd.nist.gov/vuln/detail/CVE-2026-133738)** `HIGH` — Vulnerability involving the exposure of sensitive information in the ver_usuarios endpoint. The JSON response includes data that is not required for the query and which should remain restricted, such…
+- **[CVE-2026-135150](https://nvd.nist.gov/vuln/detail/CVE-2026-135150)** `CRITICAL` — In Eclipse Ditto versions 1.1.0 to 3.9.9, the nginx reverse proxy configurations shipped with Ditto (Helm chart, Docker Compose, Kubernetes and OpenShift deployment files) forward a client-supplied
+
+…
+- **[CVE-2026-64845](https://nvd.nist.gov/vuln/detail/CVE-2026-64845)** `HIGH` — KubeSphere 4.0.0 through 4.1.3 contains a missing authorization vulnerability in the CertificateSigningRequest controller that allows attackers with permission to create CertificateSigningRequest obj…
+- **[CVE-2026-136267](https://nvd.nist.gov/vuln/detail/CVE-2026-136267)** `HIGH` — Improper sanitization of mixed data and markup elements when processing content in Kiro Web before 2026-10-30, in combination with agents running specific models such as DeepSeek v3.2, GLM-5, MiniMax…
+- **[CVE-2026-77230](https://nvd.nist.gov/vuln/detail/CVE-2026-77230)** `CRITICAL` — Camunda 8.8.0 before 8.8.47, 8.9.0 before 8.9.29, 8.10.0 before 8.10.10, and 8.11.0-alpha1 contain an insecure deserialization vulnerability in the persistent web session feature, which stores sessio…
+- **[CVE-2026-134070](https://nvd.nist.gov/vuln/detail/CVE-2026-134070)** `HIGH` — Improper input validation in the AWS-managed AWS Systems Manager Automation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3 might allow an authenticated remote user who i…
+- **[CVE-2026-137566](https://nvd.nist.gov/vuln/detail/CVE-2026-137566)** `HIGH` — Argo Workflows 3.0.0 through 3.7.18, 4.0.0 before 4.0.12, and 4.1.0 before 4.1.4 contains a path traversal vulnerability in the S3, GCS, and Azure Blob artifact drivers. Attackers who can write bucke…
 
 ## Releases
 
-- **Kubernetes** [`v1.37.3`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.3)
-- **Argo CD** [`v3.6.3`](https://github.com/argoproj/argo-cd/releases/tag/v3.6.3)
+No notable releases today.
 
 ## News
 
 - [Kubernetes v1.38 Sneak Peek](https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/) — _Kubernetes Blog_
 - [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
-- [AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM Identity Center](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/) — _AWS What's New_
-- [Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)](https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/) — _AWS What's New_
-- [Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/) — _AWS What's New_
+- [AWS Lambda now supports orchestrating MicroVMs with Lambda durable functions](https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/) — _AWS What's New_
+- [Amazon CloudWatch Omni now integrates with PagerDuty](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty/) — _AWS What's New_
+- [Amazon EC2 M8g instances are now available in Israel (Tel Aviv)](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/) — _AWS What's New_
 - [Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud](https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/) — _Google Cloud Blog_
 - [Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium](https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/) — _Google Cloud Blog_
 
@@ -37,6 +38,7 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ## Archive
 
+- [2026-11-26](reports/2026-11-26.md)
 - [2026-11-25](reports/2026-11-25.md)
 - [2026-11-24](reports/2026-11-24.md)
 - [2026-11-23](reports/2026-11-23.md)
