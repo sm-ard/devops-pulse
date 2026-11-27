@@ -6,18 +6,16 @@ Daily, automated digest of real DevOps signal — new high/critical CVEs, cloud-
 
 ---
 
-## Latest — 2026-11-26
+## Latest — 2026-11-27
 
 ## Security (CVEs)
 
-- **[CVE-2026-135150](https://nvd.nist.gov/vuln/detail/CVE-2026-135150)** `CRITICAL` — In Eclipse Ditto versions 1.1.0 to 3.9.9, the nginx reverse proxy configurations shipped with Ditto (Helm chart, Docker Compose, Kubernetes and OpenShift deployment files) forward a client-supplied
-
-…
-- **[CVE-2026-64845](https://nvd.nist.gov/vuln/detail/CVE-2026-64845)** `HIGH` — KubeSphere 4.0.0 through 4.1.3 contains a missing authorization vulnerability in the CertificateSigningRequest controller that allows attackers with permission to create CertificateSigningRequest obj…
-- **[CVE-2026-136267](https://nvd.nist.gov/vuln/detail/CVE-2026-136267)** `HIGH` — Improper sanitization of mixed data and markup elements when processing content in Kiro Web before 2026-10-30, in combination with agents running specific models such as DeepSeek v3.2, GLM-5, MiniMax…
-- **[CVE-2026-77230](https://nvd.nist.gov/vuln/detail/CVE-2026-77230)** `CRITICAL` — Camunda 8.8.0 before 8.8.47, 8.9.0 before 8.9.29, 8.10.0 before 8.10.10, and 8.11.0-alpha1 contain an insecure deserialization vulnerability in the persistent web session feature, which stores sessio…
-- **[CVE-2026-134070](https://nvd.nist.gov/vuln/detail/CVE-2026-134070)** `HIGH` — Improper input validation in the AWS-managed AWS Systems Manager Automation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3 might allow an authenticated remote user who i…
-- **[CVE-2026-137566](https://nvd.nist.gov/vuln/detail/CVE-2026-137566)** `HIGH` — Argo Workflows 3.0.0 through 3.7.18, 4.0.0 before 4.0.12, and 4.1.0 before 4.1.4 contains a path traversal vulnerability in the S3, GCS, and Azure Blob artifact drivers. Attackers who can write bucke…
+- **[CVE-2026-137472](https://nvd.nist.gov/vuln/detail/CVE-2026-137472)** `HIGH` — SiYuan from 3.6.2 before 3.8.10 contains a path traversal vulnerability that allows admin token holders to read files outside the workspace because the globalCopyFiles and workspaceCopyFiles denylist…
+- **[CVE-2026-137480](https://nvd.nist.gov/vuln/detail/CVE-2026-137480)** `HIGH` — Traefik 3.7.15 before 3.7.18 and 3.8.0-rc.1 before 3.8.0-rc.2 contains a client certificate authentication bypass in the Kubernetes Ingress NGINX provider because, on hosts shared by multiple Ingress…
+- **[CVE-2026-137547](https://nvd.nist.gov/vuln/detail/CVE-2026-137547)** `CRITICAL` — Coder before 2.29.27, 2.30.0 before 2.34.19, 2.35.0 before 2.37.11, 2.38.0 before 2.38.7, and 2.39.0 before 2.39.1 returns database connection errors containing a temporary AWS IAM database password …
+- **[CVE-2026-76075](https://nvd.nist.gov/vuln/detail/CVE-2026-76075)** `HIGH` — The Warehouse Cargo theme for WordPress is vulnerable to Arbitrary File Upload in versions up to, and including, 2.7.4 via the warehouse_cargo_install_and_activate_plugin() AJAX handler. The handler …
+- **[CVE-2026-127162](https://nvd.nist.gov/vuln/detail/CVE-2026-127162)** `HIGH` — Improper output encoding in Prometheus metrics exposition in Canonical LXD before 5.0.12, 5.21.10, 6.10.2 allows a user controlling a virtual machine to forge host metric labels and break metrics scr…
+- **[CVE-2026-132890](https://nvd.nist.gov/vuln/detail/CVE-2026-132890)** `HIGH` — In Eclipse Dataspace Components (EDC) Connector 1.0.0-RC2 through 1.0.0-RC7, the HashiCorp Vault extension does not reject .. path segments in secret aliases. In a multi-participant (virtual) control…
 
 ## Releases
 
@@ -28,9 +26,9 @@ No notable releases today.
 - [Kubernetes v1.38 Sneak Peek](https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/) — _Kubernetes Blog_
 - [Scheduling the removal of the kube-proxy IPVS backend](https://kubernetes.io/blog/2026/11/16/ipvs-removal/) — _Kubernetes Blog_
 - [From Working Group to SIG Architecture: spotlight on AI Conformance](https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/) — _Kubernetes Blog_
+- [Amazon RDS for PostgreSQL supports minor versions 18.7, 17.12, 16.16, 15.20, and 14.25](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/) — _AWS What's New_
 - [AWS Lambda now supports orchestrating MicroVMs with Lambda durable functions](https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/) — _AWS What's New_
 - [Amazon CloudWatch Omni now integrates with PagerDuty](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty/) — _AWS What's New_
-- [Amazon EC2 M8g instances are now available in Israel (Tel Aviv)](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/) — _AWS What's New_
 - [Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud](https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/) — _Google Cloud Blog_
 - [Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium](https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/) — _Google Cloud Blog_
 
@@ -38,6 +36,7 @@ No notable releases today.
 
 ## Archive
 
+- [2026-11-27](reports/2026-11-27.md)
 - [2026-11-26](reports/2026-11-26.md)
 - [2026-11-25](reports/2026-11-25.md)
 - [2026-11-24](reports/2026-11-24.md)
